@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-10-11T13:57:43.233468+00:00",
+  "official_repository": "https://github.com/graspnet/graspnet-baseline",
+  "official_google_id": "1hd0G8LN6tRpi4742XOTEisbTXNZ-1jmk",
+  "official_google_status": "quota_exceeded",
+  "official_baidu": "https://pan.baidu.com/s/1Eme60l39tTZrilF0I86R5A",
+  "official_baidu_bytes": 12468415,
+  "download_source": "https://huggingface.co/AIGeeksGroup/GeneralVLA/resolve/783c806bcf0cad034b33046253fd2925f89bcf72/checkpoints/v1/checkpoint-rs.tar",
+  "mirror_commit": "783c806bcf0cad034b33046253fd2925f89bcf72",
+  "download_bytes": 12468415,
+  "sha256": "60680087c61cba2b6791614fef1519071e294f6dcaf99b3f581bb95f7c51a868",
+  "provenance_status": "third_party_mirror_official_file_byte_identity_unverified",
+  "weights_changed": false
+}

@@ -1,0 +1,121 @@
+{
+  "scene_id": "itodd_000004_p04_neighbours",
+  "dataset": "itodd",
+  "object_id": "itodd_000004",
+  "placement": 4,
+  "condition": "neighbours",
+  "previously_seen": false,
+  "placement_seed": 2026201905,
+  "episode_id": "itodd_000004_p04_neighbours",
+  "split": "formal",
+  "instances": [
+    {
+      "object_id": "itodd_000004",
+      "instance_id": "target",
+      "role": "target",
+      "world_from_object": [
+        [
+          -0.597667917550576,
+          0.8017437622649507,
+          0.0,
+          -0.003056647168220239
+        ],
+        [
+          -0.8017437622649507,
+          -0.597667917550576,
+          0.0,
+          0.002810165820837717
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.001
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object_id": "tless_000001",
+      "instance_id": "distractor_0",
+      "role": "distractor",
+      "world_from_object": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          -0.23
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.12
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.001
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object_id": "tless_000002",
+      "instance_id": "distractor_1",
+      "role": "distractor",
+      "world_from_object": [
+        [
+          1.0,
+          -0.0,
+          0.0,
+          0.23
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.12
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.001
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "scene_assets": [
+    {
+      "name": "table",
+      "extents_m": [
+        0.65,
+        0.5,
+        0.035
+      ],
+      "center_m": [
+        0,
+        0,
+        -0.0175
+      ]
+    }
+  ]
+}

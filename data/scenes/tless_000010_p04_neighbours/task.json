@@ -1,0 +1,20 @@
+{
+  "scene_id": "tless_000010_p04_neighbours",
+  "split": "formal",
+  "object_id": "tless_000010",
+  "condition": "neighbours",
+  "target_roi_world_m": {
+    "min": [
+      -0.18,
+      -0.18,
+      -0.001
+    ],
+    "max": [
+      0.18,
+      0.18,
+      0.3
+    ]
+  },
+  "known_table_height_m": 0.0,
+  "target_selection": "Fixed common task region and RGB foreground; no pose/depth/mask truth"
+}

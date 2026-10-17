@@ -1,0 +1,111 @@
+{
+  "scene_id": "itodd_000008_p01_bin_walls",
+  "dataset": "itodd",
+  "object_id": "itodd_000008",
+  "placement": 1,
+  "condition": "bin_walls",
+  "previously_seen": false,
+  "placement_seed": 2026202302,
+  "episode_id": "itodd_000008_p01_bin_walls",
+  "split": "formal",
+  "instances": [
+    {
+      "object_id": "itodd_000008",
+      "instance_id": "target",
+      "role": "target",
+      "world_from_object": [
+        [
+          0.028487766449895754,
+          -0.9995941412206737,
+          0.0,
+          -0.021690105704839726
+        ],
+        [
+          0.9995941412206737,
+          0.028487766449895754,
+          0.0,
+          -0.004666656570741466
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.001
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "scene_assets": [
+    {
+      "name": "table",
+      "extents_m": [
+        0.65,
+        0.5,
+        0.035
+      ],
+      "center_m": [
+        0,
+        0,
+        -0.0175
+      ]
+    },
+    {
+      "name": "wall0",
+      "extents_m": [
+        0.48,
+        0.012,
+        0.07
+      ],
+      "center_m": [
+        0,
+        -0.216,
+        0.035
+      ]
+    },
+    {
+      "name": "wall1",
+      "extents_m": [
+        0.48,
+        0.012,
+        0.07
+      ],
+      "center_m": [
+        0,
+        0.216,
+        0.035
+      ]
+    },
+    {
+      "name": "wall2",
+      "extents_m": [
+        0.012,
+        0.42,
+        0.07
+      ],
+      "center_m": [
+        -0.234,
+        0,
+        0.035
+      ]
+    },
+    {
+      "name": "wall3",
+      "extents_m": [
+        0.012,
+        0.42,
+        0.07
+      ],
+      "center_m": [
+        0.234,
+        0,
+        0.035
+      ]
+    }
+  ]
+}

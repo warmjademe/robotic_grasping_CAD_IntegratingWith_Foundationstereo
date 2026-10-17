@@ -1,0 +1,4171 @@
+[
+  {
+    "object_id": "tless_000001",
+    "dataset": "tless",
+    "bop_id": 1,
+    "source": "datasets/original/tless/models_cad/obj_000001.ply",
+    "source_sha256": "630a743d841285cdf9d94b1ad30b45c99b13e2d92bb7726e7f50b811844d9675",
+    "mesh": "datasets/assets/tless_000001/mesh_m.ply",
+    "mesh_sha256": "8587c9d61113884cf18f5432e19c52198eaca421156f19cf9d3908d8046c4bf3",
+    "samples_sha256": "98c5fc678518746af6c0015e0656d20ef8fb8764d37a68031ad49142afbae24f",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.03499160003662109,
+      0.03499160003662109,
+      0.06120000076293945
+    ],
+    "bounds_m": [
+      [
+        -0.017495800018310546,
+        -0.017495800018310546,
+        -0.030600000381469726
+      ],
+      [
+        0.017495800018310546,
+        0.017495800018310546,
+        0.030600000381469726
+      ]
+    ],
+    "vertices": 42134,
+    "faces": 84260,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": true,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000002",
+    "dataset": "tless",
+    "bop_id": 2,
+    "source": "datasets/original/tless/models_cad/obj_000002.ply",
+    "source_sha256": "354d8969694176aa65d4d470badd304532bead5aa8e96bdecaa0ae41620f81b2",
+    "mesh": "datasets/assets/tless_000002/mesh_m.ply",
+    "mesh_sha256": "80d7872beb94b23da7bcbc7c9b3c8e283bba97d4a85c75d0652699d99c44aad3",
+    "samples_sha256": "a3e5ce919dcd63e4fe2b470ef99d2cbdd8a2915a4573eac7705890d679e6b626",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.043289600372314455,
+      0.043289600372314455,
+      0.06170220184326172
+    ],
+    "bounds_m": [
+      [
+        -0.021644800186157227,
+        -0.021644800186157227,
+        -0.03085110092163086
+      ],
+      [
+        0.021644800186157227,
+        0.021644800186157227,
+        0.03085110092163086
+      ]
+    ],
+    "vertices": 41063,
+    "faces": 82114,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000003",
+    "dataset": "tless",
+    "bop_id": 3,
+    "source": "datasets/original/tless/models_cad/obj_000003.ply",
+    "source_sha256": "78d21e87331aa242355c6d8b7cd461923013150a2f0d8853e776ee70ec9dc113",
+    "mesh": "datasets/assets/tless_000003/mesh_m.ply",
+    "mesh_sha256": "eb659256d8f3fb2d4c8031b0de02a930e9770b1d1dd495e1e61cb7759d63d060",
+    "samples_sha256": "eec00c956afb1b24d4b598dc10abd9d4fd3b6df5599328d4eb1475b12974933e",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.047762699127197265,
+      0.04776159858703613,
+      0.06167020034790039
+    ],
+    "bounds_m": [
+      [
+        -0.023883699417114258,
+        -0.023884199142456056,
+        -0.030835100173950195
+      ],
+      [
+        0.023878999710083008,
+        0.023877399444580078,
+        0.030835100173950195
+      ]
+    ],
+    "vertices": 47498,
+    "faces": 94992,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000004",
+    "dataset": "tless",
+    "bop_id": 4,
+    "source": "datasets/original/tless/models_cad/obj_000004.ply",
+    "source_sha256": "9df646dc55914891d342a7ef3810e3197e5ec66d26679be87e00f2d916a41fbd",
+    "mesh": "datasets/assets/tless_000004/mesh_m.ply",
+    "mesh_sha256": "8770a807882023c433692e878da900011a3a677483ab7a0e8f19e27331849d3a",
+    "samples_sha256": "e0418e452e620a5fd6925211087e02ae1261a91345311bb6249d17d61f8b7889",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.039995601654052734,
+      0.039985801696777346,
+      0.078
+    ],
+    "bounds_m": [
+      [
+        -0.019997800827026367,
+        -0.019992900848388673,
+        -0.039
+      ],
+      [
+        0.019997800827026367,
+        0.019992900848388673,
+        0.039
+      ]
+    ],
+    "vertices": 3761,
+    "faces": 7374,
+    "watertight": false,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": true,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000005",
+    "dataset": "tless",
+    "bop_id": 5,
+    "source": "datasets/original/tless/models_cad/obj_000005.ply",
+    "source_sha256": "cbe7ccaa74c74ba40fe64bfac62808a391f6e389a93e8c4f5d8b00157b9930ab",
+    "mesh": "datasets/assets/tless_000005/mesh_m.ply",
+    "mesh_sha256": "4d44736027b4ac8db06d6b1221097f3a8afc802e0cfd7547cb33800182e893a9",
+    "samples_sha256": "75ded05932f3a3fb3446b590f4247a9dce4cd3bef2eac67c2951456e93f9349d",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.095,
+      0.0535,
+      0.059000000000000004
+    ],
+    "bounds_m": [
+      [
+        -0.0475,
+        -0.02675,
+        -0.029500000000000002
+      ],
+      [
+        0.0475,
+        0.02675,
+        0.029500000000000002
+      ]
+    ],
+    "vertices": 12806,
+    "faces": 25614,
+    "watertight": false,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1,
+          -4.63077e-14,
+          0,
+          0,
+          4.63077e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000006",
+    "dataset": "tless",
+    "bop_id": 6,
+    "source": "datasets/original/tless/models_cad/obj_000006.ply",
+    "source_sha256": "f1227fe15e046bc18c1686bd5fb3b849a9996c2de2ca3fc16d34b9ec348f94df",
+    "mesh": "datasets/assets/tless_000006/mesh_m.ply",
+    "mesh_sha256": "617e236a202685478f688a98c14b1ed67cacd8030432cd2efa91d4c7ee6ca4e5",
+    "samples_sha256": "64855217f14c240a7f56b052360e514a268753fb8455d69322c98e8511c7ea97",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.0894000015258789,
+      0.05,
+      0.0555
+    ],
+    "bounds_m": [
+      [
+        -0.04470000076293945,
+        -0.025,
+        -0.02775
+      ],
+      [
+        0.04470000076293945,
+        0.025,
+        0.02775
+      ]
+    ],
+    "vertices": 2840,
+    "faces": 5700,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1,
+          -4.63077e-14,
+          0,
+          0,
+          4.63077e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000007",
+    "dataset": "tless",
+    "bop_id": 7,
+    "source": "datasets/original/tless/models_cad/obj_000007.ply",
+    "source_sha256": "da526fe974d4184986022ad353c559019cb4bd98a0b20b3219d59b9e8b2935c7",
+    "mesh": "datasets/assets/tless_000007/mesh_m.ply",
+    "mesh_sha256": "7130e4dc37e64b36b7e4883b1ba2dd9ebc1a67e13cdee00d3fb969bca7741c9e",
+    "samples_sha256": "4032f90050313ad0e56dcdf4b41c1e9a914a2a786901e88eed4da90495b5180d",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.15,
+      0.0894000015258789,
+      0.0615
+    ],
+    "bounds_m": [
+      [
+        -0.075,
+        -0.04470000076293945,
+        -0.03075
+      ],
+      [
+        0.075,
+        0.04470000076293945,
+        0.03075
+      ]
+    ],
+    "vertices": 8517,
+    "faces": 17106,
+    "watertight": false,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1,
+          -4.63077e-14,
+          0,
+          0,
+          4.63077e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000008",
+    "dataset": "tless",
+    "bop_id": 8,
+    "source": "datasets/original/tless/models_cad/obj_000008.ply",
+    "source_sha256": "bc08c26acebb0cf6623c54444cf5c2bcbd93d81444dcdbe502769e9e149a8943",
+    "mesh": "datasets/assets/tless_000008/mesh_m.ply",
+    "mesh_sha256": "afab403a16cb35cdcf0e9de32d3540696dcd67191d3bd2cf42697e6338f2ed22",
+    "samples_sha256": "a833469b906592482c58b2c1eccc1ae402002c3f33061782708471bc5ca8462a",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.18607859802246093,
+      0.10533439636230468,
+      0.06001459884643555
+    ],
+    "bounds_m": [
+      [
+        -0.09303929901123047,
+        -0.05266719818115234,
+        -0.030007299423217774
+      ],
+      [
+        0.09303929901123047,
+        0.05266719818115234,
+        0.030007299423217774
+      ]
+    ],
+    "vertices": 11368,
+    "faces": 22812,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1,
+          2.70407e-06,
+          -5.75524e-05,
+          -0.0266153,
+          -2.68381e-06,
+          -1,
+          -0.000352012,
+          -0.0926988,
+          -5.75534e-05,
+          -0.000352012,
+          1,
+          -5.29696e-05,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000009",
+    "dataset": "tless",
+    "bop_id": 9,
+    "source": "datasets/original/tless/models_cad/obj_000009.ply",
+    "source_sha256": "70ae1591eb1ed458f337dae12086049d8ead6d9225057df39947325deeb7bdf8",
+    "mesh": "datasets/assets/tless_000009/mesh_m.ply",
+    "mesh_sha256": "4620f97fa098b84f4f551609b999de903c5d784bfd1887ffc9914aa8a92f213d",
+    "samples_sha256": "6ebdd2665a94adf48b86ec95fd29476363623b2effbbfc87663cf27c12ed9965",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.12125,
+      0.0785,
+      0.06269800186157226
+    ],
+    "bounds_m": [
+      [
+        -0.060625,
+        -0.03925,
+        -0.03134900093078613
+      ],
+      [
+        0.060625,
+        0.03925,
+        0.03134900093078613
+      ]
+    ],
+    "vertices": 7046,
+    "faces": 14120,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1,
+          -4.63077e-14,
+          0,
+          0,
+          4.63077e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000010",
+    "dataset": "tless",
+    "bop_id": 10,
+    "source": "datasets/original/tless/models_cad/obj_000010.ply",
+    "source_sha256": "ba2560a7221e71485672f7886539ecbbfdd5b712df4e53041d8957221072ad42",
+    "mesh": "datasets/assets/tless_000010/mesh_m.ply",
+    "mesh_sha256": "1f94f81ce5f403e7267988de880c627fa6f8c4ef81d5b9fda5100fc1fe8b6b85",
+    "samples_sha256": "647a31b7969163ad0b3d69ab79f937939ddc2b71d71b4330a93516dc5818e475",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.08065979766845703,
+      0.04200719833374023,
+      0.06350260162353516
+    ],
+    "bounds_m": [
+      [
+        -0.040329898834228516,
+        -0.021003599166870116,
+        -0.03175130081176758
+      ],
+      [
+        0.040329898834228516,
+        0.021003599166870116,
+        0.03175130081176758
+      ]
+    ],
+    "vertices": 9193,
+    "faces": 18434,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": true,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -0.999937,
+          0.000191896,
+          0.011248,
+          -0.143745,
+          0.000191922,
+          -0.999418,
+          0.0341122,
+          -0.517981,
+          0.011248,
+          0.0341122,
+          0.999355,
+          0.00964629,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000011",
+    "dataset": "tless",
+    "bop_id": 11,
+    "source": "datasets/original/tless/models_cad/obj_000011.ply",
+    "source_sha256": "621e99803ecee9c8490f1b880f32addd2dc387adb914187359ee0d3cf353fd0f",
+    "mesh": "datasets/assets/tless_000011/mesh_m.ply",
+    "mesh_sha256": "29b24f39c4e3dfc922a1ea072979b1bcb626dd847bea6cd9ac0f7d01434ebc33",
+    "samples_sha256": "625d9c798423ed8ec8475c09e21bdd870c9a8f36bcb78612a01d09d960d2f40d",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.06629119873046875,
+      0.04824200057983399,
+      0.05529999923706055
+    ],
+    "bounds_m": [
+      [
+        -0.033145599365234375,
+        -0.024121000289916993,
+        -0.027649999618530274
+      ],
+      [
+        0.033145599365234375,
+        0.024121000289916993,
+        0.027649999618530274
+      ]
+    ],
+    "vertices": 21288,
+    "faces": 42622,
+    "watertight": false,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1,
+          4.05208e-09,
+          1.93842e-08,
+          2.01636e-05,
+          -4.05207e-09,
+          -1,
+          1.83953e-07,
+          -0.000163209,
+          1.93842e-08,
+          1.83953e-07,
+          1,
+          2.10486e-08,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000012",
+    "dataset": "tless",
+    "bop_id": 12,
+    "source": "datasets/original/tless/models_cad/obj_000012.ply",
+    "source_sha256": "39dee96298a44a5148cbe608f67843b613d1f62738f5f3586ed44adfdf48971e",
+    "mesh": "datasets/assets/tless_000012/mesh_m.ply",
+    "mesh_sha256": "3ac82befcc110e5d121095a96b348049f6fbf19ba98756168e723ed80ec4fc79",
+    "samples_sha256": "819e7d42834a2885a74977984f7c72efbf7c4d5c0b8c657cbd2ec50fa06c736c",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.0783311996459961,
+      0.05762699890136719,
+      0.056599998474121095
+    ],
+    "bounds_m": [
+      [
+        -0.03916559982299805,
+        -0.028813499450683594,
+        -0.028299999237060548
+      ],
+      [
+        0.03916559982299805,
+        0.028813499450683594,
+        0.028299999237060548
+      ]
+    ],
+    "vertices": 22069,
+    "faces": 44154,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1,
+          2.42314e-09,
+          -1.23147e-09,
+          0.00405229,
+          -2.42314e-09,
+          -1,
+          2.10363e-08,
+          -0.000700235,
+          -1.23147e-09,
+          2.10363e-08,
+          1,
+          4.85766e-08,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000013",
+    "dataset": "tless",
+    "bop_id": 13,
+    "source": "datasets/original/tless/models_cad/obj_000013.ply",
+    "source_sha256": "9d7e25f992ef7e5d10f151c0fe57f8f21452b24f69b8abe7043643fe2aa05d0e",
+    "mesh": "datasets/assets/tless_000013/mesh_m.ply",
+    "mesh_sha256": "2f15e865610dde3541982cd4ed9f91db6a082048d2bc8957a2688d57f14bc028",
+    "samples_sha256": "fa9e0fde42fb60bcc4fd0292932d4c67beabd6d63b2d8b8a0d052a8e16d7c8ca",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.03999420166015625,
+      0.039988601684570316,
+      0.046
+    ],
+    "bounds_m": [
+      [
+        -0.019997100830078125,
+        -0.019994300842285158,
+        -0.023
+      ],
+      [
+        0.019997100830078125,
+        0.019994300842285158,
+        0.023
+      ]
+    ],
+    "vertices": 6385,
+    "faces": 12774,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": true,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000014",
+    "dataset": "tless",
+    "bop_id": 14,
+    "source": "datasets/original/tless/models_cad/obj_000014.ply",
+    "source_sha256": "f9155cd450c4a87163cbf6ea0752a3dae770abfbf87a77fab7ebbc7029dabc83",
+    "mesh": "datasets/assets/tless_000014/mesh_m.ply",
+    "mesh_sha256": "cb6183d30b96d77be3d2b53a76a8979c205a09c8651cf7669bf4bc4cf6a303a7",
+    "samples_sha256": "65b63b7a7d8ff7b4bf474605312598e88ea48ed314b51c2c0bab5c098815316f",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.04413460159301758,
+      0.04413460159301758,
+      0.0650999984741211
+    ],
+    "bounds_m": [
+      [
+        -0.02206730079650879,
+        -0.02206730079650879,
+        -0.03254999923706055
+      ],
+      [
+        0.02206730079650879,
+        0.02206730079650879,
+        0.03254999923706055
+      ]
+    ],
+    "vertices": 6896,
+    "faces": 13788,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000015",
+    "dataset": "tless",
+    "bop_id": 15,
+    "source": "datasets/original/tless/models_cad/obj_000015.ply",
+    "source_sha256": "880c1a72fa6e3590dfc765a51417d6183cdddd8fea67f89f25c9b324d8b1cbe1",
+    "mesh": "datasets/assets/tless_000015/mesh_m.ply",
+    "mesh_sha256": "f156d531f91043cc162b39dcfc75a0e4ff5b936e4d61463a35712476c00981af",
+    "samples_sha256": "a58fea6f1d5c388e0808e2adc72998eab84d832478278c1cfb9975128ed83198",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.04454759979248047,
+      0.04455419921875,
+      0.055
+    ],
+    "bounds_m": [
+      [
+        -0.022273799896240235,
+        -0.022277099609375,
+        -0.0275
+      ],
+      [
+        0.022273799896240235,
+        0.022277099609375,
+        0.0275
+      ]
+    ],
+    "vertices": 6817,
+    "faces": 13654,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000016",
+    "dataset": "tless",
+    "bop_id": 16,
+    "source": "datasets/original/tless/models_cad/obj_000016.ply",
+    "source_sha256": "f9f6b0dd45424e5495343b86e856317a339c3ef211258d0c41020987d77f05a8",
+    "mesh": "datasets/assets/tless_000016/mesh_m.ply",
+    "mesh_sha256": "1e4e82b0a0e77a6155d012e5c1c71eae1f5baae61114c93498a3cae7614da272",
+    "samples_sha256": "ea61b75d8c7e853e9c91b7d08b7718280190ef15fde6a905fbdc75d048552f15",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.05526760101318359,
+      0.055263401031494144,
+      0.047
+    ],
+    "bounds_m": [
+      [
+        -0.027633800506591796,
+        -0.027631700515747072,
+        -0.0235
+      ],
+      [
+        0.027633800506591796,
+        0.027631700515747072,
+        0.0235
+      ]
+    ],
+    "vertices": 9363,
+    "faces": 18738,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": true,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000017",
+    "dataset": "tless",
+    "bop_id": 17,
+    "source": "datasets/original/tless/models_cad/obj_000017.ply",
+    "source_sha256": "b326cea914f098a59572a163b0dee57ba9903c08b7dac71ed2494cfea9e4adc3",
+    "mesh": "datasets/assets/tless_000017/mesh_m.ply",
+    "mesh_sha256": "0e521241d19544bb0b36ec0a0b37373cbf897fcb7a85b2ab651e7107e021bfe4",
+    "samples_sha256": "887fab9ca7f868a4ddba3785f51b1e561d6eab984c41d8ab34247d2b77af0ae2",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.10777420043945313,
+      0.10776319885253907,
+      0.0600999984741211
+    ],
+    "bounds_m": [
+      [
+        -0.053887100219726564,
+        -0.053881599426269536,
+        -0.03004999923706055
+      ],
+      [
+        0.053887100219726564,
+        0.053881599426269536,
+        0.03004999923706055
+      ]
+    ],
+    "vertices": 12932,
+    "faces": 25868,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000018",
+    "dataset": "tless",
+    "bop_id": 18,
+    "source": "datasets/original/tless/models_cad/obj_000018.ply",
+    "source_sha256": "c1cddeec2c10fb5131d312a4655c37b88bc9b51ffdc330bb500b6bab1cf20257",
+    "mesh": "datasets/assets/tless_000018/mesh_m.ply",
+    "mesh_sha256": "d0bd058d2d2502f920570c643fb7c02750f43379f7b8aa27c51467e78092b1dd",
+    "samples_sha256": "fff63e150f34f951f450d8ff37900eec81a58673c9f0b7ee9280b007d4e35f55",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.09872100067138673,
+      0.09873880004882812,
+      0.06377379989624024
+    ],
+    "bounds_m": [
+      [
+        -0.049360500335693364,
+        -0.04936940002441406,
+        -0.03188689994812012
+      ],
+      [
+        0.049360500335693364,
+        0.04936940002441406,
+        0.03188689994812012
+      ]
+    ],
+    "vertices": 18095,
+    "faces": 36210,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {},
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000019",
+    "dataset": "tless",
+    "bop_id": 19,
+    "source": "datasets/original/tless/models_cad/obj_000019.ply",
+    "source_sha256": "4f3aba5a945e004ea8129c2a7796747e8b2140ccd41bb8fc2f39bb09f90d9567",
+    "mesh": "datasets/assets/tless_000019/mesh_m.ply",
+    "mesh_sha256": "afa461ca1c1181b3fd0c847e24acf5b01bb502a5d371135763ee04e71bca78ab",
+    "samples_sha256": "909385f555b269e3045c83e0e29ffb20503c433044e2e54afd5944376bbfeb3b",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.0655,
+      0.0765,
+      0.047
+    ],
+    "bounds_m": [
+      [
+        -0.03275,
+        -0.03825,
+        -0.0235
+      ],
+      [
+        0.03275,
+        0.03825,
+        0.0235
+      ]
+    ],
+    "vertices": 2348,
+    "faces": 4692,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": true,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1,
+          -3.47614e-14,
+          1.74419e-14,
+          0,
+          -3.47614e-14,
+          1,
+          -3.47614e-14,
+          0,
+          -1.74419e-14,
+          -3.47614e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000020",
+    "dataset": "tless",
+    "bop_id": 20,
+    "source": "datasets/original/tless/models_cad/obj_000020.ply",
+    "source_sha256": "c9244eabd0e2e79c616425643cff81d7054192c704e29c63fa951fbb5cf5769a",
+    "mesh": "datasets/assets/tless_000020/mesh_m.ply",
+    "mesh_sha256": "79c1ad577eb1fdde60dbcd82329e7c4e56eea6be7eb304ed5501bf67233c20f0",
+    "samples_sha256": "9cee51aa07c5e1ddafea701d70463aec7ec63c8428a217a109ff1819dc69d3a6",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.083,
+      0.0755,
+      0.047
+    ],
+    "bounds_m": [
+      [
+        -0.0415,
+        -0.03775,
+        -0.0235
+      ],
+      [
+        0.0415,
+        0.03775,
+        0.0235
+      ]
+    ],
+    "vertices": 2348,
+    "faces": 4692,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1,
+          -3.47614e-14,
+          1.74419e-14,
+          0,
+          -3.47614e-14,
+          1,
+          -3.47614e-14,
+          0,
+          -1.74419e-14,
+          -3.47614e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000021",
+    "dataset": "tless",
+    "bop_id": 21,
+    "source": "datasets/original/tless/models_cad/obj_000021.ply",
+    "source_sha256": "7c4b7cdf0a4c990d4e886deac3dfe2bf71706b19918afbe034c847e2b4d14b00",
+    "mesh": "datasets/assets/tless_000021/mesh_m.ply",
+    "mesh_sha256": "f2ef5df33eaa8b9cbb0fcdfd7ac794459d0655fd982eee1839b4fe23e5e245a5",
+    "samples_sha256": "e255846d1b51f853b8ea0594e52b95b9786aa9ab2e2c46eb5f7324df25bff80f",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.0769000015258789,
+      0.07897820281982422,
+      0.043000000000000003
+    ],
+    "bounds_m": [
+      [
+        -0.03845000076293945,
+        -0.03948910140991211,
+        -0.021500000000000002
+      ],
+      [
+        0.03845000076293945,
+        0.03948910140991211,
+        0.021500000000000002
+      ]
+    ],
+    "vertices": 10248,
+    "faces": 20508,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {},
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000022",
+    "dataset": "tless",
+    "bop_id": 22,
+    "source": "datasets/original/tless/models_cad/obj_000022.ply",
+    "source_sha256": "33af876f137296342f6e9e45d24b2940bac953b6782826dc54d6b1b3c1446128",
+    "mesh": "datasets/assets/tless_000022/mesh_m.ply",
+    "mesh_sha256": "ecfe1df02272261fb64399a402b3495817d052e19f7e971342d39a4010a6c7be",
+    "samples_sha256": "04225690f40d8bd8d980b3834815e3702779200e7ea52bbb16be7b32e2e97731",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.0769000015258789,
+      0.07897820281982422,
+      0.04398699951171875
+    ],
+    "bounds_m": [
+      [
+        -0.03845000076293945,
+        -0.03948910140991211,
+        -0.021993499755859375
+      ],
+      [
+        0.03845000076293945,
+        0.03948910140991211,
+        0.021993499755859375
+      ]
+    ],
+    "vertices": 10599,
+    "faces": 21210,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {},
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000023",
+    "dataset": "tless",
+    "bop_id": 23,
+    "source": "datasets/original/tless/models_cad/obj_000023.ply",
+    "source_sha256": "d15d444c3de2849671d95bb2f19277a8d63208d30bdaf485f8e2254c10c31c54",
+    "mesh": "datasets/assets/tless_000023/mesh_m.ply",
+    "mesh_sha256": "e33696ee04e8f246bbcec18c240628e621b4bc6143a9ff107ff0c70d4d4fe77e",
+    "samples_sha256": "a5af157ccf61600c3c24ac8f205ed51a8cf470d2c78897c7be5529eb91c6bfe9",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.13794839477539061,
+      0.0735,
+      0.05206520080566406
+    ],
+    "bounds_m": [
+      [
+        -0.06897419738769531,
+        -0.03675,
+        -0.02603260040283203
+      ],
+      [
+        0.06897419738769531,
+        0.03675,
+        0.02603260040283203
+      ]
+    ],
+    "vertices": 2947,
+    "faces": 5890,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1.0,
+          0.0,
+          1.2246467991473532e-16,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          -1.2246467991473532e-16,
+          0.0,
+          -1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000024",
+    "dataset": "tless",
+    "bop_id": 24,
+    "source": "datasets/original/tless/models_cad/obj_000024.ply",
+    "source_sha256": "18b1ade78ff39b5311fc7842f0fcdec0aeb9d6c4bc52d27fe15ca65577f5ba70",
+    "mesh": "datasets/assets/tless_000024/mesh_m.ply",
+    "mesh_sha256": "260ae112453cceb1df80f6a8813a27c7de3e5a28b1451392edbd7c67fb563384",
+    "samples_sha256": "0ca367144bf513f3cfdda4a59e1be46b442a5c9f66a548a59185c3f56651c560",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.04299539947509766,
+      0.04299700164794922,
+      0.0805999984741211
+    ],
+    "bounds_m": [
+      [
+        -0.02149769973754883,
+        -0.02149850082397461,
+        -0.04029999923706055
+      ],
+      [
+        0.02149769973754883,
+        0.02149850082397461,
+        0.04029999923706055
+      ]
+    ],
+    "vertices": 10973,
+    "faces": 21946,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000025",
+    "dataset": "tless",
+    "bop_id": 25,
+    "source": "datasets/original/tless/models_cad/obj_000025.ply",
+    "source_sha256": "e4e7dc7ea5793b52ccbf6dcdef6e2014b1099b2b2202986310b7a71fd7ece145",
+    "mesh": "datasets/assets/tless_000025/mesh_m.ply",
+    "mesh_sha256": "bcce506e55ab6af9ada4c9cd42f0df31e6a433fbafc8fe76fbac251d5932c7a1",
+    "samples_sha256": "0a4f25ea8283e75c3dab940f8abc3f6784cc7e4afc4604eec66d480a7c1c9f51",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.096,
+      0.0615,
+      0.06080120086669922
+    ],
+    "bounds_m": [
+      [
+        -0.048,
+        -0.03075,
+        -0.03040060043334961
+      ],
+      [
+        0.048,
+        0.03075,
+        0.03040060043334961
+      ]
+    ],
+    "vertices": 4423,
+    "faces": 8846,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1.0,
+          -4.63077e-14,
+          0.0,
+          -14.0,
+          4.63077e-14,
+          -1.0,
+          0.0,
+          3.2415389999999997e-13,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000026",
+    "dataset": "tless",
+    "bop_id": 26,
+    "source": "datasets/original/tless/models_cad/obj_000026.ply",
+    "source_sha256": "4a56f6bb8e7da90d7fb4649fbbdc5a93e5889c68ae9ffa2d15859735d565164f",
+    "mesh": "datasets/assets/tless_000026/mesh_m.ply",
+    "mesh_sha256": "d42ef15c3142080a426d50354b8cd9ab7113efc8c28c53bd40e102a86f16c118",
+    "samples_sha256": "fd47e97cc4979643d2f2cb40fda5ada512992f45a9cfab90297b3da81b40ff0d",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.096,
+      0.0615,
+      0.060785400390625
+    ],
+    "bounds_m": [
+      [
+        -0.048,
+        -0.03075,
+        -0.0303927001953125
+      ],
+      [
+        0.048,
+        0.03075,
+        0.0303927001953125
+      ]
+    ],
+    "vertices": 4396,
+    "faces": 8792,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1.0,
+          -4.63077e-14,
+          0.0,
+          -14.0,
+          4.63077e-14,
+          -1.0,
+          0.0,
+          3.2415389999999997e-13,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000027",
+    "dataset": "tless",
+    "bop_id": 27,
+    "source": "datasets/original/tless/models_cad/obj_000027.ply",
+    "source_sha256": "b20f274c3bc6ddb66b5b386a6f08d6d5f5483b272ffa02402d09dfe77e43738a",
+    "mesh": "datasets/assets/tless_000027/mesh_m.ply",
+    "mesh_sha256": "66ac86b2ed3aea7b3bbc0c2aad58d0c36630dd40490bf4391fe6a15c48e26584",
+    "samples_sha256": "23f949e41a798e579d5bbe1cd3dc5016a65a3e7aa000762e1dace11e3a564525",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.1085,
+      0.1085,
+      0.056
+    ],
+    "bounds_m": [
+      [
+        -0.05425,
+        -0.05425,
+        -0.028
+      ],
+      [
+        0.05425,
+        0.05425,
+        0.028
+      ]
+    ],
+    "vertices": 3747,
+    "faces": 7490,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          7.3887e-15,
+          -1,
+          0,
+          0,
+          1,
+          7.3887e-15,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -6.05186e-14,
+          0,
+          0,
+          6.05186e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -2.86054e-14,
+          1,
+          0,
+          0,
+          -1,
+          -2.86054e-14,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000028",
+    "dataset": "tless",
+    "bop_id": 28,
+    "source": "datasets/original/tless/models_cad/obj_000028.ply",
+    "source_sha256": "33ca7661ae0b1eb6096d3df58a4060ae9dcf92143907b46a9960f44c5a151ab5",
+    "mesh": "datasets/assets/tless_000028/mesh_m.ply",
+    "mesh_sha256": "a134913347ffdb67d1bba7eec2d3ba2ad77b0882496948fe2d564775b7fdfc89",
+    "samples_sha256": "7674f3b5b903cebb1a64e7ded3cf67215eb54453eff110efdad0188a67d58326",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.0995,
+      0.0995,
+      0.04840000152587891
+    ],
+    "bounds_m": [
+      [
+        -0.04975,
+        -0.04975,
+        -0.024200000762939454
+      ],
+      [
+        0.04975,
+        0.04975,
+        0.024200000762939454
+      ]
+    ],
+    "vertices": 13444,
+    "faces": 26884,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1,
+          -4.63077e-14,
+          0,
+          0,
+          4.63077e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000029",
+    "dataset": "tless",
+    "bop_id": 29,
+    "source": "datasets/original/tless/models_cad/obj_000029.ply",
+    "source_sha256": "df03e55cf223b9dae258b27fa69101b4784a257b3ca7b95fe46dda4dc2429a87",
+    "mesh": "datasets/assets/tless_000029/mesh_m.ply",
+    "mesh_sha256": "6f2e90dac963d174e6dd2d14e896ba5e8aa94de566b995e2574a8f221c966411",
+    "samples_sha256": "76c00819184e30ac2e74bcc3645b4ae89e77d22d644fc44151ff1ea9a71d946a",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.113,
+      0.078,
+      0.05679999923706055
+    ],
+    "bounds_m": [
+      [
+        -0.0565,
+        -0.039,
+        -0.028399999618530274
+      ],
+      [
+        0.0565,
+        0.039,
+        0.028399999618530274
+      ]
+    ],
+    "vertices": 2870,
+    "faces": 5736,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1,
+          -4.63077e-14,
+          0,
+          0,
+          4.63077e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "tless_000030",
+    "dataset": "tless",
+    "bop_id": 30,
+    "source": "datasets/original/tless/models_cad/obj_000030.ply",
+    "source_sha256": "8dcadee5bcd50ea97bc9dd00a611e7758c4eeba3d5ac55f27a6a9c88ee951556",
+    "mesh": "datasets/assets/tless_000030/mesh_m.ply",
+    "mesh_sha256": "9540d67529dac59ee568aaa5a863d9d801661953d05f387c063c2ba87f734e4b",
+    "samples_sha256": "a3941dd88dc7b59b4083e89b7caa4370b6fe8152e9c4673fb2bc11a4a876dfdd",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.08,
+      0.08,
+      0.0505999984741211
+    ],
+    "bounds_m": [
+      [
+        -0.04,
+        -0.04,
+        -0.02529999923706055
+      ],
+      [
+        0.04,
+        0.04,
+        0.02529999923706055
+      ]
+    ],
+    "vertices": 6094,
+    "faces": 12184,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0,
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000001",
+    "dataset": "itodd",
+    "bop_id": 1,
+    "source": "datasets/original/itodd/models/obj_000001.ply",
+    "source_sha256": "15b9744954d0cc32bb8495500a0e9c6ce9c9d9e8581c1c9b126b0e4ae5463103",
+    "mesh": "datasets/assets/itodd_000001/mesh_m.ply",
+    "mesh_sha256": "ed1e38f54e6bd442a216d4147dc5cd5ff8991cc5503e670f73ab6d9070c827fc",
+    "samples_sha256": "ef01f39a3ed1cd3c484068493888522125562b0e2740fe8591b03fb40c063c2c",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.051000000000000004,
+      0.04527798080444336,
+      0.021517959594726563
+    ],
+    "bounds_m": [
+      [
+        -0.025500000000000002,
+        -0.02263899040222168,
+        -0.010758979797363281
+      ],
+      [
+        0.025500000000000002,
+        0.02263899040222168,
+        0.010758979797363281
+      ]
+    ],
+    "vertices": 657,
+    "faces": 1338,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {},
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000002",
+    "dataset": "itodd",
+    "bop_id": 2,
+    "source": "datasets/original/itodd/models/obj_000002.ply",
+    "source_sha256": "4ef3339099aea879e4a0cb9fccb22b99465174bcf68d5d5ed9862696d38fcf0b",
+    "mesh": "datasets/assets/itodd_000002/mesh_m.ply",
+    "mesh_sha256": "5d56410273a76758d2ea2655a5bb0faf194c63c71b34ad32486afe4317b27403",
+    "samples_sha256": "896a53ebce3b583be4353d1835c3017d5ec894980c19596c138e428b75af47ca",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.05099588012695313,
+      0.04603472137451172,
+      0.016
+    ],
+    "bounds_m": [
+      [
+        -0.025497940063476564,
+        -0.02301736068725586,
+        -0.008
+      ],
+      [
+        0.025497940063476564,
+        0.02301736068725586,
+        0.008
+      ]
+    ],
+    "vertices": 885,
+    "faces": 1782,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -0.5,
+          -0.866025,
+          0,
+          4.62856,
+          0.866025,
+          -0.5,
+          0,
+          8.0169,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.5,
+          0.866025,
+          0,
+          -4.62856,
+          -0.866025,
+          -0.5,
+          0,
+          8.0169,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000003",
+    "dataset": "itodd",
+    "bop_id": 3,
+    "source": "datasets/original/itodd/models/obj_000003.ply",
+    "source_sha256": "83aa6130c794968fe55c56fc6d9538541a024b0d6f9f5c54fc4a9f3bbe9077f8",
+    "mesh": "datasets/assets/itodd_000003/mesh_m.ply",
+    "mesh_sha256": "1bc3711dc9b10b75a3d37ed28510aacb53140cb940d4864d79983597baac802b",
+    "samples_sha256": "ea37ef455822182287ff9b414f99a00243e5d8d3363ed59904a3e3c84574be53",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.10400000000000001,
+      0.08240000152587891,
+      0.051000000000000004
+    ],
+    "bounds_m": [
+      [
+        -0.052000000000000005,
+        -0.041200000762939455,
+        -0.025500000000000002
+      ],
+      [
+        0.052000000000000005,
+        0.041200000762939455,
+        0.025500000000000002
+      ]
+    ],
+    "vertices": 8,
+    "faces": 12,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -4.63077e-14,
+          1.52588e-06,
+          0,
+          4.63077e-14,
+          -1,
+          7.27596e-13,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -3.47614e-14,
+          1.74419e-14,
+          4.58385e-13,
+          -3.47614e-14,
+          1,
+          -3.47614e-14,
+          0,
+          -1.74419e-14,
+          -3.47614e-14,
+          -1,
+          -9.02219e-13,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -4.94164e-14,
+          1.74419e-14,
+          -3.71074e-13,
+          4.94164e-14,
+          -1,
+          1.22814e-13,
+          1.52588e-06,
+          1.74419e-14,
+          1.22814e-13,
+          1,
+          3.07773e-12,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000004",
+    "dataset": "itodd",
+    "bop_id": 4,
+    "source": "datasets/original/itodd/models/obj_000004.ply",
+    "source_sha256": "0933ba753a7aa8d673df6fa180e35807869903661b1bc8d1419ebb0ac890424f",
+    "mesh": "datasets/assets/itodd_000004/mesh_m.ply",
+    "mesh_sha256": "526fbd4c2f3b96d2b2053455ec1cf9d965cc455d2cf000c99dd8de23e0a4ac89",
+    "samples_sha256": "8ac6f967e29e40190172ebf1fedd1fe1526f1bd756b4241cc2b0ba3219da0602",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.0905,
+      0.0905,
+      0.06531527709960938
+    ],
+    "bounds_m": [
+      [
+        -0.04525,
+        -0.04525,
+        -0.03265763854980469
+      ],
+      [
+        0.04525,
+        0.04525,
+        0.03265763854980469
+      ]
+    ],
+    "vertices": 1439,
+    "faces": 2970,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          7.3887e-15,
+          -1,
+          -1.04162e-13,
+          -8.00355e-13,
+          -1,
+          -7.3887e-15,
+          -4.31991e-14,
+          -1.52795e-13,
+          4.31991e-14,
+          1.04162e-13,
+          -1,
+          -0.144095,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000005",
+    "dataset": "itodd",
+    "bop_id": 5,
+    "source": "datasets/original/itodd/models/obj_000005.ply",
+    "source_sha256": "8768da6de4c20f09e1883bf8472ef9f4d7f36487aa13a17f8152435ebb0e4b06",
+    "mesh": "datasets/assets/itodd_000005/mesh_m.ply",
+    "mesh_sha256": "667efa86d3c3d8d5beb3da0019b72469e2099aa83e2f93a27ff893912833e661",
+    "samples_sha256": "f8979aecd9c12c33f6c9968320ec242c6216f07b75b66dec8f12fe8e886a8d36",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.11799993896484376,
+      0.11800000000000001,
+      0.002
+    ],
+    "bounds_m": [
+      [
+        -0.05899996948242188,
+        -0.059000000000000004,
+        -0.001
+      ],
+      [
+        0.05899996948242188,
+        0.059000000000000004,
+        0.001
+      ]
+    ],
+    "vertices": 509,
+    "faces": 1034,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          7.3887e-15,
+          -1,
+          -1.04162e-13,
+          3.35083e-05,
+          -1,
+          -7.3887e-15,
+          -4.31991e-14,
+          3.35083e-05,
+          4.31991e-14,
+          1.04162e-13,
+          -1,
+          -1.48179e-12,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000006",
+    "dataset": "itodd",
+    "bop_id": 6,
+    "source": "datasets/original/itodd/models/obj_000006.ply",
+    "source_sha256": "462d765574baaac738f98eb6b1757a9a12996f3df04537b6ff284a602324e24b",
+    "mesh": "datasets/assets/itodd_000006/mesh_m.ply",
+    "mesh_sha256": "9608776806c14c2134b48b53e1945157f6e01fe186483f4aef42a3c23dd00137",
+    "samples_sha256": "0659ad1be0b103318805b44e9ae85a5046beb3648b4a526f8ac21b7b6fdfe114",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.03,
+      0.040001739501953126,
+      0.081
+    ],
+    "bounds_m": [
+      [
+        -0.015,
+        -0.020000869750976563,
+        -0.0405
+      ],
+      [
+        0.015,
+        0.020000869750976563,
+        0.0405
+      ]
+    ],
+    "vertices": 3372,
+    "faces": 5873,
+    "watertight": false,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {},
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000007",
+    "dataset": "itodd",
+    "bop_id": 7,
+    "source": "datasets/original/itodd/models/obj_000007.ply",
+    "source_sha256": "4a480208dbb65066aab4be290c01bf57a41b05a2fa3c9972b26f6dd3aae27353",
+    "mesh": "datasets/assets/itodd_000007/mesh_m.ply",
+    "mesh_sha256": "e3b5cf47b952b298ac6bbfbaf528979dd7d4c398f53251a3d18e1dafbdb9ff3a",
+    "samples_sha256": "da196e1f36f94405b8ef4e24a47e37d81a59371ac9f1638a997f17c7144b4df4",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.034,
+      0.034,
+      0.0315
+    ],
+    "bounds_m": [
+      [
+        -0.017,
+        -0.017,
+        -0.01575
+      ],
+      [
+        0.017,
+        0.017,
+        0.01575
+      ]
+    ],
+    "vertices": 1989,
+    "faces": 3998,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000008",
+    "dataset": "itodd",
+    "bop_id": 8,
+    "source": "datasets/original/itodd/models/obj_000008.ply",
+    "source_sha256": "5ca8fc284a7534b944f8562e31547223a77d50736f0e1c5e1e929cb17c4dfd08",
+    "mesh": "datasets/assets/itodd_000008/mesh_m.ply",
+    "mesh_sha256": "5d1531737322018914c6e254dbd74f2391dde55967e45a9aba0146b82838e9e4",
+    "samples_sha256": "0578519a4d202da02cea2f7850126a11586e73cce3053dde00784ba375bd2bf7",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.061,
+      0.061,
+      0.036000000000000004
+    ],
+    "bounds_m": [
+      [
+        -0.0305,
+        -0.0305,
+        -0.018000000000000002
+      ],
+      [
+        0.0305,
+        0.0305,
+        0.018000000000000002
+      ]
+    ],
+    "vertices": 2650,
+    "faces": 5340,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          0.309017,
+          -0.951057,
+          0,
+          0,
+          0.951057,
+          0.309017,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.809017,
+          -0.587785,
+          0,
+          0,
+          0.587785,
+          -0.809017,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.809017,
+          0.587785,
+          0,
+          0,
+          -0.587785,
+          -0.809017,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.309017,
+          0.951057,
+          0,
+          0,
+          -0.951057,
+          0.309017,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000009",
+    "dataset": "itodd",
+    "bop_id": 9,
+    "source": "datasets/original/itodd/models/obj_000009.ply",
+    "source_sha256": "a082d2dda0f7069605b6b1bbdc9230b4140e51159b51a97b8733b3864bf53e35",
+    "mesh": "datasets/assets/itodd_000009/mesh_m.ply",
+    "mesh_sha256": "981799b6b0cf84c58bd9e6d75796f7f01687a0b838d3514a472bf0d8adfd5406",
+    "samples_sha256": "d533eda71047ab1784d3f78fd77691943cc8968a62e710d26a64c219ddbcde10",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.038,
+      0.06,
+      0.078
+    ],
+    "bounds_m": [
+      [
+        -0.019,
+        -0.03,
+        -0.039
+      ],
+      [
+        0.019,
+        0.03,
+        0.039
+      ]
+    ],
+    "vertices": 241,
+    "faces": 498,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1,
+          -4.94164e-14,
+          1.22465e-16,
+          -6.14818e-13,
+          -4.94164e-14,
+          1,
+          -4.94164e-14,
+          4.11092e-13,
+          -1.22465e-16,
+          -4.94164e-14,
+          -1,
+          -5.96629e-13,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000010",
+    "dataset": "itodd",
+    "bop_id": 10,
+    "source": "datasets/original/itodd/models/obj_000010.ply",
+    "source_sha256": "8ff095f84d109a25a844f548c150655b365c464222ac711deb44ae16e9235a01",
+    "mesh": "datasets/assets/itodd_000010/mesh_m.ply",
+    "mesh_sha256": "863876e9c0aa797b056407e68039c1370f06d4fc57eac3c6a1b9ecd5040c32fd",
+    "samples_sha256": "b08e9b81a23ec7c6464f7170bf6a097a7c5e6c1b6c0b6fbe04da4888e157b107",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.015,
+      0.02,
+      0.05
+    ],
+    "bounds_m": [
+      [
+        -0.0075,
+        -0.01,
+        -0.025
+      ],
+      [
+        0.0075,
+        0.01,
+        0.025
+      ]
+    ],
+    "vertices": 220,
+    "faces": 444,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {},
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000011",
+    "dataset": "itodd",
+    "bop_id": 11,
+    "source": "datasets/original/itodd/models/obj_000011.ply",
+    "source_sha256": "9cc31a52ab13db5e16fbb865f2e54785c05b435956cfec437461cafdc3fa8b1c",
+    "mesh": "datasets/assets/itodd_000011/mesh_m.ply",
+    "mesh_sha256": "52de7d092babb8f2867299e5cd2af1f770c6e838e9d55e5b8bbed16171594f5a",
+    "samples_sha256": "7adf2fbfe378e69efe46752e9b7069a964b40d614e89bba9b7b16b66a889ffd0",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.133,
+      0.056,
+      0.003
+    ],
+    "bounds_m": [
+      [
+        -0.0665,
+        -0.028,
+        -0.0015
+      ],
+      [
+        0.0665,
+        0.028,
+        0.0015
+      ]
+    ],
+    "vertices": 916,
+    "faces": 1900,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -4.31991e-14,
+          -2.18279e-14,
+          0,
+          4.31991e-14,
+          -1,
+          4.10182e-13,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -4.94164e-14,
+          1.22465e-16,
+          -5.82077e-13,
+          -4.94164e-14,
+          1,
+          -4.94164e-14,
+          -1.39698e-12,
+          -1.22465e-16,
+          -4.94164e-14,
+          -1,
+          -5.74801e-13,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -6.36272e-14,
+          1.22465e-16,
+          -9.74978e-13,
+          6.36272e-14,
+          -1,
+          1.41465e-13,
+          2.3756e-12,
+          1.22465e-16,
+          1.41465e-13,
+          1,
+          1.96769e-12,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000012",
+    "dataset": "itodd",
+    "bop_id": 12,
+    "source": "datasets/original/itodd/models/obj_000012.ply",
+    "source_sha256": "cf9f0bfb7d74b7a416e7de248edab537a19932c5b1b842121ac4b696cd1aa546",
+    "mesh": "datasets/assets/itodd_000012/mesh_m.ply",
+    "mesh_sha256": "e10b0e9da5b778290f92eaa135eebb018e9248fa60e216fcfd984de8c76711b0",
+    "samples_sha256": "be32a4b70f7cc78349ac373b46a3c14ce64aed732ea7af4acaf6f179aab7747c",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.04,
+      0.04,
+      0.1
+    ],
+    "bounds_m": [
+      [
+        -0.02,
+        -0.02,
+        -0.05
+      ],
+      [
+        0.02,
+        0.02,
+        0.05
+      ]
+    ],
+    "vertices": 176,
+    "faces": 348,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "symmetries_discrete": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -4.63077e-14,
+          -8.72097e-13,
+          0,
+          4.63077e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000013",
+    "dataset": "itodd",
+    "bop_id": 13,
+    "source": "datasets/original/itodd/models/obj_000013.ply",
+    "source_sha256": "74d50f4c567685cd8446311642ebf4d64a4eaaaa8a037f616769dde4e926e102",
+    "mesh": "datasets/assets/itodd_000013/mesh_m.ply",
+    "mesh_sha256": "1ad7e7d33dc96df9a91b95e5b5ec0d188e9ed9e673febfa1fbe56b6fec0cf959",
+    "samples_sha256": "db8d8943b6177826b857b1e49bf32712acc0531dce5c4f9269f8141160944103",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.11722836303710937,
+      0.11049484252929688,
+      0.047
+    ],
+    "bounds_m": [
+      [
+        -0.05861418151855469,
+        -0.05524742126464844,
+        -0.0235
+      ],
+      [
+        0.05861418151855469,
+        0.05524742126464844,
+        0.0235
+      ]
+    ],
+    "vertices": 3989,
+    "faces": 8010,
+    "watertight": false,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {},
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000014",
+    "dataset": "itodd",
+    "bop_id": 14,
+    "source": "datasets/original/itodd/models/obj_000014.ply",
+    "source_sha256": "097b2e440fae96467452e344cd7b9b0e37776e682a852507c37b9f6da13de58d",
+    "mesh": "datasets/assets/itodd_000014/mesh_m.ply",
+    "mesh_sha256": "a19abdc0374640f1edb8074cde1d346a028bc35efacfbb1a1e1c53c53e4e2465",
+    "samples_sha256": "b14b6668f826040ad4820dee731a2a40c40c6c8c2640e9e39af1ab40d8866a8e",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.1,
+      0.1,
+      0.047
+    ],
+    "bounds_m": [
+      [
+        -0.05,
+        -0.05,
+        -0.0235
+      ],
+      [
+        0.05,
+        0.05,
+        0.0235
+      ]
+    ],
+    "vertices": 9913,
+    "faces": 19850,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          0.939693,
+          -0.34202,
+          0,
+          0,
+          0.34202,
+          0.939693,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.766044,
+          -0.642788,
+          0,
+          0,
+          0.642788,
+          0.766044,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.5,
+          -0.866025,
+          0,
+          0,
+          0.866025,
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.173648,
+          -0.984808,
+          0,
+          0,
+          0.984808,
+          0.173648,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.173648,
+          -0.984808,
+          0,
+          0,
+          0.984808,
+          -0.173648,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.5,
+          -0.866025,
+          0,
+          0,
+          0.866025,
+          -0.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.766044,
+          -0.642788,
+          0,
+          0,
+          0.642788,
+          -0.766044,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.939693,
+          -0.34202,
+          0,
+          0,
+          0.34202,
+          -0.939693,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -4.63077e-14,
+          0,
+          0,
+          4.63077e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.939693,
+          0.34202,
+          0,
+          0,
+          -0.34202,
+          -0.939693,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.766044,
+          0.642788,
+          0,
+          0,
+          -0.642788,
+          -0.766044,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.5,
+          0.866025,
+          0,
+          0,
+          -0.866025,
+          -0.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.173648,
+          0.984808,
+          0,
+          0,
+          -0.984808,
+          -0.173648,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.173648,
+          0.984808,
+          0,
+          0,
+          -0.984808,
+          0.173648,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.5,
+          0.866025,
+          0,
+          0,
+          -0.866025,
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.766044,
+          0.642788,
+          0,
+          0,
+          -0.642788,
+          0.766044,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.939693,
+          0.34202,
+          0,
+          0,
+          -0.34202,
+          0.939693,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000015",
+    "dataset": "itodd",
+    "bop_id": 15,
+    "source": "datasets/original/itodd/models/obj_000015.ply",
+    "source_sha256": "f7afd47773e04b44d30383ee66ee0c0805c27cd719e0794da6f6a5c3abebb8bb",
+    "mesh": "datasets/assets/itodd_000015/mesh_m.ply",
+    "mesh_sha256": "555961a01c1130bad226f630c7dac5f763c653f401b1add577f3420cf43e7dd8",
+    "samples_sha256": "8429d48e63fe43afcbb396caa788d7ea94f27078f6ab14247a517ae5042e759d",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.0730000228881836,
+      0.082,
+      0.088
+    ],
+    "bounds_m": [
+      [
+        -0.0365000114440918,
+        -0.041,
+        -0.044
+      ],
+      [
+        0.0365000114440918,
+        0.041,
+        0.044
+      ]
+    ],
+    "vertices": 5759,
+    "faces": 11356,
+    "watertight": false,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {},
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000016",
+    "dataset": "itodd",
+    "bop_id": 16,
+    "source": "datasets/original/itodd/models/obj_000016.ply",
+    "source_sha256": "bd4b81aceedaae0bf8b866d4f1544d510190724454fe57823ad86f9ed5ecb38d",
+    "mesh": "datasets/assets/itodd_000016/mesh_m.ply",
+    "mesh_sha256": "f35cc961a7ae4b3f04b0fc490c8699d988b825d0eb27533cac10e537ff4d08e7",
+    "samples_sha256": "4b2c50e08451ee42be00b19ec60ce66763da954f7e860145c308a7686ed4cbd5",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.11800000000000001,
+      0.1792569274902344,
+      0.069
+    ],
+    "bounds_m": [
+      [
+        -0.059000000000000004,
+        -0.0896284637451172,
+        -0.0345
+      ],
+      [
+        0.059000000000000004,
+        0.0896284637451172,
+        0.0345
+      ]
+    ],
+    "vertices": 1261,
+    "faces": 2482,
+    "watertight": false,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {},
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000017",
+    "dataset": "itodd",
+    "bop_id": 17,
+    "source": "datasets/original/itodd/models/obj_000017.ply",
+    "source_sha256": "a4ca20cc24346f47020d8080c73fd2fce9a10b77590be94fbfaf32b15216ab20",
+    "mesh": "datasets/assets/itodd_000017/mesh_m.ply",
+    "mesh_sha256": "cf4479ba72a7d70840acdfedea9ad173f0cca8e935ac22d54583433e6789da06",
+    "samples_sha256": "4a188253f3b8269eb38c2f31fd107904bc323166935af784260e90cf8b0629f2",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.075,
+      0.075,
+      0.05
+    ],
+    "bounds_m": [
+      [
+        -0.0375,
+        -0.0375,
+        -0.025
+      ],
+      [
+        0.0375,
+        0.0375,
+        0.025
+      ]
+    ],
+    "vertices": 6032,
+    "faces": 11956,
+    "watertight": false,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          0.962917,
+          -0.269797,
+          0,
+          0,
+          0.269797,
+          0.962917,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.854419,
+          -0.519584,
+          0,
+          0,
+          0.519584,
+          0.854419,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.682553,
+          -0.730836,
+          0,
+          0,
+          0.730836,
+          0.682553,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.460065,
+          -0.887885,
+          0,
+          0,
+          0.887885,
+          0.460065,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.203456,
+          -0.979084,
+          0,
+          0,
+          0.979084,
+          0.203456,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.0682424,
+          -0.997669,
+          0,
+          0,
+          0.997669,
+          -0.0682424,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.33488,
+          -0.942261,
+          0,
+          0,
+          0.942261,
+          -0.33488,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.57668,
+          -0.81697,
+          0,
+          0,
+          0.81697,
+          -0.57668,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.775711,
+          -0.631088,
+          0,
+          0,
+          0.631088,
+          -0.775711,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.917211,
+          -0.398401,
+          0,
+          0,
+          0.398401,
+          -0.917211,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.990686,
+          -0.136167,
+          0,
+          0,
+          0.136167,
+          -0.990686,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.990686,
+          0.136167,
+          0,
+          0,
+          -0.136167,
+          -0.990686,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.917211,
+          0.398401,
+          0,
+          0,
+          -0.398401,
+          -0.917211,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.775711,
+          0.631088,
+          0,
+          0,
+          -0.631088,
+          -0.775711,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.57668,
+          0.81697,
+          0,
+          0,
+          -0.81697,
+          -0.57668,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.33488,
+          0.942261,
+          0,
+          0,
+          -0.942261,
+          -0.33488,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.0682424,
+          0.997669,
+          0,
+          0,
+          -0.997669,
+          -0.0682424,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.203456,
+          0.979084,
+          0,
+          0,
+          -0.979084,
+          0.203456,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.460065,
+          0.887885,
+          0,
+          0,
+          -0.887885,
+          0.460065,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.682553,
+          0.730836,
+          0,
+          0,
+          -0.730836,
+          0.682553,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.854419,
+          0.519584,
+          0,
+          0,
+          -0.519584,
+          0.854419,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.962917,
+          0.269797,
+          0,
+          0,
+          -0.269797,
+          0.962917,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000018",
+    "dataset": "itodd",
+    "bop_id": 18,
+    "source": "datasets/original/itodd/models/obj_000018.ply",
+    "source_sha256": "9875989fd27ac1e6aa98ee6a890ee6927db57021f42998783f05388b97e1e089",
+    "mesh": "datasets/assets/itodd_000018/mesh_m.ply",
+    "mesh_sha256": "0e18fa1bf18ad725b15cd490dd17fa65a41f1958a2199ab961751e21812f7e40",
+    "samples_sha256": "970ba8c7d5578619e17f43f43f2e67fab2de8a20a0ea4eed445a596bc666ce5f",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.08640000152587891,
+      0.0735,
+      0.0445
+    ],
+    "bounds_m": [
+      [
+        -0.04320000076293946,
+        -0.03675,
+        -0.02225
+      ],
+      [
+        0.04320000076293946,
+        0.03675,
+        0.02225
+      ]
+    ],
+    "vertices": 499,
+    "faces": 994,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1,
+          -4.94164e-14,
+          1.22465e-16,
+          1.52588e-06,
+          -4.94164e-14,
+          1,
+          -4.94164e-14,
+          -4.29281e-13,
+          -1.22465e-16,
+          -4.94164e-14,
+          -1,
+          -7.67614e-13,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000019",
+    "dataset": "itodd",
+    "bop_id": 19,
+    "source": "datasets/original/itodd/models/obj_000019.ply",
+    "source_sha256": "0e05fb815ce2f8a735fa52539495c39c5f716da4c8109cea658925c9bc05d3d7",
+    "mesh": "datasets/assets/itodd_000019/mesh_m.ply",
+    "mesh_sha256": "e04a028b3314649ba6936d0e3f234571b007487fdbc6c9e55573138bba1085fb",
+    "samples_sha256": "37e454d6b56ca129c04e2cee9d7c521e7d17e3aefaa6d185a84f7c9687069d04",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.009000000000000001,
+      0.017,
+      0.12
+    ],
+    "bounds_m": [
+      [
+        -0.0045000000000000005,
+        -0.0085,
+        -0.06
+      ],
+      [
+        0.0045000000000000005,
+        0.0085,
+        0.06
+      ]
+    ],
+    "vertices": 66,
+    "faces": 128,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          -1,
+          -4.63077e-14,
+          0,
+          -9.59306e-15,
+          4.63077e-14,
+          -1,
+          0,
+          -1.1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -4.63077e-14,
+          -1.1,
+          0,
+          4.63077e-14,
+          -1,
+          1.45519e-14,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -3.20969e-14,
+          3.04221e-28,
+          -1.7771e-15,
+          -3.20969e-14,
+          1,
+          -3.20969e-14,
+          -1.93836e-13,
+          7.25989e-28,
+          -3.20969e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000020",
+    "dataset": "itodd",
+    "bop_id": 20,
+    "source": "datasets/original/itodd/models/obj_000020.ply",
+    "source_sha256": "5aaae726e5038ee0168254131c1b4de67aff414ca0a25a5bbffd6923621cc587",
+    "mesh": "datasets/assets/itodd_000020/mesh_m.ply",
+    "mesh_sha256": "eb168f18d5ced1066a9530d03fb23c105e3e79ff1bd3b4baefbc67c22aec9db6",
+    "samples_sha256": "b8f314b48ae6d5f48b109c88255780174094f253c0f79bc51f480e5d9aebd5f8",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.12,
+      0.0669961166381836,
+      0.047
+    ],
+    "bounds_m": [
+      [
+        -0.06,
+        -0.0334980583190918,
+        -0.0235
+      ],
+      [
+        0.06,
+        0.0334980583190918,
+        0.0235
+      ]
+    ],
+    "vertices": 3806,
+    "faces": 7510,
+    "watertight": false,
+    "winding_consistent": false,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {},
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000021",
+    "dataset": "itodd",
+    "bop_id": 21,
+    "source": "datasets/original/itodd/models/obj_000021.ply",
+    "source_sha256": "936e7906f86adea279151f9457f3637f6e90e3501597c8f402b616054de9a6b6",
+    "mesh": "datasets/assets/itodd_000021/mesh_m.ply",
+    "mesh_sha256": "81c98ed7b204527fd73ece3909b3842eb2a59028b543943bd4320abf90a6946f",
+    "samples_sha256": "0db8a84126def3201ed2805b8961c79ae6d00d96427d3eee7500cac4c3aa0c05",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.076,
+      0.14,
+      0.06279999923706055
+    ],
+    "bounds_m": [
+      [
+        -0.038,
+        -0.07,
+        -0.031399999618530273
+      ],
+      [
+        0.038,
+        0.07,
+        0.031399999618530273
+      ]
+    ],
+    "vertices": 1158,
+    "faces": 2380,
+    "watertight": false,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {},
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000022",
+    "dataset": "itodd",
+    "bop_id": 22,
+    "source": "datasets/original/itodd/models/obj_000022.ply",
+    "source_sha256": "d941551d7624446fa947c66b7b3619fa15d450a7ff306582ce778db8e9b50278",
+    "mesh": "datasets/assets/itodd_000022/mesh_m.ply",
+    "mesh_sha256": "44414586850f4b0fa0b3dafd09555b7417294de9cba7a568e334371ac3699500",
+    "samples_sha256": "32396aed5a60f66b5deb0118f067bea56becec06dc640ca23beb03f78f301014",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.264,
+      0.038,
+      0.025
+    ],
+    "bounds_m": [
+      [
+        -0.132,
+        -0.019,
+        -0.0125
+      ],
+      [
+        0.132,
+        0.019,
+        0.0125
+      ]
+    ],
+    "vertices": 7404,
+    "faces": 15310,
+    "watertight": false,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {},
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000023",
+    "dataset": "itodd",
+    "bop_id": 23,
+    "source": "datasets/original/itodd/models/obj_000023.ply",
+    "source_sha256": "5f65625ffa7b24f6628c3c3a8bb8ecd0587b511d29ab19ab3d0a195b5cf9c3f4",
+    "mesh": "datasets/assets/itodd_000023/mesh_m.ply",
+    "mesh_sha256": "c68a11b16215534ee972d841bec2d540da5f19a355ad3450f6b0f7bf14d89217",
+    "samples_sha256": "56aac84ba3f13ad199ca0efa72ad10e71fffd4d5699b43e560ca1c51517e6bf5",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.019398969650268556,
+      0.016799999237060548,
+      0.056099998474121095
+    ],
+    "bounds_m": [
+      [
+        -0.009699484825134278,
+        -0.008399999618530274,
+        -0.028049999237060547
+      ],
+      [
+        0.009699484825134278,
+        0.008399999618530274,
+        0.028049999237060547
+      ]
+    ],
+    "vertices": 1906,
+    "faces": 2198,
+    "watertight": false,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          0.5,
+          -0.866025,
+          0,
+          0,
+          0.866025,
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.5,
+          -0.866025,
+          0,
+          0,
+          0.866025,
+          -0.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -4.63077e-14,
+          0,
+          0,
+          4.63077e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.5,
+          0.866025,
+          0,
+          0,
+          -0.866025,
+          -0.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.5,
+          0.866025,
+          0,
+          0,
+          -0.866025,
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000024",
+    "dataset": "itodd",
+    "bop_id": 24,
+    "source": "datasets/original/itodd/models/obj_000024.ply",
+    "source_sha256": "64effb59ac8ee1d54a189c103cc42139eff585f333e25052ba483005f95709a9",
+    "mesh": "datasets/assets/itodd_000024/mesh_m.ply",
+    "mesh_sha256": "a85c3188f26f5ab6d54c63cfc216d6a6fb8b6e373064f4bacf893e029bd55cc8",
+    "samples_sha256": "fa27110154f36a9ab62eb34b42bb56894449628a68eb4e3cb3a7db8abdbeea96",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.03,
+      0.03,
+      0.06
+    ],
+    "bounds_m": [
+      [
+        -0.015,
+        -0.015,
+        -0.03
+      ],
+      [
+        0.015,
+        0.015,
+        0.03
+      ]
+    ],
+    "vertices": 288,
+    "faces": 572,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000025",
+    "dataset": "itodd",
+    "bop_id": 25,
+    "source": "datasets/original/itodd/models/obj_000025.ply",
+    "source_sha256": "0cb265df6d0eb6f9dc65ecb84dfea4af886dd75fd2437c9b9a6fcfc1e397830f",
+    "mesh": "datasets/assets/itodd_000025/mesh_m.ply",
+    "mesh_sha256": "ef2be2ebc0409c308c69e77ceb4bc4ee81c3d0304d379a6cbf26171be03f43fb",
+    "samples_sha256": "6fcb0da02bebbceecb662ef79229d385b49563d1e46b35be37c350d8e261e4e6",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.0485,
+      0.0485,
+      0.005683750152587891
+    ],
+    "bounds_m": [
+      [
+        -0.02425,
+        -0.02425,
+        -0.0028418750762939453
+      ],
+      [
+        0.02425,
+        0.02425,
+        0.0028418750762939453
+      ]
+    ],
+    "vertices": 466,
+    "faces": 940,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_discrete": [
+        [
+          0.866025,
+          -0.5,
+          0,
+          0,
+          0.5,
+          0.866025,
+          0,
+          0,
+          0,
+          0,
+          1,
+          9.09495e-16,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.5,
+          -0.866025,
+          0,
+          0,
+          0.866025,
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          9.09495e-16,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          7.3887e-15,
+          -1,
+          0,
+          0,
+          1,
+          7.3887e-15,
+          0,
+          0,
+          0,
+          0,
+          1,
+          9.09495e-16,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.5,
+          -0.866025,
+          0,
+          0,
+          0.866025,
+          -0.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          9.09495e-16,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.866025,
+          -0.5,
+          0,
+          0,
+          0.5,
+          -0.866025,
+          0,
+          0,
+          0,
+          0,
+          1,
+          9.09495e-16,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -1,
+          -4.63077e-14,
+          0,
+          0,
+          4.63077e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          9.09495e-16,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.866025,
+          0.5,
+          0,
+          0,
+          -0.5,
+          -0.866025,
+          0,
+          0,
+          0,
+          0,
+          1,
+          9.09495e-16,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -0.5,
+          0.866025,
+          0,
+          0,
+          -0.866025,
+          -0.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          9.09495e-16,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          -2.86054e-14,
+          1,
+          0,
+          0,
+          -1,
+          -2.86054e-14,
+          0,
+          0,
+          0,
+          0,
+          1,
+          9.09495e-16,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.5,
+          0.866025,
+          0,
+          0,
+          -0.866025,
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          1,
+          9.09495e-16,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0.866025,
+          0.5,
+          0,
+          0,
+          -0.5,
+          0.866025,
+          0,
+          0,
+          0,
+          0,
+          1,
+          9.09495e-16,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000026",
+    "dataset": "itodd",
+    "bop_id": 26,
+    "source": "datasets/original/itodd/models/obj_000026.ply",
+    "source_sha256": "4be9ab56a10e309a0ccafc656c6c16083bba7f10dd874de1324009bcf286674b",
+    "mesh": "datasets/assets/itodd_000026/mesh_m.ply",
+    "mesh_sha256": "b33c5cc791bf3e362a6545f964df479e1de7c915f2f99b886bad97e0ae774a22",
+    "samples_sha256": "aa125261fd79c2e14c7808991bb282560a1500e41298e74f34e43f71c6d251ab",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.04125,
+      0.02451219940185547,
+      0.06270000076293945
+    ],
+    "bounds_m": [
+      [
+        -0.020625,
+        -0.012256099700927735,
+        -0.03135000038146973
+      ],
+      [
+        0.020625,
+        0.012256099700927735,
+        0.03135000038146973
+      ]
+    ],
+    "vertices": 1349,
+    "faces": 2702,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {},
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000027",
+    "dataset": "itodd",
+    "bop_id": 27,
+    "source": "datasets/original/itodd/models/obj_000027.ply",
+    "source_sha256": "9808ff675c002afdf06c78334955eddb85ae984d05e3f6abfbc565cebd66cf8e",
+    "mesh": "datasets/assets/itodd_000027/mesh_m.ply",
+    "mesh_sha256": "41c234773a88cbac2cf1e7a9b056cb871833bd0b475ee1e3310f90411de340b5",
+    "samples_sha256": "47efc710382725d4ddad93e276ffa6c5be082cbd0895336816430f599ef83aa3",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.055,
+      0.055,
+      0.021
+    ],
+    "bounds_m": [
+      [
+        -0.0275,
+        -0.0275,
+        -0.0105
+      ],
+      [
+        0.0275,
+        0.0275,
+        0.0105
+      ]
+    ],
+    "vertices": 920,
+    "faces": 1848,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "retained_for_study": true
+  },
+  {
+    "object_id": "itodd_000028",
+    "dataset": "itodd",
+    "bop_id": 28,
+    "source": "datasets/original/itodd/models/obj_000028.ply",
+    "source_sha256": "13d9eddc6456595e7bc8a306f907d9a218b941cfceb741d0105f863faaa33992",
+    "mesh": "datasets/assets/itodd_000028/mesh_m.ply",
+    "mesh_sha256": "cbea0d992ac7c76dc6352d8bdcd84738d4bb8f25e826338147737a4dd562c49a",
+    "samples_sha256": "5cb9f10ee2b1d2fcdd3496db18fabfe9668c6480e0b3a0a7dbc16ef72265a678",
+    "scale_m_per_source_unit": 0.001,
+    "extents_m": [
+      0.024,
+      0.024,
+      0.002
+    ],
+    "bounds_m": [
+      [
+        -0.012,
+        -0.012,
+        -0.001
+      ],
+      [
+        0.012,
+        0.012,
+        0.001
+      ]
+    ],
+    "vertices": 388,
+    "faces": 776,
+    "watertight": true,
+    "winding_consistent": true,
+    "smallest_aabb_extent_gt_80mm": false,
+    "aabb_flag_is_not_graspability_decision": true,
+    "previously_seen": false,
+    "symmetries": {
+      "symmetries_continuous": [
+        {
+          "axis": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "symmetries_discrete": [
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          -4.31991e-14,
+          1.46549e-14,
+          0,
+          4.31991e-14,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    "retained_for_study": true
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "version": "rgb_foreground_table_tolerance_v1",
+  "registered_before_grasp_outcomes": true,
+  "shared_between_no_cad_and_fusion": true,
+  "observation_table_tolerance_m": 0.001,
+  "minimum_foreground_confidence": 0.35,
+  "cad_surface_minimum_height_m": 0.00025,
+  "workspace_min_m": [-0.45, -0.4, -0.02],
+  "workspace_max_m": [0.45, 0.4, 0.3],
+  "knn_neighbors": 16,
+  "knn_standard_deviations": 2.0,
+  "requires_cad_for_visual_target_selection": false,
+  "foreground": {
+    "foreground_lab_noise_floor": 3,
+    "foreground_threshold_sigma": 3
+  },
+  "design": "Foreground appearance is estimated from a task-defined table annulus in the RGB image. Permit predicted target points up to 1 mm below the known plane to accommodate depth error; never shift their coordinates. CAD surface samples exclude only the bottom 0.25 mm. Keep the entire original observed scene for collision checks."
+}

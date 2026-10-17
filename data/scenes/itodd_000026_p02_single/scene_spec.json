@@ -1,0 +1,59 @@
+{
+  "scene_id": "itodd_000026_p02_single",
+  "dataset": "itodd",
+  "object_id": "itodd_000026",
+  "placement": 2,
+  "condition": "single",
+  "previously_seen": false,
+  "placement_seed": 2026204103,
+  "episode_id": "itodd_000026_p02_single",
+  "split": "formal",
+  "instances": [
+    {
+      "object_id": "itodd_000026",
+      "instance_id": "target",
+      "role": "target",
+      "world_from_object": [
+        [
+          0.9828228532581564,
+          0.18455145383739516,
+          0.0,
+          0.023459479721794435
+        ],
+        [
+          -0.18455145383739516,
+          0.9828228532581564,
+          0.0,
+          0.0061542722519820625
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.001
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "scene_assets": [
+    {
+      "name": "table",
+      "extents_m": [
+        0.65,
+        0.5,
+        0.035
+      ],
+      "center_m": [
+        0,
+        0,
+        -0.0175
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "version": "comparison_seed0_v1",
+  "methods": [
+    {
+      "arm": "no_cad",
+      "perception": "foundationstereo",
+      "grasp": "graspgen"
+    },
+    {
+      "arm": "cad_fused",
+      "perception": "cad_fused",
+      "grasp": "graspgen"
+    },
+    {
+      "arm": "stereobm__graspgen",
+      "perception": "stereobm",
+      "grasp": "graspgen"
+    },
+    {
+      "arm": "sgm__graspgen",
+      "perception": "sgm",
+      "grasp": "graspgen"
+    },
+    {
+      "arm": "psmnet__graspgen",
+      "perception": "psmnet",
+      "grasp": "graspgen"
+    },
+    {
+      "arm": "gwcnet__graspgen",
+      "perception": "gwcnet",
+      "grasp": "graspgen"
+    },
+    {
+      "arm": "raft_stereo__graspgen",
+      "perception": "raft_stereo",
+      "grasp": "graspgen"
+    },
+    {
+      "arm": "igev_stereo__graspgen",
+      "perception": "igev_stereo",
+      "grasp": "graspgen"
+    },
+    {
+      "arm": "foundationstereo__6dof_graspnet",
+      "perception": "foundationstereo",
+      "grasp": "6dof_graspnet"
+    },
+    {
+      "arm": "foundationstereo__contact_graspnet",
+      "perception": "foundationstereo",
+      "grasp": "contact_graspnet"
+    },
+    {
+      "arm": "foundationstereo__gpd",
+      "perception": "foundationstereo",
+      "grasp": "gpd"
+    },
+    {
+      "arm": "foundationstereo__graspnet_baseline",
+      "perception": "foundationstereo",
+      "grasp": "graspnet_baseline"
+    }
+  ],
+  "platforms": [
+    "franka_isaac",
+    "franka_mujoco"
+  ],
+  "seeds": [
+    0
+  ],
+  "objects": 58,
+  "scenes": 696,
+  "expected_outcomes": 16704,
+  "selected_fusion": "adaptive_v6_thin_support",
+  "primary_metric": "object_any_success_in_12_predeclared_scenes",
+  "source_plan": "reports/comparison_seed0_v1_plan.md",
+  "user_authorization": "2026-10-15: design Goal and run; confirmed seven perception and four other grasp methods",
+  "old_queues_remain_stopped": true,
+  "source_selection_sha256": "9d5d3d1371c22e56697bcb579f146e63e3139dc0c0be0c022450c1ef2f980cdf"
+}

@@ -1,0 +1,33 @@
+# Research management and manuscript files are outside this release.
+/latex/
+/CODEX_HANDOFF.md
+/GOAL.md
+/README.md
+/ops/
+/web/
+/reports/
+
+# Generated experiments and external assets stay outside version control.
+/work/
+/workspace/
+/runs/
+/datasets/
+/runtime_workspace/
+/.venv*/
+**/.venv*/
+/dependencies/**/upstream/
+/dependencies/assets/menagerie/
+**/__pycache__/
+*.pyc
+.DS_Store
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+*.log
+*.tmp
+**/.env
+**/.env.*
+*.pem
+*.key

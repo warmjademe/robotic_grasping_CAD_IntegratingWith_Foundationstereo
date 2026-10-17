@@ -1,0 +1,20 @@
+{
+  "scene_id": "itodd_000016_p03_bin_walls",
+  "split": "formal",
+  "object_id": "itodd_000016",
+  "condition": "bin_walls",
+  "target_roi_world_m": {
+    "min": [
+      -0.18,
+      -0.18,
+      -0.001
+    ],
+    "max": [
+      0.18,
+      0.18,
+      0.3
+    ]
+  },
+  "known_table_height_m": 0.0,
+  "target_selection": "Fixed common task region and RGB foreground; no pose/depth/mask truth"
+}

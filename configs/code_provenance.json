@@ -1,0 +1,609 @@
+{
+  "schema_version": 1,
+  "selected_method": "adaptive_v6_thin_support",
+  "source_study": "comparison_seed0_v1; rq3_source_ablation_seed0_v1",
+  "numerical_core_byte_identical": [
+    "code/runtime/adaptive_fusion_v6.py",
+    "code/runtime/refined_v6.py",
+    "code/runtime/geometry_v6.py",
+    "code/runtime/plan.py",
+    "code/runtime/run_mujoco.py",
+    "code/runtime/visual_preprocessing.py",
+    "code/runtime/graspgen_unique_voxels.py",
+    "code/runtime/candidate_order.py",
+    "code/runtime/scenes.py"
+  ],
+  "preserved_function_ast": [
+    "code/runtime/common.py:translation",
+    "code/runtime/common.py:pose7",
+    "code/runtime/common.py:transform",
+    "code/runtime/common.py:voxel",
+    "code/runtime/common.py:interpolate",
+    "code/runtime/common.py:command",
+    "code/runtime/common.py:outcome",
+    "dependencies/grasp_modules/baseline_graspgen/ops/run_inference.py:seed_all",
+    "dependencies/grasp_modules/baseline_graspgen/ops/run_inference.py:validate",
+    "code/summarize_main_geometry.py:groups_for"
+  ],
+  "release_changes": [
+    "Environment-based paths replace private workspace locations.",
+    "Fresh preparation and explicit stage runner replace historical queue preparation/reuse chains.",
+    "Unreachable FANUC planning/dispatch branches removed; Panda path retained.",
+    "Unused historical demos removed from GraspGen validation helper; imported seed/validation functions unchanged.",
+    "Old two-method geometry CLI removed; groups_for unchanged and current CLI takes explicit study."
+  ],
+  "files": [
+    {
+      "path": "code/audit_physical_records.py",
+      "bytes": 5833,
+      "sha256": "99c57699caaa31d59cbdd624500bcea3ddc65fd76cc6b0bff99a9ea3e3842dbc",
+      "source_sha256": "99c57699caaa31d59cbdd624500bcea3ddc65fd76cc6b0bff99a9ea3e3842dbc",
+      "byte_identical": true,
+      "source_snapshot": "code/audit_physical_records.py"
+    },
+    {
+      "path": "code/coverage_metrics.py",
+      "bytes": 3331,
+      "sha256": "e85d05ad8d135051ecee3e2250700fe0e1be875b19a62efba43102f0e5453ad4",
+      "source_sha256": "e85d05ad8d135051ecee3e2250700fe0e1be875b19a62efba43102f0e5453ad4",
+      "byte_identical": true,
+      "source_snapshot": "code/coverage_metrics.py"
+    },
+    {
+      "path": "code/dependencies.py",
+      "bytes": 2510,
+      "sha256": "8a7bb559a97309089d8efd380197e3c9017e2859ce5f182d9ae724408be57295",
+      "source_snapshot": "release_adapter_or_dependency_metadata"
+    },
+    {
+      "path": "code/export_fused_inputs.py",
+      "bytes": 1336,
+      "sha256": "3c316c8e2004941027aebb1f57ccb17826f58085e37da1dd71b0835b0ec01480",
+      "source_sha256": "3c316c8e2004941027aebb1f57ccb17826f58085e37da1dd71b0835b0ec01480",
+      "byte_identical": true,
+      "source_snapshot": "code/export_fused_inputs.py"
+    },
+    {
+      "path": "code/offline_entrypoint.py",
+      "bytes": 3439,
+      "sha256": "2a1b5d0b98a1006fe7591039d894c95a94de9ded60c91610eb6fd0d2601024bc",
+      "source_sha256": "2a1b5d0b98a1006fe7591039d894c95a94de9ded60c91610eb6fd0d2601024bc",
+      "byte_identical": true,
+      "source_snapshot": "code/offline_entrypoint.py"
+    },
+    {
+      "path": "code/prepare_assets.py",
+      "bytes": 3769,
+      "sha256": "ada46c5adba4980a3aa1611a3a51b4fca716aa9ba41fe1f07604e05e4fcdd289",
+      "source_snapshot": "release_adapter_or_dependency_metadata"
+    },
+    {
+      "path": "code/prepare_experiment.py",
+      "bytes": 6804,
+      "sha256": "bbe36d52947f8a0d43961dc0b34035c3ecf9dac6e29cf02a33799356a73c8144",
+      "source_snapshot": "release_adapter_or_dependency_metadata"
+    },
+    {
+      "path": "code/project_common.py",
+      "bytes": 769,
+      "sha256": "c855d278c8535706b5e14ad72a80fbe7f87dd3228577948840f07f7006d288ae",
+      "source_sha256": "3ba353eff42e546a504a357e365fccdcef8807088394478bac0d7fbb8874d731",
+      "byte_identical": false,
+      "source_snapshot": "code/project_common.py"
+    },
+    {
+      "path": "code/rq3_ablation_clouds.py",
+      "bytes": 5964,
+      "sha256": "c841486bd50b3815c1c96ad3bd10cf58bcc97fe17a58b6138a216e58d683461b",
+      "source_sha256": "c841486bd50b3815c1c96ad3bd10cf58bcc97fe17a58b6138a216e58d683461b",
+      "byte_identical": true,
+      "source_snapshot": "code/rq3_ablation_clouds.py"
+    },
+    {
+      "path": "code/rq3_ablation_metrics.py",
+      "bytes": 4191,
+      "sha256": "544bec5b7cbeab55146b4b40e4cc8c4d338d81f9b3cb6ca3886f20c7ffb32c58",
+      "source_sha256": "544bec5b7cbeab55146b4b40e4cc8c4d338d81f9b3cb6ca3886f20c7ffb32c58",
+      "byte_identical": true,
+      "source_snapshot": "code/rq3_ablation_metrics.py"
+    },
+    {
+      "path": "code/run_experiment.py",
+      "bytes": 7009,
+      "sha256": "40b17ac0205ef7ede7b157ab3adda83214cef73292d17bee9320d76eb72c05ab",
+      "source_snapshot": "release_adapter_or_dependency_metadata"
+    },
+    {
+      "path": "code/runtime/adaptive_fusion_v6.py",
+      "bytes": 11615,
+      "sha256": "d5a2ba8d723f8cd9c38f231ae34791636b87a9a74573bc960a7128681a0ca685",
+      "source_sha256": "d5a2ba8d723f8cd9c38f231ae34791636b87a9a74573bc960a7128681a0ca685",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/adaptive_fusion_v6.py"
+    },
+    {
+      "path": "code/runtime/candidate_order.py",
+      "bytes": 798,
+      "sha256": "fae92f24d8567da31848b7c1fad47a5a50383becff482366bbced507f90e5e43",
+      "source_sha256": "fae92f24d8567da31848b7c1fad47a5a50383becff482366bbced507f90e5e43",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/candidate_order.py"
+    },
+    {
+      "path": "code/runtime/common.py",
+      "bytes": 4372,
+      "sha256": "e24a97e3b30b1977e1aa9fa5f71189257b8d9dcc8f2d641ffc937ae906bdd402",
+      "source_sha256": "75d928e8cc22e77d34ac4f8f9a8c0a06b862f1a2bd02062fbe89e86e083c9d7c",
+      "byte_identical": false,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/common.py"
+    },
+    {
+      "path": "code/runtime/export_fused_inputs.py",
+      "bytes": 1336,
+      "sha256": "3c316c8e2004941027aebb1f57ccb17826f58085e37da1dd71b0835b0ec01480",
+      "source_sha256": "3c316c8e2004941027aebb1f57ccb17826f58085e37da1dd71b0835b0ec01480",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/export_fused_inputs.py"
+    },
+    {
+      "path": "code/runtime/franka_kinematics.py",
+      "bytes": 5901,
+      "sha256": "c1d601871b66bb4df2bd3d358caed6c52ea8ed27d122827afbb84b60f5749a8a",
+      "source_sha256": "3d428c974f02d1dfce8ac29a3917d52bcb87dabf646d167e2a9c131928986819",
+      "byte_identical": false,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/franka_kinematics.py"
+    },
+    {
+      "path": "code/runtime/freeze_inputs.py",
+      "bytes": 1038,
+      "sha256": "00db5d2e20112d4450e644b2a49487f1ec63ee2d0c5ebafd654f668d4043f5b8",
+      "source_sha256": "00db5d2e20112d4450e644b2a49487f1ec63ee2d0c5ebafd654f668d4043f5b8",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/freeze_inputs.py"
+    },
+    {
+      "path": "code/runtime/fusion_common.py",
+      "bytes": 142,
+      "sha256": "74033500a91dbad2485803ac8d139b21aa9f0fe813f45e7420aa7f5d54c365b0",
+      "source_sha256": "74033500a91dbad2485803ac8d139b21aa9f0fe813f45e7420aa7f5d54c365b0",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/fusion_common.py"
+    },
+    {
+      "path": "code/runtime/generate_grasps.py",
+      "bytes": 6801,
+      "sha256": "bf3ca97f38882b39e482af3e132ef909e57db0e8ab39ab1adeab18621704a155",
+      "source_sha256": "55ebe9015652c9f9560fc577f5c2562130bf0dde44a292707fc41951133c56ad",
+      "byte_identical": false,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/generate_grasps.py"
+    },
+    {
+      "path": "code/runtime/geometry_v6.py",
+      "bytes": 14746,
+      "sha256": "b093ac0882dc491d33ea8f059f723dacf5700d31250d60ffa53c69a849eac287",
+      "source_sha256": "b093ac0882dc491d33ea8f059f723dacf5700d31250d60ffa53c69a849eac287",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/geometry_v6.py"
+    },
+    {
+      "path": "code/runtime/graspgen_unique_voxels.py",
+      "bytes": 1829,
+      "sha256": "8ce0ffabaa36c89c7d45c8a0c64f2bc105ae88ad40b7991c1ef7f356a3dd8f4e",
+      "source_sha256": "8ce0ffabaa36c89c7d45c8a0c64f2bc105ae88ad40b7991c1ef7f356a3dd8f4e",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/graspgen_unique_voxels.py"
+    },
+    {
+      "path": "code/runtime/inference_failures.py",
+      "bytes": 1778,
+      "sha256": "9ea7997cb01a672bb24966df2795d85be7683b33a70ff122858a6c3b4090c82d",
+      "source_sha256": "9ea7997cb01a672bb24966df2795d85be7683b33a70ff122858a6c3b4090c82d",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/inference_failures.py"
+    },
+    {
+      "path": "code/runtime/perceive.py",
+      "bytes": 4261,
+      "sha256": "567c070bb9bd582bbd4ce258b0c57adaab664a007672809111ebde05c58ea0c4",
+      "source_sha256": "567c070bb9bd582bbd4ce258b0c57adaab664a007672809111ebde05c58ea0c4",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/perceive.py"
+    },
+    {
+      "path": "code/runtime/perception_backend.py",
+      "bytes": 15408,
+      "sha256": "e6fec8a1eedabd6fc54f8e90a4bfa12084a0496a417fad5468c1f84c3b522300",
+      "source_sha256": "c29f79e9289803c0a5cb3c178b98845d6f3bb4f2de3594b1b1fda3de61573434",
+      "byte_identical": false,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/perception_backend.py"
+    },
+    {
+      "path": "code/runtime/physics_batch.py",
+      "bytes": 6146,
+      "sha256": "bfb6c19c502fc05ab55417efa689e640bb736386ee3127cf5f264b83c0447fcd",
+      "source_sha256": "3787d1008ace1b6cccda9ebf77d53252829f4ef04553ec971f53fa363d75be15",
+      "byte_identical": false,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/physics_batch.py"
+    },
+    {
+      "path": "code/runtime/plan.py",
+      "bytes": 5875,
+      "sha256": "96fd88967f56735f03bce5755bc546eea86706e5c2f35a1581aa9ca056891565",
+      "source_sha256": "96fd88967f56735f03bce5755bc546eea86706e5c2f35a1581aa9ca056891565",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/plan.py"
+    },
+    {
+      "path": "code/runtime/plan_batch.py",
+      "bytes": 1862,
+      "sha256": "4900fbedffe6001d987bcf4a59a3b67ba6106c43cc458c59cf491392753b894c",
+      "source_sha256": "42d6d5e50bb93323e6bf3ecbf2c397253fbb6499ff068782e0aa23cae6600b59",
+      "byte_identical": false,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/plan_batch.py"
+    },
+    {
+      "path": "code/runtime/preprocessing_v1.json",
+      "bytes": 895,
+      "sha256": "02008b95a6e84f35d48f5442f017c98d05022c30dff5b2fdfc1bc01af8b5feb7",
+      "source_sha256": "02008b95a6e84f35d48f5442f017c98d05022c30dff5b2fdfc1bc01af8b5feb7",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/preprocessing_v1.json"
+    },
+    {
+      "path": "code/runtime/refined_v6.py",
+      "bytes": 5567,
+      "sha256": "411cf5c90fb933f731ec7216942f1178768203f7eb28ed0225129a667f8422c6",
+      "source_sha256": "411cf5c90fb933f731ec7216942f1178768203f7eb28ed0225129a667f8422c6",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/refined_v6.py"
+    },
+    {
+      "path": "code/runtime/refresh_manifest.py",
+      "bytes": 669,
+      "sha256": "d3725a86bce5050455ee24871c2d693484a52e7909acd1910f66b052a8cf2066",
+      "source_sha256": "d3725a86bce5050455ee24871c2d693484a52e7909acd1910f66b052a8cf2066",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/refresh_manifest.py"
+    },
+    {
+      "path": "code/runtime/render_stereo_isaac.py",
+      "bytes": 6353,
+      "sha256": "2d44f12becfec5266a3eec8fa5642e9e905a5c07c66aa7dee43a96d38b9ddc22",
+      "source_sha256": "2d44f12becfec5266a3eec8fa5642e9e905a5c07c66aa7dee43a96d38b9ddc22",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/render_stereo_isaac.py"
+    },
+    {
+      "path": "code/runtime/reverse_stereo.py",
+      "bytes": 4453,
+      "sha256": "3201245cc5db3209d7ffabe6caf22d5d5f54a7650e18a873160705514819145e",
+      "source_sha256": "3201245cc5db3209d7ffabe6caf22d5d5f54a7650e18a873160705514819145e",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/reverse_stereo.py"
+    },
+    {
+      "path": "code/runtime/run_isaac.py",
+      "bytes": 14454,
+      "sha256": "44cf7d10b868f46251488660af2d150b71921309432efafd2f8cff6ea55ee83d",
+      "source_sha256": "a7ddcb6de93355e5590b5c5972a99e57c49bdbccb8ff21417cc4c502f1140608",
+      "byte_identical": false,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/run_isaac.py"
+    },
+    {
+      "path": "code/runtime/run_mujoco.py",
+      "bytes": 11159,
+      "sha256": "9c11ac593808de1e9bf2eef119ba6894ff2577331c0fbcbe964a9970773f4d8d",
+      "source_sha256": "9c11ac593808de1e9bf2eef119ba6894ff2577331c0fbcbe964a9970773f4d8d",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/run_mujoco.py"
+    },
+    {
+      "path": "code/runtime/scenes.py",
+      "bytes": 2437,
+      "sha256": "0f26052bc10005fedeedad324a9fd36f5f685e24e2d66cb72d6e35f2f3972073",
+      "source_sha256": "0f26052bc10005fedeedad324a9fd36f5f685e24e2d66cb72d6e35f2f3972073",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/scenes.py"
+    },
+    {
+      "path": "code/runtime/summarize.py",
+      "bytes": 582,
+      "sha256": "a007e85bdb44a966276f10ec39b22e086fdb3f13ad98eed836dbd7ea67ce9318",
+      "source_sha256": "a007e85bdb44a966276f10ec39b22e086fdb3f13ad98eed836dbd7ea67ce9318",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/summarize.py"
+    },
+    {
+      "path": "code/runtime/validate_dataset.py",
+      "bytes": 3284,
+      "sha256": "3969f3ae3b4f24548959bb49acea8c82603cc4ede2adae2729a2e7bfc5ad4002",
+      "source_sha256": "3969f3ae3b4f24548959bb49acea8c82603cc4ede2adae2729a2e7bfc5ad4002",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/validate_dataset.py"
+    },
+    {
+      "path": "code/runtime/visual_preprocessing.py",
+      "bytes": 3554,
+      "sha256": "10bcf087a3f0fd4f0c1f2dabf9d6ec8b16a44787f333768f0fe2452c386eb6fe",
+      "source_sha256": "10bcf087a3f0fd4f0c1f2dabf9d6ec8b16a44787f333768f0fe2452c386eb6fe",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/code/visual_preprocessing.py"
+    },
+    {
+      "path": "code/single_run_metrics.py",
+      "bytes": 31162,
+      "sha256": "dd8f5906e0eabdb80d9e61e9fa82e89a7a1ab8e28988548a0e970b25679a46de",
+      "source_sha256": "dd8f5906e0eabdb80d9e61e9fa82e89a7a1ab8e28988548a0e970b25679a46de",
+      "byte_identical": true,
+      "source_snapshot": "code/single_run_metrics.py"
+    },
+    {
+      "path": "code/single_run_perception.py",
+      "bytes": 8672,
+      "sha256": "188e2c00909d22cab3f597c6a969200e23b78f847fafee9c7a0f0ba91b23583d",
+      "source_sha256": "188e2c00909d22cab3f597c6a969200e23b78f847fafee9c7a0f0ba91b23583d",
+      "byte_identical": true,
+      "source_snapshot": "code/single_run_perception.py"
+    },
+    {
+      "path": "code/study_scene_geometry.py",
+      "bytes": 2825,
+      "sha256": "f1caeed399bc53626a361d5af20fbab14926446e6c8a8a8499426d735885d39a",
+      "source_sha256": "f1caeed399bc53626a361d5af20fbab14926446e6c8a8a8499426d735885d39a",
+      "byte_identical": true,
+      "source_snapshot": "code/study_scene_geometry.py"
+    },
+    {
+      "path": "code/summarize_main_geometry.py",
+      "bytes": 1177,
+      "sha256": "53f377fc5f9a1a3e7922237867256fe0a7ccc7e5383e7fa67cc67a5d8d5a50e4",
+      "source_sha256": "a44f57afea9fc0f9a4b2ff73adc5989ddb3032c4a6bc6ae482fadaad1abe8af5",
+      "byte_identical": false,
+      "source_snapshot": "code/summarize_main_geometry.py"
+    },
+    {
+      "path": "configs/adaptive_v6.json",
+      "bytes": 3087,
+      "sha256": "dbbae448bc560d86d2ca580836df15991521ff9071d24059ea8027a75eec671d",
+      "source_sha256": "dbbae448bc560d86d2ca580836df15991521ff9071d24059ea8027a75eec671d",
+      "byte_identical": true,
+      "source_snapshot": "protocols/adaptive_v6.json"
+    },
+    {
+      "path": "configs/batch_objects.json",
+      "bytes": 1395,
+      "sha256": "a33800e99ac3c89056fd1e1a27d32f3edb105ca53c388526472a83019be6daad",
+      "source_snapshot": "release_adapter_or_dependency_metadata"
+    },
+    {
+      "path": "configs/dataset_sources.json",
+      "bytes": 1985,
+      "sha256": "332802b0185c54be87650120c70c2d72ce0ee765ef08698412ed29863287ef59",
+      "source_sha256": "332802b0185c54be87650120c70c2d72ce0ee765ef08698412ed29863287ef59",
+      "byte_identical": true,
+      "source_snapshot": "protocols/dataset_sources.json"
+    },
+    {
+      "path": "configs/environments.json",
+      "bytes": 1469,
+      "sha256": "e7287beb8e965af024e75354a52e2b652609d92b10a584d8c6d77f0a0828e2d9",
+      "source_snapshot": "release_adapter_or_dependency_metadata"
+    },
+    {
+      "path": "configs/model_weights.json",
+      "bytes": 6752,
+      "sha256": "5fda92036263c18d0c75efcd806a9f19c6c0bb3476e1ab47dfb7156f9126c041",
+      "source_snapshot": "release_adapter_or_dependency_metadata"
+    },
+    {
+      "path": "configs/preprocessing_v1.json",
+      "bytes": 895,
+      "sha256": "02008b95a6e84f35d48f5442f017c98d05022c30dff5b2fdfc1bc01af8b5feb7",
+      "source_sha256": "02008b95a6e84f35d48f5442f017c98d05022c30dff5b2fdfc1bc01af8b5feb7",
+      "byte_identical": true,
+      "source_snapshot": "protocols/preprocessing_v1.json"
+    },
+    {
+      "path": "configs/protocol.json",
+      "bytes": 10888,
+      "sha256": "39852caa9f570051e0a73586a8cbc52b1c2fe04c9980a7c4c44a4158709dc450",
+      "source_sha256": "39852caa9f570051e0a73586a8cbc52b1c2fe04c9980a7c4c44a4158709dc450",
+      "byte_identical": true,
+      "source_snapshot": "runs/comparison_seed0_v1/batches/batch_000_baselines/protocols/protocol.json"
+    },
+    {
+      "path": "configs/upstream_sources.json",
+      "bytes": 7696,
+      "sha256": "093107214f583d1e4091e78bfbfb74e9c149fa302bf3f90657fe5d1bb7d7f570",
+      "source_snapshot": "release_adapter_or_dependency_metadata"
+    },
+    {
+      "path": "configs/workcell_v1.json",
+      "bytes": 1199,
+      "sha256": "e3832a08aa2e9858c9c50e4aa4a2952e164013b586db644d1196d940ecf307aa",
+      "source_sha256": "e3832a08aa2e9858c9c50e4aa4a2952e164013b586db644d1196d940ecf307aa",
+      "byte_identical": true,
+      "source_snapshot": "protocols/workcell_v1.json"
+    },
+    {
+      "path": "dependencies/assets/calibration_cube.obj",
+      "bytes": 425,
+      "sha256": "241d4aa3245b7a3ee286378a2a54486918b6dc397b4fb5c1e3d0d7eabf48c94c",
+      "source_snapshot": "release_adapter_or_dependency_metadata"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_gpd/CMakeLists.txt",
+      "bytes": 648,
+      "sha256": "ab57c929427159ca4b48b440d3b328cae122d52476f2e30a531e8818973a12df",
+      "source_sha256": "ab57c929427159ca4b48b440d3b328cae122d52476f2e30a531e8818973a12df",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/baseline_gpd/CMakeLists.txt"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_gpd/UPSTREAM_LICENSE.md",
+      "bytes": 1320,
+      "sha256": "683bd5d9bf60bca43d3c1f9b0207d161d1121d128d2ff6049207b34be4f96267",
+      "source_sha256": "683bd5d9bf60bca43d3c1f9b0207d161d1121d128d2ff6049207b34be4f96267",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/baseline_gpd/upstream/gpd/LICENSE.md"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_gpd/backend.py",
+      "bytes": 11704,
+      "sha256": "8b748a84b67fca5990a90c4dcd95d58ff67b04487524410e650951cb797d27b5",
+      "source_sha256": "8b748a84b67fca5990a90c4dcd95d58ff67b04487524410e650951cb797d27b5",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/baseline_gpd/backend.py"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_gpd/bridge.cpp",
+      "bytes": 1593,
+      "sha256": "ba25568d0c42872fe021e46f8ae0d2cd79fff631a35b714645654bb706e1b5e1",
+      "source_sha256": "ba25568d0c42872fe021e46f8ae0d2cd79fff631a35b714645654bb706e1b5e1",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/baseline_gpd/bridge.cpp"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_gpd/build.sh",
+      "bytes": 567,
+      "sha256": "221c5461ed436f672e527b037409838e40d99308c64f7079450a31c8467558d1",
+      "source_sha256": "221c5461ed436f672e527b037409838e40d99308c64f7079450a31c8467558d1",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/baseline_gpd/build.sh"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_gpd/build_compatibility.patch",
+      "bytes": 1979,
+      "sha256": "6627b4df02d1b011dda4cab29ffeda125e7e64816a8a11e2a0c6e4a919c39516",
+      "source_sha256": "6627b4df02d1b011dda4cab29ffeda125e7e64816a8a11e2a0c6e4a919c39516",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/baseline_gpd/build_compatibility.patch"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_gpd/model_manifest.json",
+      "bytes": 1672,
+      "sha256": "40a8b8d4c1162e4394ddc65d5862fe79866299bfb4278b10299471af2d99ca3c",
+      "source_sha256": "40a8b8d4c1162e4394ddc65d5862fe79866299bfb4278b10299471af2d99ca3c",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/baseline_gpd/model_manifest.json"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_graspgen/ops/build_pointnet.sh",
+      "bytes": 758,
+      "sha256": "7f6c9d88d764bdc410d32972c14ed0c82a8b280a5365def667645b21d90eaa42",
+      "source_sha256": "7f6c9d88d764bdc410d32972c14ed0c82a8b280a5365def667645b21d90eaa42",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/baseline_graspgen/ops/build_pointnet.sh"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_graspgen/ops/requirements-inference.txt",
+      "bytes": 554,
+      "sha256": "e34ca43cc03eeda89f91c1be87c803359cd9f58dc913d763856c9107441be57b",
+      "source_sha256": "e34ca43cc03eeda89f91c1be87c803359cd9f58dc913d763856c9107441be57b",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/baseline_graspgen/ops/requirements-inference.txt"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_graspgen/ops/run_inference.py",
+      "bytes": 1157,
+      "sha256": "35d4c35b093b5c401be6937f8b721d0a0c027b885e7d5e81918d510a802b7994",
+      "source_sha256": "b241986d49a944ad61c8c04d1e8de1c22801e98d1b1fa5fe7a03d40bdd810462",
+      "byte_identical": false,
+      "source_snapshot": "grasp_adapter_sources/baseline_graspgen/ops/run_inference.py"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_graspnet_baseline/backend.py",
+      "bytes": 10676,
+      "sha256": "3232299086a7924c8af906896c255fbb183e96802007c5138378af5b24c9922b",
+      "source_sha256": "3232299086a7924c8af906896c255fbb183e96802007c5138378af5b24c9922b",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/baseline_graspnet_baseline/backend.py"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_graspnet_baseline/build_ops.sh",
+      "bytes": 769,
+      "sha256": "2bd3b38c716f1268bf24ff1f16fded7b0a6992bf8d262811461617a1bdb207c7",
+      "source_sha256": "e4125a950a57636c8e20c8c6cc18ca6bc2aab617a23b283e6f2c731bd7eda796",
+      "byte_identical": false,
+      "source_snapshot": "grasp_adapter_sources/baseline_graspnet_baseline/build_ops.sh"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_graspnet_baseline/models/provenance.json",
+      "bytes": 780,
+      "sha256": "637ca73114d95fe38904cb5293f4dc67febf5c77a522d141d4771eec8252a07d",
+      "source_snapshot": "release_adapter_or_dependency_metadata"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_graspnet_baseline/validate_cuda_ops.py",
+      "bytes": 3104,
+      "sha256": "d0eb770be10b644287bc82fe48c679046855559affaa82ae2c20bfb88937bfdd",
+      "source_sha256": "d0eb770be10b644287bc82fe48c679046855559affaa82ae2c20bfb88937bfdd",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/baseline_graspnet_baseline/validate_cuda_ops.py"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_runtime/build_tf_ops.py",
+      "bytes": 3113,
+      "sha256": "8027788fb23694439811c6ea2e0126896cb13fc83b53bf6fad00f113eed82b20",
+      "source_sha256": "3dd0565d664f654be98be3001d6b7b21258e81f55eb24155e52c27581dd65173",
+      "byte_identical": false,
+      "source_snapshot": "grasp_adapter_sources/baseline_runtime/build_tf_ops.py"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_runtime/prepare_6dof_compat.py",
+      "bytes": 2294,
+      "sha256": "5eb5d6dcba5aab4c8a828eb79b951907c485a97ef15c61e4090d4fbbbd34ab49",
+      "source_sha256": "5eb5d6dcba5aab4c8a828eb79b951907c485a97ef15c61e4090d4fbbbd34ab49",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/baseline_runtime/prepare_6dof_compat.py"
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_runtime/validate_tf_ops.py",
+      "bytes": 1844,
+      "sha256": "281093899791c1c1b09942d505a9c6dc110b2f5d19d3f9278bfab32b08422e3b",
+      "source_sha256": "281093899791c1c1b09942d505a9c6dc110b2f5d19d3f9278bfab32b08422e3b",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/baseline_runtime/validate_tf_ops.py"
+    },
+    {
+      "path": "dependencies/grasp_modules/shared/backends.py",
+      "bytes": 7276,
+      "sha256": "7d1f832c16586aaba7251734a709fc4dbfb70fff253c8faf997bb151671576fb",
+      "source_sha256": "7d1f832c16586aaba7251734a709fc4dbfb70fff253c8faf997bb151671576fb",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/shared/backends.py"
+    },
+    {
+      "path": "dependencies/grasp_modules/shared/contract.py",
+      "bytes": 4562,
+      "sha256": "bc1da891fd618343b24deb76f19137f19e640f4b402c2d89368b886c759a6b5c",
+      "source_sha256": "bc1da891fd618343b24deb76f19137f19e640f4b402c2d89368b886c759a6b5c",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/shared/contract.py"
+    },
+    {
+      "path": "dependencies/grasp_modules/shared/infer.py",
+      "bytes": 9343,
+      "sha256": "532f1661fdab629382fe14cc7c4a740c6182c48d3de945e2618603d78fd7ad7f",
+      "source_sha256": "532f1661fdab629382fe14cc7c4a740c6182c48d3de945e2618603d78fd7ad7f",
+      "byte_identical": true,
+      "source_snapshot": "grasp_adapter_sources/shared/infer.py"
+    },
+    {
+      "path": "docs/REPRODUCING.md",
+      "bytes": 7455,
+      "sha256": "789c378bae1a30f0eb42621289e437239e39f1db6d7a4857884667587a1a7e15",
+      "source_snapshot": "release_adapter_or_dependency_metadata"
+    }
+  ],
+  "validation": {
+    "python_ast_files": 51,
+    "cad_assets_exact_hash_verified": 58,
+    "prepared_batches": 29,
+    "scheduled_main_outcomes": 16704,
+    "listed_stages_per_main_batch": 34,
+    "calibration_definitions_loaded": 4,
+    "gpu_inference_or_physics_rerun": false
+  },
+  "limitation": "New portability wrapper was not validated by a fresh complete GPU experiment. External model/software licenses and installation are required."
+}

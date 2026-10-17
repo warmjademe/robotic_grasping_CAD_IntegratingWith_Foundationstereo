@@ -1,0 +1,111 @@
+{
+  "scene_id": "tless_000028_p01_bin_walls",
+  "dataset": "tless",
+  "object_id": "tless_000028",
+  "placement": 1,
+  "condition": "bin_walls",
+  "previously_seen": false,
+  "placement_seed": 2026104302,
+  "episode_id": "tless_000028_p01_bin_walls",
+  "split": "formal",
+  "instances": [
+    {
+      "object_id": "tless_000028",
+      "instance_id": "target",
+      "role": "target",
+      "world_from_object": [
+        [
+          0.8745140966300847,
+          -0.4850000977270693,
+          0.0,
+          0.007794873580578322
+        ],
+        [
+          0.4850000977270693,
+          0.8745140966300847,
+          0.0,
+          -0.003430957460237246
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.001
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "scene_assets": [
+    {
+      "name": "table",
+      "extents_m": [
+        0.65,
+        0.5,
+        0.035
+      ],
+      "center_m": [
+        0,
+        0,
+        -0.0175
+      ]
+    },
+    {
+      "name": "wall0",
+      "extents_m": [
+        0.48,
+        0.012,
+        0.07
+      ],
+      "center_m": [
+        0,
+        -0.216,
+        0.035
+      ]
+    },
+    {
+      "name": "wall1",
+      "extents_m": [
+        0.48,
+        0.012,
+        0.07
+      ],
+      "center_m": [
+        0,
+        0.216,
+        0.035
+      ]
+    },
+    {
+      "name": "wall2",
+      "extents_m": [
+        0.012,
+        0.42,
+        0.07
+      ],
+      "center_m": [
+        -0.234,
+        0,
+        0.035
+      ]
+    },
+    {
+      "name": "wall3",
+      "extents_m": [
+        0.012,
+        0.42,
+        0.07
+      ],
+      "center_m": [
+        0.234,
+        0,
+        0.035
+      ]
+    }
+  ]
+}

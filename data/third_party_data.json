@@ -1,0 +1,22 @@
+{
+  "verified_at": "2026-10-17T00:05:58.650984+00:00",
+  "sources": [
+    {
+      "dataset": "T-LESS",
+      "license": "CC BY 4.0",
+      "official_page": "https://cmp.felk.cvut.cz/t-less/",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "dataset": "MVTec ITODD",
+      "license": "CC BY-NC-SA 4.0",
+      "official_page": "https://www.mvtec.com/research-teaching/datasets/mvtec-itodd",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "restriction": "Non-commercial use; attribution and applicable share-alike conditions apply."
+    }
+  ],
+  "policy": "This release does not bundle the third-party CAD meshes, images, derived geometry or model weights. Published catalog metadata retains upstream attribution and applicable source license terms. A repository code license does not replace dataset or model licenses.",
+  "github_limits_source": "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github",
+  "github_single_file_limit_bytes": 104857600,
+  "github_warning_threshold_bytes": 52428800
+}

@@ -1,0 +1,39 @@
+{
+  "official_repository": "https://github.com/atenpas/gpd",
+  "commit": "6327f20eabfcba41a05fdd2e2ba408153dc2e958",
+  "files": {
+    "upstream/gpd/models/lenet/15channels/params/conv1_biases.bin": {
+      "size_bytes": 80,
+      "sha256": "e69de1b76e24e6a4c7f257fce4832ab95e6ab67310d5bea5fbe6981a42d434fd"
+    },
+    "upstream/gpd/models/lenet/15channels/params/conv1_weights.bin": {
+      "size_bytes": 30000,
+      "sha256": "e1b8e411b9374b678d4c2b28d8fda435ba553611426c29b72afb24a01ccb9b38"
+    },
+    "upstream/gpd/models/lenet/15channels/params/conv2_biases.bin": {
+      "size_bytes": 200,
+      "sha256": "8b656f30d77e2cb622c615353644cd27ffe141920a7c4927a477463bc193605f"
+    },
+    "upstream/gpd/models/lenet/15channels/params/conv2_weights.bin": {
+      "size_bytes": 100000,
+      "sha256": "f443f2d10e5eb48bb0a58f693f7d4762e1e88262edbdf428c757856db7a1cbb9"
+    },
+    "upstream/gpd/models/lenet/15channels/params/ip1_biases.bin": {
+      "size_bytes": 2000,
+      "sha256": "f755ee9ab30fa9cdb78f1ab3cbc4bd390a0766837ea1ae2dfdd96757df6ee7f6"
+    },
+    "upstream/gpd/models/lenet/15channels/params/ip1_weights.bin": {
+      "size_bytes": 14400000,
+      "sha256": "b044440d422ead2fe99833548311d087ac1f30abc9ea2f23fa9115453f73b179"
+    },
+    "upstream/gpd/models/lenet/15channels/params/ip2_biases.bin": {
+      "size_bytes": 8,
+      "sha256": "88b15215d03a636ac524b76c1732ad3b01306b24e0a729c4c5ee328fbd112744"
+    },
+    "upstream/gpd/models/lenet/15channels/params/ip2_weights.bin": {
+      "size_bytes": 4000,
+      "sha256": "5ce3b298e4e1a657fa18d5a65e88fd120ba8d506b38e0cddc3ccad32d9bf530e"
+    }
+  },
+  "classifier": "official Eigen LeNet 15 channels"
+}

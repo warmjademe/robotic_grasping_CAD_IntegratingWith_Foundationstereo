@@ -1,0 +1,200 @@
+{
+  "note": "Repositories and assets are external dependencies, not redistributed by this release. Licenses must be reviewed before acquisition/use.",
+  "repositories": [
+    {
+      "group": "grasp_modules",
+      "path": "baseline_graspgen/upstream/GraspGen",
+      "url": "https://github.com/NVlabs/GraspGen.git",
+      "commit": "2dd8852e1be60f5f9d277fafcc621835cdf59110",
+      "recursive": true,
+      "license_files": [
+        {
+          "file": "LICENSE_ASSETS.md",
+          "sha256": "122f116a4486d0621aa1deaef3a4b1a2d998769ca5ee1cc438dbbda38b1263b2",
+          "url": "https://github.com/NVlabs/GraspGen/blob/2dd8852e1be60f5f9d277fafcc621835cdf59110/LICENSE_ASSETS.md"
+        },
+        {
+          "file": "LICENSE",
+          "sha256": "331251563dc621fa19009622e9824f644019111a2d07574445c7e97705fde532",
+          "url": "https://github.com/NVlabs/GraspGen/blob/2dd8852e1be60f5f9d277fafcc621835cdf59110/LICENSE"
+        }
+      ],
+      "patch": null
+    },
+    {
+      "group": "grasp_modules",
+      "path": "baseline_graspgen/upstream/GraspDataGen",
+      "url": "https://github.com/NVlabs/GraspDataGen.git",
+      "commit": "8e090052aff8f054a1141dfcbd6ac320d0fd3432",
+      "recursive": true,
+      "license_files": [
+        {
+          "file": "LICENSE-2.0.txt",
+          "sha256": "f3b0010bf4c91db44972d3c0bb73a25c346a9ed93c7e9c0f0712349a77f2d9d4",
+          "url": "https://github.com/NVlabs/GraspDataGen/blob/8e090052aff8f054a1141dfcbd6ac320d0fd3432/LICENSE-2.0.txt"
+        }
+      ],
+      "patch": null
+    },
+    {
+      "group": "grasp_modules",
+      "path": "baseline_graspgen/upstream/FoundationStereo",
+      "url": "https://github.com/NVlabs/FoundationStereo.git",
+      "commit": "6e8806816b533e4d13ddbb95ffa907b797060a62",
+      "recursive": true,
+      "license_files": [
+        {
+          "file": "LICENSE",
+          "sha256": "edc216df7d9ed4825550f0881ab6fca31ba79dd5694cd64c776e312821488e16",
+          "url": "https://github.com/NVlabs/FoundationStereo/blob/6e8806816b533e4d13ddbb95ffa907b797060a62/LICENSE"
+        }
+      ],
+      "patch": null
+    },
+    {
+      "group": "grasp_modules",
+      "path": "baseline_6dof_graspnet/upstream/6dof-graspnet",
+      "url": "https://github.com/NVlabs/6dof-graspnet.git",
+      "commit": "cd08b6c559e51a187ab65faea6415f51239808b8",
+      "recursive": true,
+      "license_files": [
+        {
+          "file": "TRAINED_MODEL_LICENSE",
+          "sha256": "17021e02c050e570e62c74ae9d54e642fa7a74af63f6dc55d2129181e95b0c63",
+          "url": "https://github.com/NVlabs/6dof-graspnet/blob/cd08b6c559e51a187ab65faea6415f51239808b8/TRAINED_MODEL_LICENSE"
+        },
+        {
+          "file": "LICENSE",
+          "sha256": "49c5dbb1196cadfcd9bf5e5e8fae13d69c986312e1207ff26bffd35877cf0dac",
+          "url": "https://github.com/NVlabs/6dof-graspnet/blob/cd08b6c559e51a187ab65faea6415f51239808b8/LICENSE"
+        }
+      ],
+      "patch": null
+    },
+    {
+      "group": "grasp_modules",
+      "path": "baseline_contact_graspnet/upstream/contact_graspnet",
+      "url": "https://github.com/NVlabs/contact_graspnet.git",
+      "commit": "721706067cc7f7889c32afe7b4f7955eb90bd866",
+      "recursive": true,
+      "license_files": [
+        {
+          "file": "License.pdf",
+          "sha256": "fc9bf53468b6458bdc32ed104e29573c8cbe3672b5acda638558db6f1994f925",
+          "url": "https://github.com/NVlabs/contact_graspnet/blob/721706067cc7f7889c32afe7b4f7955eb90bd866/License.pdf"
+        }
+      ],
+      "patch": null
+    },
+    {
+      "group": "grasp_modules",
+      "path": "baseline_gpd/upstream/gpd",
+      "url": "https://github.com/atenpas/gpd.git",
+      "commit": "6327f20eabfcba41a05fdd2e2ba408153dc2e958",
+      "recursive": true,
+      "license_files": [
+        {
+          "file": "LICENSE.md",
+          "sha256": "683bd5d9bf60bca43d3c1f9b0207d161d1121d128d2ff6049207b34be4f96267",
+          "url": "https://github.com/atenpas/gpd/blob/6327f20eabfcba41a05fdd2e2ba408153dc2e958/LICENSE.md"
+        }
+      ],
+      "patch": "dependencies/grasp_modules/baseline_gpd/build_compatibility.patch"
+    },
+    {
+      "group": "grasp_modules",
+      "path": "baseline_graspnet_baseline/upstream/graspnet-baseline",
+      "url": "https://github.com/graspnet/graspnet-baseline.git",
+      "commit": "280c215129f759ed8649cb4e89fc5dfee55f4f80",
+      "recursive": true,
+      "license_files": [
+        {
+          "file": "LICENSE",
+          "sha256": "acdeaedbed2d5b38b1fdacba406db53743d06a05f4220126bee91a548241f09b",
+          "url": "https://github.com/graspnet/graspnet-baseline/blob/280c215129f759ed8649cb4e89fc5dfee55f4f80/LICENSE"
+        }
+      ],
+      "patch": null
+    },
+    {
+      "group": "stereo_modules",
+      "path": "baseline_psmnet_raft_stereo/upstream/PSMNet",
+      "url": "https://github.com/JiaRenChang/PSMNet.git",
+      "commit": "87ac9093afbf6545c093bd9d26c5ffd66e49a7b8",
+      "recursive": true,
+      "license_files": [
+        {
+          "file": "LICENSE",
+          "sha256": "c00ee3bf6723487fce7927f5e978dcc675ef11f47ba20024681a400e2f167c96",
+          "url": "https://github.com/JiaRenChang/PSMNet/blob/87ac9093afbf6545c093bd9d26c5ffd66e49a7b8/LICENSE"
+        }
+      ],
+      "patch": null
+    },
+    {
+      "group": "stereo_modules",
+      "path": "baseline_psmnet_raft_stereo/upstream/RAFT-Stereo",
+      "url": "https://github.com/princeton-vl/RAFT-Stereo.git",
+      "commit": "6e93ed2169bd858dbb43033988563f3b0bb49506",
+      "recursive": true,
+      "license_files": [
+        {
+          "file": "LICENSE",
+          "sha256": "f134ad9e8937e5b9571867acea371a53d1f3d4ff6babdbcddd8f6e554ad467aa",
+          "url": "https://github.com/princeton-vl/RAFT-Stereo/blob/6e93ed2169bd858dbb43033988563f3b0bb49506/LICENSE"
+        }
+      ],
+      "patch": null
+    },
+    {
+      "group": "stereo_modules",
+      "path": "baseline_gwcnet/upstream/GwcNet",
+      "url": "https://github.com/xy-guo/GwcNet.git",
+      "commit": "0987074f48b098c6e975a58ca5aacf233b0fb0eb",
+      "recursive": true,
+      "license_files": [
+        {
+          "file": "LICENSE",
+          "sha256": "03aa6ea6118334c4f758ebd50fa7a2b1051bf41cc11a252589c7d4826ed5d1dd",
+          "url": "https://github.com/xy-guo/GwcNet/blob/0987074f48b098c6e975a58ca5aacf233b0fb0eb/LICENSE"
+        }
+      ],
+      "patch": null
+    },
+    {
+      "group": "stereo_modules",
+      "path": "baseline_igev_stereo/upstream/IGEV",
+      "url": "https://github.com/gangweiX/IGEV.git",
+      "commit": "4a3d937aab788b3ff3ed49b7b5c81340ab46a5eb",
+      "recursive": true,
+      "license_files": [
+        {
+          "file": "LICENSE",
+          "sha256": "46587a88824debe9aa75d3bf138aad64a3482a3ee2fa9472d25746d42f665729",
+          "url": "https://github.com/gangweiX/IGEV/blob/4a3d937aab788b3ff3ed49b7b5c81340ab46a5eb/LICENSE"
+        }
+      ],
+      "patch": null
+    },
+    {
+      "group": "assets",
+      "path": "menagerie",
+      "url": "https://github.com/google-deepmind/mujoco_menagerie.git",
+      "commit": "d7b481bac63d3d600ab404ee74f7474c5efe8a67",
+      "recursive": true,
+      "license_files": [
+        {
+          "file": "regenerate_license.py",
+          "sha256": "a7b47caa8734b29273a75a8f6bfaa03723f1a635261e7e026e098267b830074e",
+          "url": "https://github.com/google-deepmind/mujoco_menagerie/blob/d7b481bac63d3d600ab404ee74f7474c5efe8a67/regenerate_license.py"
+        },
+        {
+          "file": "LICENSE",
+          "sha256": "b1334631b1d7bd73394f95d3241d5110f98f7310ad08b17d3b113518dd967a5b",
+          "url": "https://github.com/google-deepmind/mujoco_menagerie/blob/d7b481bac63d3d600ab404ee74f7474c5efe8a67/LICENSE"
+        }
+      ],
+      "patch": null
+    }
+  ]
+}

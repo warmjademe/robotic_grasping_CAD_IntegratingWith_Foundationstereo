@@ -1,0 +1,59 @@
+{
+  "scene_id": "tless_000009_p01_single",
+  "dataset": "tless",
+  "object_id": "tless_000009",
+  "placement": 1,
+  "condition": "single",
+  "previously_seen": false,
+  "placement_seed": 2026102402,
+  "episode_id": "tless_000009_p01_single",
+  "split": "formal",
+  "instances": [
+    {
+      "object_id": "tless_000009",
+      "instance_id": "target",
+      "role": "target",
+      "world_from_object": [
+        [
+          0.8803771998624377,
+          0.4742741675048024,
+          0.0,
+          -0.018321264022174627
+        ],
+        [
+          -0.4742741675048024,
+          0.8803771998624377,
+          0.0,
+          -0.01890779176449421
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.001
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "scene_assets": [
+    {
+      "name": "table",
+      "extents_m": [
+        0.65,
+        0.5,
+        0.035
+      ],
+      "center_m": [
+        0,
+        0,
+        -0.0175
+      ]
+    }
+  ]
+}

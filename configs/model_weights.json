@@ -1,0 +1,175 @@
+{
+  "note": "Weights are not redistributed. Restore author downloads to these relative paths and check hashes. GraspNet-Baseline used a third-party mirror; identity to inaccessible official checkpoint was not confirmed.",
+  "weights": {
+    "6dof_graspnet": [
+      {
+        "group": "grasp_modules",
+        "path": "baseline_6dof_graspnet/models/ACRONYM_Evaluator/tf_output/model-733578.data-00000-of-00001",
+        "sha256": "e27fb52983e78eac8a40a5bc3f1f1fc428a940c035bcd69dca29d34c5d3a1e44",
+        "bytes": 7746828
+      },
+      {
+        "group": "grasp_modules",
+        "path": "baseline_6dof_graspnet/models/ACRONYM_Evaluator/tf_output/model-733578.index",
+        "sha256": "33e57a4ea59a2224551f52dc9fd9a5528325f1cd131c72aa6a74271672308d30",
+        "bytes": 2686
+      },
+      {
+        "group": "grasp_modules",
+        "path": "baseline_6dof_graspnet/models/ACRONYM_Evaluator/tf_output/model-733578.meta",
+        "sha256": "c3438bd67adcf14178741ea2f79e9a35d5078e0ef720a2bace9968af9e60cfc6",
+        "bytes": 20582089
+      },
+      {
+        "group": "grasp_modules",
+        "path": "baseline_6dof_graspnet/models/ACRONYM_VAE/tf_output/model-4004506.data-00000-of-00001",
+        "sha256": "4d1157d160d2b4ba2d9c4a085f7744eb4f582c52e81c8c85421122e4e32af6f6",
+        "bytes": 7767584
+      },
+      {
+        "group": "grasp_modules",
+        "path": "baseline_6dof_graspnet/models/ACRONYM_VAE/tf_output/model-4004506.index",
+        "sha256": "8a2e02d7f7ba4f6b720f821d621441b6992282d48e39a66e8b0773687fe72262",
+        "bytes": 2730
+      },
+      {
+        "group": "grasp_modules",
+        "path": "baseline_6dof_graspnet/models/ACRONYM_VAE/tf_output/model-4004506.meta",
+        "sha256": "deaf2cafe215ff1a6bcccb1a75506d70515a558b342ce24d9f49ff39e1d318ad",
+        "bytes": 717715
+      }
+    ],
+    "contact_graspnet": [
+      {
+        "group": "grasp_modules",
+        "path": "baseline_contact_graspnet/models/scene_test_2048_bs3_hor_sigma_001/model.ckpt-54054.data-00000-of-00001",
+        "sha256": "992e15e60e353796542f44acb33f062cbb7d9a313f42a13b420cf4d0c0275de2",
+        "bytes": 27860696
+      },
+      {
+        "group": "grasp_modules",
+        "path": "baseline_contact_graspnet/models/scene_test_2048_bs3_hor_sigma_001/model.ckpt-54054.index",
+        "sha256": "bca416d9e9790db7dd504c7d9cee67105f9def70e053f7e0910909b5db994885",
+        "bytes": 21228
+      }
+    ],
+    "graspnet_baseline": [
+      {
+        "group": "grasp_modules",
+        "path": "baseline_graspnet_baseline/models/checkpoint-rs-mirror.tar",
+        "sha256": "60680087c61cba2b6791614fef1519071e294f6dcaf99b3f581bb95f7c51a868",
+        "bytes": 12468415
+      }
+    ],
+    "gpd": [
+      {
+        "group": "grasp_modules",
+        "path": "baseline_gpd/upstream/gpd/models/lenet/15channels/params/conv1_biases.bin",
+        "sha256": "e69de1b76e24e6a4c7f257fce4832ab95e6ab67310d5bea5fbe6981a42d434fd",
+        "bytes": 80
+      },
+      {
+        "group": "grasp_modules",
+        "path": "baseline_gpd/upstream/gpd/models/lenet/15channels/params/conv1_weights.bin",
+        "sha256": "e1b8e411b9374b678d4c2b28d8fda435ba553611426c29b72afb24a01ccb9b38",
+        "bytes": 30000
+      },
+      {
+        "group": "grasp_modules",
+        "path": "baseline_gpd/upstream/gpd/models/lenet/15channels/params/conv2_biases.bin",
+        "sha256": "8b656f30d77e2cb622c615353644cd27ffe141920a7c4927a477463bc193605f",
+        "bytes": 200
+      },
+      {
+        "group": "grasp_modules",
+        "path": "baseline_gpd/upstream/gpd/models/lenet/15channels/params/conv2_weights.bin",
+        "sha256": "f443f2d10e5eb48bb0a58f693f7d4762e1e88262edbdf428c757856db7a1cbb9",
+        "bytes": 100000
+      },
+      {
+        "group": "grasp_modules",
+        "path": "baseline_gpd/upstream/gpd/models/lenet/15channels/params/ip1_biases.bin",
+        "sha256": "f755ee9ab30fa9cdb78f1ab3cbc4bd390a0766837ea1ae2dfdd96757df6ee7f6",
+        "bytes": 2000
+      },
+      {
+        "group": "grasp_modules",
+        "path": "baseline_gpd/upstream/gpd/models/lenet/15channels/params/ip1_weights.bin",
+        "sha256": "b044440d422ead2fe99833548311d087ac1f30abc9ea2f23fa9115453f73b179",
+        "bytes": 14400000
+      },
+      {
+        "group": "grasp_modules",
+        "path": "baseline_gpd/upstream/gpd/models/lenet/15channels/params/ip2_biases.bin",
+        "sha256": "88b15215d03a636ac524b76c1732ad3b01306b24e0a729c4c5ee328fbd112744",
+        "bytes": 8
+      },
+      {
+        "group": "grasp_modules",
+        "path": "baseline_gpd/upstream/gpd/models/lenet/15channels/params/ip2_weights.bin",
+        "sha256": "5ce3b298e4e1a657fa18d5a65e88fd120ba8d506b38e0cddc3ccad32d9bf530e",
+        "bytes": 4000
+      }
+    ],
+    "psmnet": [
+      {
+        "group": "stereo_modules",
+        "path": "baseline_psmnet_raft_stereo/models/psmnet_kitti2015.tar",
+        "sha256": "1ef1b757f0ca909c6fae20281dc0283965e8d47e034e47502dcb16f845ad143d",
+        "bytes": 21010037
+      }
+    ],
+    "raft_stereo": [
+      {
+        "group": "stereo_modules",
+        "path": "baseline_psmnet_raft_stereo/models/raftstereo-middlebury.pth",
+        "sha256": "d22e84c0e431bf31d7cc66902c40601859eb40b35ef7f4399ea81276c2915819",
+        "bytes": 44617876
+      }
+    ],
+    "gwcnet": [
+      {
+        "group": "stereo_modules",
+        "path": "baseline_gwcnet/models/sceneflow/gwcnet-gc/checkpoint_000015.ckpt",
+        "sha256": "95c9647f4896af1c9a3f2bb2e9989a569dde57c31b5a1b7830379b1d3434d13a",
+        "bytes": 83149942
+      }
+    ],
+    "igev_stereo": [
+      {
+        "group": "stereo_modules",
+        "path": "baseline_igev_stereo/models/sceneflow.pth",
+        "sha256": "ce482e600c5c08f647b2728553bec73e212ed965be43f7ec41ac6cfd2b11916d",
+        "bytes": 50808741
+      }
+    ],
+    "foundationstereo": [
+      {
+        "group": "grasp_modules",
+        "path": "baseline_graspgen/models/foundation_stereo/23-51-11/model_best_bp2.pth",
+        "sha256": "60e79bde9c6a00acea551625ff814fe06e5a6806e2c0c9829baee248de87c5f1",
+        "bytes": 3298527334
+      }
+    ],
+    "graspgen": [
+      {
+        "group": "runtime",
+        "path": "models/checkpoints/graspgen_franka_panda.yml",
+        "sha256": "3b666d28ffb91001ddb6ba24a2e0c11458478a986b808b493cf6fa9a987c2abd",
+        "bytes": 4868
+      },
+      {
+        "group": "runtime",
+        "path": "models/checkpoints/graspgen_franka_panda_dis.pth",
+        "sha256": "e47d703c63b54c2d11fbc1effd43898f251b4147250888541e3b16e9c0d19e1c",
+        "bytes": 165853892
+      },
+      {
+        "group": "runtime",
+        "path": "models/checkpoints/graspgen_franka_panda_gen.pth",
+        "sha256": "0597583b89b322d42ceb4e596967d6ed68d1b56cba4039895909ccd5bdc66eff",
+        "bytes": 907408223
+      }
+    ]
+  }
+}

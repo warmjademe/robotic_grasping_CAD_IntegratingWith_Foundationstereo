@@ -1,0 +1,637 @@
+{
+  "schema_version": 2,
+  "selected_method": "adaptive_v6_thin_support",
+  "previous_public_commit": "d36668a1643863863efade1b5987d0f0c4b1c0e1",
+  "numerical_core_byte_identical": [
+    "runtime/adaptive_fusion_v6.py",
+    "runtime/geometry_v6.py",
+    "runtime/refined_v6.py",
+    "runtime/visual_preprocessing.py",
+    "runtime/reverse_stereo.py",
+    "runtime/candidate_order.py",
+    "runtime/plan.py",
+    "runtime/run_isaac.py",
+    "runtime/run_mujoco.py"
+  ],
+  "preserved_function_ast": [
+    "RQ1/single_run_perception.py:all functions",
+    "RQ3/rq3_ablation_clouds.py:all functions",
+    "evidence_metrics.py:geometry_batch",
+    "RQ2/rq2_cross_grasp_inputs.py:arrays_and_metadata"
+  ],
+  "release_changes": [
+    "Fresh profile-based preparation; published per-condition seeds and platform dispatch.",
+    "CAD input metadata adapter preserves original arrays and appends no invented camera measurements.",
+    "Candidate failure receipts retain actual seeds; task registration hashes and audit checks bind task identities.",
+    "Physical audit checks only registered platforms; GPU probe lock closes before launching a lock-owning child.",
+    "Shared numerical fusion, planning, physics and geometry definitions retain their verified implementations."
+  ],
+  "verification_scope": "CPU only: task matrices, preparation, CLI, assets, input contract, evidence seed guard and process lock ownership. No new GPU or physics experiment.",
+  "validation_checks": {
+    "source": {
+      "python_files": 49,
+      "unchanged_numerical_files": [
+        "adaptive_fusion_v6.py",
+        "geometry_v6.py",
+        "refined_v6.py",
+        "visual_preprocessing.py",
+        "reverse_stereo.py",
+        "candidate_order.py",
+        "plan.py",
+        "run_isaac.py",
+        "run_mujoco.py"
+      ],
+      "geometry_and_source_ablation_functions_unchanged": true,
+      "cad_metadata_array_function_unchanged": true,
+      "private_path_scan": "passed"
+    },
+    "routing": {
+      "rq1": {
+        "candidate_tasks": 0,
+        "geometry_inputs": 5568,
+        "physical_outcomes": 0,
+        "methods": 8,
+        "seeds": [
+          0
+        ]
+      },
+      "rq2_perception": {
+        "candidate_tasks": 5904,
+        "geometry_inputs": 5568,
+        "physical_outcomes": 11136,
+        "methods": 8,
+        "seeds": [
+          0,
+          1
+        ]
+      },
+      "rq2_cross_grasp": {
+        "candidate_tasks": 8688,
+        "geometry_inputs": 1392,
+        "physical_outcomes": 13920,
+        "methods": 10,
+        "seeds": [
+          0,
+          1,
+          3
+        ]
+      },
+      "rq3": {
+        "candidate_tasks": 3120,
+        "geometry_inputs": 2784,
+        "physical_outcomes": 5568,
+        "methods": 4,
+        "seeds": [
+          0,
+          1
+        ]
+      }
+    },
+    "selection_configuration_missing_or_wrong_seed_rejected": true,
+    "preparation": {
+      "all_58_mesh_and_sample_hashes": "passed",
+      "batch_zero_each_profile": [
+        {
+          "profile": "rq1",
+          "stages": [
+            "render",
+            "validate",
+            "freeze_inputs",
+            "forward",
+            "reverse",
+            "fusion",
+            "export",
+            "perception_stereobm",
+            "perception_sgm",
+            "perception_psmnet",
+            "perception_gwcnet",
+            "perception_raft_stereo",
+            "perception_igev_stereo",
+            "geometry"
+          ]
+        },
+        {
+          "profile": "rq2_perception",
+          "stages": [
+            "calibration_franka_isaac",
+            "calibration_franka_mujoco",
+            "calibration_audit",
+            "render",
+            "validate",
+            "freeze_inputs",
+            "forward",
+            "reverse",
+            "fusion",
+            "export",
+            "perception_stereobm",
+            "perception_sgm",
+            "perception_psmnet",
+            "perception_gwcnet",
+            "perception_raft_stereo",
+            "perception_igev_stereo",
+            "geometry",
+            "grasp_cad_fused_graspgen",
+            "grasp_foundationstereo_graspgen",
+            "grasp_gwcnet_graspgen",
+            "grasp_igev_stereo_graspgen",
+            "grasp_psmnet_graspgen",
+            "grasp_raft_stereo_graspgen",
+            "grasp_sgm_graspgen",
+            "grasp_stereobm_graspgen",
+            "manifest",
+            "planning",
+            "physics_franka_isaac",
+            "physics_franka_mujoco",
+            "audit"
+          ]
+        },
+        {
+          "profile": "rq2_cross_grasp",
+          "stages": [
+            "calibration_franka_isaac",
+            "calibration_franka_mujoco",
+            "calibration_audit",
+            "render",
+            "validate",
+            "freeze_inputs",
+            "forward",
+            "reverse",
+            "fusion",
+            "export",
+            "cad_input_contract",
+            "geometry",
+            "grasp_cad_fused_6dof_graspnet",
+            "grasp_cad_fused_contact_graspnet",
+            "grasp_cad_fused_gpd",
+            "grasp_cad_fused_graspgen",
+            "grasp_cad_fused_graspnet_baseline",
+            "grasp_foundationstereo_6dof_graspnet",
+            "grasp_foundationstereo_contact_graspnet",
+            "grasp_foundationstereo_gpd",
+            "grasp_foundationstereo_graspgen",
+            "grasp_foundationstereo_graspnet_baseline",
+            "manifest",
+            "planning",
+            "physics_franka_isaac",
+            "physics_franka_mujoco",
+            "audit"
+          ]
+        },
+        {
+          "profile": "rq3",
+          "stages": [
+            "calibration_franka_isaac",
+            "calibration_franka_mujoco",
+            "calibration_audit",
+            "render",
+            "validate",
+            "freeze_inputs",
+            "forward",
+            "reverse",
+            "fusion",
+            "export",
+            "source_clouds",
+            "geometry",
+            "grasp_cad_fused_graspgen",
+            "grasp_direct_concat_graspgen",
+            "grasp_foundationstereo_graspgen",
+            "grasp_registered_cad_graspgen",
+            "manifest",
+            "planning",
+            "physics_franka_isaac",
+            "physics_franka_mujoco",
+            "audit"
+          ]
+        }
+      ],
+      "actual_cli_list": "passed",
+      "gpu_jobs_started": 0
+    },
+    "cad_input_adapter": {
+      "accepted_and_fallback": [
+        {
+          "fallback": false,
+          "rows": 1,
+          "cloud_unchanged": true
+        },
+        {
+          "fallback": true,
+          "rows": 1,
+          "cloud_unchanged": true
+        }
+      ],
+      "rejects_changed_observed_prefix": true,
+      "scope": "Synthetic CPU contract fixtures; not experimental results",
+      "retained_real_cloud": {
+        "scene_id": "itodd_000001_p01_bin_walls",
+        "cloud_sha256": "e8f220e9cc6f306f1e7037a4276e9713482ee4bc1a4622733989d6aaf5b5bfa9",
+        "target_points": 7858,
+        "read_only_validation": true
+      }
+    },
+    "evidence_seed_guard": {
+      "nonzero_seed_accepted": true,
+      "wrong_seed_rejected": true
+    },
+    "locks": {
+      "actual_physics_controller_cpu_child": "passed",
+      "gpu_probe_lock_released_before_child": true,
+      "negative_held_lock_rejected": true,
+      "runner_holds_no_gpu_lock": true,
+      "generate_grasps_is_external_backend_lock_owner": true,
+      "scope": "CPU subprocess lock ownership only; no GPU inference or physics"
+    },
+    "dispatch": {
+      "actual_controller_platform_filter": "passed",
+      "dispatched": 480,
+      "includes_split_seed_tasks": true,
+      "scope": "CPU dispatch fixture; physics workers replaced"
+    }
+  },
+  "files": [
+    {
+      "path": "RQ1/single_run_perception.py",
+      "bytes": 8672,
+      "sha256": "188e2c00909d22cab3f597c6a969200e23b78f847fafee9c7a0f0ba91b23583d",
+      "previous_release_path": "code/single_run_perception.py",
+      "previous_release_sha256": "188e2c00909d22cab3f597c6a969200e23b78f847fafee9c7a0f0ba91b23583d",
+      "byte_identical": true
+    },
+    {
+      "path": "RQ2/experiment_design.py",
+      "bytes": 4110,
+      "sha256": "a07ecf18bfb0562190127ce1b00d5d1c70fb920583701335513c5dc567bf908a",
+      "origin": "Current scientific input adapter or new portable preparation, routing and evidence aggregation"
+    },
+    {
+      "path": "RQ2/rq2_cross_grasp_inputs.py",
+      "bytes": 6584,
+      "sha256": "2bf73163ce7f70f8f299895eb52d42ffb4d913e4cd68584c52173a93ce9aed84",
+      "origin": "Current scientific input adapter or new portable preparation, routing and evidence aggregation"
+    },
+    {
+      "path": "RQ3/rq3_ablation_clouds.py",
+      "bytes": 5964,
+      "sha256": "c841486bd50b3815c1c96ad3bd10cf58bcc97fe17a58b6138a216e58d683461b",
+      "previous_release_path": "code/rq3_ablation_clouds.py",
+      "previous_release_sha256": "c841486bd50b3815c1c96ad3bd10cf58bcc97fe17a58b6138a216e58d683461b",
+      "byte_identical": true
+    },
+    {
+      "path": "audit_physical_records.py",
+      "bytes": 6153,
+      "sha256": "2858ce75c622bc4a4e19eea59514c722abff053ebe990ff9e1a7b4ebeda75893",
+      "previous_release_path": "code/audit_physical_records.py",
+      "previous_release_sha256": "99c57699caaa31d59cbdd624500bcea3ddc65fd76cc6b0bff99a9ea3e3842dbc",
+      "byte_identical": false
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_gpd/backend.py",
+      "bytes": 11704,
+      "sha256": "8b748a84b67fca5990a90c4dcd95d58ff67b04487524410e650951cb797d27b5",
+      "previous_release_path": "dependencies/grasp_modules/baseline_gpd/backend.py",
+      "previous_release_sha256": "8b748a84b67fca5990a90c4dcd95d58ff67b04487524410e650951cb797d27b5",
+      "byte_identical": true
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_graspgen/ops/run_inference.py",
+      "bytes": 1157,
+      "sha256": "35d4c35b093b5c401be6937f8b721d0a0c027b885e7d5e81918d510a802b7994",
+      "previous_release_path": "dependencies/grasp_modules/baseline_graspgen/ops/run_inference.py",
+      "previous_release_sha256": "35d4c35b093b5c401be6937f8b721d0a0c027b885e7d5e81918d510a802b7994",
+      "byte_identical": true
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_graspnet_baseline/backend.py",
+      "bytes": 10676,
+      "sha256": "3232299086a7924c8af906896c255fbb183e96802007c5138378af5b24c9922b",
+      "previous_release_path": "dependencies/grasp_modules/baseline_graspnet_baseline/backend.py",
+      "previous_release_sha256": "3232299086a7924c8af906896c255fbb183e96802007c5138378af5b24c9922b",
+      "byte_identical": true
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_graspnet_baseline/validate_cuda_ops.py",
+      "bytes": 3104,
+      "sha256": "d0eb770be10b644287bc82fe48c679046855559affaa82ae2c20bfb88937bfdd",
+      "previous_release_path": "dependencies/grasp_modules/baseline_graspnet_baseline/validate_cuda_ops.py",
+      "previous_release_sha256": "d0eb770be10b644287bc82fe48c679046855559affaa82ae2c20bfb88937bfdd",
+      "byte_identical": true
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_runtime/build_tf_ops.py",
+      "bytes": 3113,
+      "sha256": "8027788fb23694439811c6ea2e0126896cb13fc83b53bf6fad00f113eed82b20",
+      "previous_release_path": "dependencies/grasp_modules/baseline_runtime/build_tf_ops.py",
+      "previous_release_sha256": "8027788fb23694439811c6ea2e0126896cb13fc83b53bf6fad00f113eed82b20",
+      "byte_identical": true
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_runtime/prepare_6dof_compat.py",
+      "bytes": 2294,
+      "sha256": "5eb5d6dcba5aab4c8a828eb79b951907c485a97ef15c61e4090d4fbbbd34ab49",
+      "previous_release_path": "dependencies/grasp_modules/baseline_runtime/prepare_6dof_compat.py",
+      "previous_release_sha256": "5eb5d6dcba5aab4c8a828eb79b951907c485a97ef15c61e4090d4fbbbd34ab49",
+      "byte_identical": true
+    },
+    {
+      "path": "dependencies/grasp_modules/baseline_runtime/validate_tf_ops.py",
+      "bytes": 1844,
+      "sha256": "281093899791c1c1b09942d505a9c6dc110b2f5d19d3f9278bfab32b08422e3b",
+      "previous_release_path": "dependencies/grasp_modules/baseline_runtime/validate_tf_ops.py",
+      "previous_release_sha256": "281093899791c1c1b09942d505a9c6dc110b2f5d19d3f9278bfab32b08422e3b",
+      "byte_identical": true
+    },
+    {
+      "path": "dependencies/grasp_modules/shared/backends.py",
+      "bytes": 7276,
+      "sha256": "7d1f832c16586aaba7251734a709fc4dbfb70fff253c8faf997bb151671576fb",
+      "previous_release_path": "dependencies/grasp_modules/shared/backends.py",
+      "previous_release_sha256": "7d1f832c16586aaba7251734a709fc4dbfb70fff253c8faf997bb151671576fb",
+      "byte_identical": true
+    },
+    {
+      "path": "dependencies/grasp_modules/shared/contract.py",
+      "bytes": 4562,
+      "sha256": "bc1da891fd618343b24deb76f19137f19e640f4b402c2d89368b886c759a6b5c",
+      "previous_release_path": "dependencies/grasp_modules/shared/contract.py",
+      "previous_release_sha256": "bc1da891fd618343b24deb76f19137f19e640f4b402c2d89368b886c759a6b5c",
+      "byte_identical": true
+    },
+    {
+      "path": "dependencies/grasp_modules/shared/infer.py",
+      "bytes": 9343,
+      "sha256": "532f1661fdab629382fe14cc7c4a740c6182c48d3de945e2618603d78fd7ad7f",
+      "previous_release_path": "dependencies/grasp_modules/shared/infer.py",
+      "previous_release_sha256": "532f1661fdab629382fe14cc7c4a740c6182c48d3de945e2618603d78fd7ad7f",
+      "byte_identical": true
+    },
+    {
+      "path": "dependencies.py",
+      "bytes": 2506,
+      "sha256": "91ab1cfd769170d9e39e802642294ba3ec777d01c259e52684a715c48890cc0a",
+      "previous_release_path": "code/dependencies.py",
+      "previous_release_sha256": "8a7bb559a97309089d8efd380197e3c9017e2859ce5f182d9ae724408be57295",
+      "byte_identical": false
+    },
+    {
+      "path": "evidence_metrics.py",
+      "bytes": 15576,
+      "sha256": "9bce97a44de6a017beee67d0bb100ba6f1296f530db9ae0d4740e8c2c3b614c4",
+      "origin": "Current scientific input adapter or new portable preparation, routing and evidence aggregation"
+    },
+    {
+      "path": "export_fused_inputs.py",
+      "bytes": 1336,
+      "sha256": "3c316c8e2004941027aebb1f57ccb17826f58085e37da1dd71b0835b0ec01480",
+      "previous_release_path": "code/export_fused_inputs.py",
+      "previous_release_sha256": "3c316c8e2004941027aebb1f57ccb17826f58085e37da1dd71b0835b0ec01480",
+      "byte_identical": true
+    },
+    {
+      "path": "offline_entrypoint.py",
+      "bytes": 3439,
+      "sha256": "2a1b5d0b98a1006fe7591039d894c95a94de9ded60c91610eb6fd0d2601024bc",
+      "previous_release_path": "code/offline_entrypoint.py",
+      "previous_release_sha256": "2a1b5d0b98a1006fe7591039d894c95a94de9ded60c91610eb6fd0d2601024bc",
+      "byte_identical": true
+    },
+    {
+      "path": "prepare_assets.py",
+      "bytes": 3769,
+      "sha256": "3f0ade097441679e849735cadfe5fcf2be9c4557cc709b830c9d1f7bd0433b4d",
+      "previous_release_path": "code/prepare_assets.py",
+      "previous_release_sha256": "ada46c5adba4980a3aa1611a3a51b4fca716aa9ba41fe1f07604e05e4fcdd289",
+      "byte_identical": false
+    },
+    {
+      "path": "prepare_experiment.py",
+      "bytes": 6027,
+      "sha256": "6c6103867295b046439560891f906d8fddf1495e5e8ae4dc74e88aafc26c643f",
+      "previous_release_path": "code/prepare_experiment.py",
+      "previous_release_sha256": "bbe36d52947f8a0d43961dc0b34035c3ecf9dac6e29cf02a33799356a73c8144",
+      "byte_identical": false
+    },
+    {
+      "path": "project_common.py",
+      "bytes": 765,
+      "sha256": "99f4905bed9df164c40160ef75ab5a54c71d66ddca436ad6791fcab8c4822491",
+      "previous_release_path": "code/project_common.py",
+      "previous_release_sha256": "c855d278c8535706b5e14ad72a80fbe7f87dd3228577948840f07f7006d288ae",
+      "byte_identical": false
+    },
+    {
+      "path": "run_experiment.py",
+      "bytes": 7829,
+      "sha256": "18718c706b409c61e11b0802df630d71327aee8e6b3212bd14c8aee49eaff966",
+      "previous_release_path": "code/run_experiment.py",
+      "previous_release_sha256": "40b17ac0205ef7ede7b157ab3adda83214cef73292d17bee9320d76eb72c05ab",
+      "byte_identical": false
+    },
+    {
+      "path": "runtime/adaptive_fusion_v6.py",
+      "bytes": 11615,
+      "sha256": "d5a2ba8d723f8cd9c38f231ae34791636b87a9a74573bc960a7128681a0ca685",
+      "previous_release_path": "code/runtime/adaptive_fusion_v6.py",
+      "previous_release_sha256": "d5a2ba8d723f8cd9c38f231ae34791636b87a9a74573bc960a7128681a0ca685",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/candidate_order.py",
+      "bytes": 798,
+      "sha256": "fae92f24d8567da31848b7c1fad47a5a50383becff482366bbced507f90e5e43",
+      "previous_release_path": "code/runtime/candidate_order.py",
+      "previous_release_sha256": "fae92f24d8567da31848b7c1fad47a5a50383becff482366bbced507f90e5e43",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/common.py",
+      "bytes": 4372,
+      "sha256": "e24a97e3b30b1977e1aa9fa5f71189257b8d9dcc8f2d641ffc937ae906bdd402",
+      "previous_release_path": "code/runtime/common.py",
+      "previous_release_sha256": "e24a97e3b30b1977e1aa9fa5f71189257b8d9dcc8f2d641ffc937ae906bdd402",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/franka_kinematics.py",
+      "bytes": 5901,
+      "sha256": "c1d601871b66bb4df2bd3d358caed6c52ea8ed27d122827afbb84b60f5749a8a",
+      "previous_release_path": "code/runtime/franka_kinematics.py",
+      "previous_release_sha256": "c1d601871b66bb4df2bd3d358caed6c52ea8ed27d122827afbb84b60f5749a8a",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/freeze_inputs.py",
+      "bytes": 1038,
+      "sha256": "00db5d2e20112d4450e644b2a49487f1ec63ee2d0c5ebafd654f668d4043f5b8",
+      "previous_release_path": "code/runtime/freeze_inputs.py",
+      "previous_release_sha256": "00db5d2e20112d4450e644b2a49487f1ec63ee2d0c5ebafd654f668d4043f5b8",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/fusion_common.py",
+      "bytes": 142,
+      "sha256": "74033500a91dbad2485803ac8d139b21aa9f0fe813f45e7420aa7f5d54c365b0",
+      "previous_release_path": "code/runtime/fusion_common.py",
+      "previous_release_sha256": "74033500a91dbad2485803ac8d139b21aa9f0fe813f45e7420aa7f5d54c365b0",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/generate_grasps.py",
+      "bytes": 6835,
+      "sha256": "d391cbb14e04cb2cf81ef40c2f63db622cce28fe1a0f6683ec6c95fc1b6d9e24",
+      "previous_release_path": "code/runtime/generate_grasps.py",
+      "previous_release_sha256": "bf3ca97f38882b39e482af3e132ef909e57db0e8ab39ab1adeab18621704a155",
+      "byte_identical": false
+    },
+    {
+      "path": "runtime/geometry_v6.py",
+      "bytes": 14746,
+      "sha256": "b093ac0882dc491d33ea8f059f723dacf5700d31250d60ffa53c69a849eac287",
+      "previous_release_path": "code/runtime/geometry_v6.py",
+      "previous_release_sha256": "b093ac0882dc491d33ea8f059f723dacf5700d31250d60ffa53c69a849eac287",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/graspgen_unique_voxels.py",
+      "bytes": 1829,
+      "sha256": "8ce0ffabaa36c89c7d45c8a0c64f2bc105ae88ad40b7991c1ef7f356a3dd8f4e",
+      "previous_release_path": "code/runtime/graspgen_unique_voxels.py",
+      "previous_release_sha256": "8ce0ffabaa36c89c7d45c8a0c64f2bc105ae88ad40b7991c1ef7f356a3dd8f4e",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/inference_failures.py",
+      "bytes": 1778,
+      "sha256": "9ea7997cb01a672bb24966df2795d85be7683b33a70ff122858a6c3b4090c82d",
+      "previous_release_path": "code/runtime/inference_failures.py",
+      "previous_release_sha256": "9ea7997cb01a672bb24966df2795d85be7683b33a70ff122858a6c3b4090c82d",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/perceive.py",
+      "bytes": 4261,
+      "sha256": "567c070bb9bd582bbd4ce258b0c57adaab664a007672809111ebde05c58ea0c4",
+      "previous_release_path": "code/runtime/perceive.py",
+      "previous_release_sha256": "567c070bb9bd582bbd4ce258b0c57adaab664a007672809111ebde05c58ea0c4",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/perception_backend.py",
+      "bytes": 15408,
+      "sha256": "e6fec8a1eedabd6fc54f8e90a4bfa12084a0496a417fad5468c1f84c3b522300",
+      "previous_release_path": "code/runtime/perception_backend.py",
+      "previous_release_sha256": "e6fec8a1eedabd6fc54f8e90a4bfa12084a0496a417fad5468c1f84c3b522300",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/physics_batch.py",
+      "bytes": 6205,
+      "sha256": "53b84842ff11c32596629d24e1ad5422d22036e8e0c99caecbe0507ac5428d89",
+      "previous_release_path": "code/runtime/physics_batch.py",
+      "previous_release_sha256": "bfb6c19c502fc05ab55417efa689e640bb736386ee3127cf5f264b83c0447fcd",
+      "byte_identical": false
+    },
+    {
+      "path": "runtime/plan.py",
+      "bytes": 5875,
+      "sha256": "96fd88967f56735f03bce5755bc546eea86706e5c2f35a1581aa9ca056891565",
+      "previous_release_path": "code/runtime/plan.py",
+      "previous_release_sha256": "96fd88967f56735f03bce5755bc546eea86706e5c2f35a1581aa9ca056891565",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/plan_batch.py",
+      "bytes": 1862,
+      "sha256": "4900fbedffe6001d987bcf4a59a3b67ba6106c43cc458c59cf491392753b894c",
+      "previous_release_path": "code/runtime/plan_batch.py",
+      "previous_release_sha256": "4900fbedffe6001d987bcf4a59a3b67ba6106c43cc458c59cf491392753b894c",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/refined_v6.py",
+      "bytes": 5567,
+      "sha256": "411cf5c90fb933f731ec7216942f1178768203f7eb28ed0225129a667f8422c6",
+      "previous_release_path": "code/runtime/refined_v6.py",
+      "previous_release_sha256": "411cf5c90fb933f731ec7216942f1178768203f7eb28ed0225129a667f8422c6",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/refresh_manifest.py",
+      "bytes": 669,
+      "sha256": "d3725a86bce5050455ee24871c2d693484a52e7909acd1910f66b052a8cf2066",
+      "previous_release_path": "code/runtime/refresh_manifest.py",
+      "previous_release_sha256": "d3725a86bce5050455ee24871c2d693484a52e7909acd1910f66b052a8cf2066",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/render_stereo_isaac.py",
+      "bytes": 6353,
+      "sha256": "2d44f12becfec5266a3eec8fa5642e9e905a5c07c66aa7dee43a96d38b9ddc22",
+      "previous_release_path": "code/runtime/render_stereo_isaac.py",
+      "previous_release_sha256": "2d44f12becfec5266a3eec8fa5642e9e905a5c07c66aa7dee43a96d38b9ddc22",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/reverse_stereo.py",
+      "bytes": 4453,
+      "sha256": "3201245cc5db3209d7ffabe6caf22d5d5f54a7650e18a873160705514819145e",
+      "previous_release_path": "code/runtime/reverse_stereo.py",
+      "previous_release_sha256": "3201245cc5db3209d7ffabe6caf22d5d5f54a7650e18a873160705514819145e",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/run_isaac.py",
+      "bytes": 14454,
+      "sha256": "44cf7d10b868f46251488660af2d150b71921309432efafd2f8cff6ea55ee83d",
+      "previous_release_path": "code/runtime/run_isaac.py",
+      "previous_release_sha256": "44cf7d10b868f46251488660af2d150b71921309432efafd2f8cff6ea55ee83d",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/run_mujoco.py",
+      "bytes": 11159,
+      "sha256": "9c11ac593808de1e9bf2eef119ba6894ff2577331c0fbcbe964a9970773f4d8d",
+      "previous_release_path": "code/runtime/run_mujoco.py",
+      "previous_release_sha256": "9c11ac593808de1e9bf2eef119ba6894ff2577331c0fbcbe964a9970773f4d8d",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/scenes.py",
+      "bytes": 2437,
+      "sha256": "0f26052bc10005fedeedad324a9fd36f5f685e24e2d66cb72d6e35f2f3972073",
+      "previous_release_path": "code/runtime/scenes.py",
+      "previous_release_sha256": "0f26052bc10005fedeedad324a9fd36f5f685e24e2d66cb72d6e35f2f3972073",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/summarize.py",
+      "bytes": 582,
+      "sha256": "a007e85bdb44a966276f10ec39b22e086fdb3f13ad98eed836dbd7ea67ce9318",
+      "previous_release_path": "code/runtime/summarize.py",
+      "previous_release_sha256": "a007e85bdb44a966276f10ec39b22e086fdb3f13ad98eed836dbd7ea67ce9318",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/validate_dataset.py",
+      "bytes": 3284,
+      "sha256": "3969f3ae3b4f24548959bb49acea8c82603cc4ede2adae2729a2e7bfc5ad4002",
+      "previous_release_path": "code/runtime/validate_dataset.py",
+      "previous_release_sha256": "3969f3ae3b4f24548959bb49acea8c82603cc4ede2adae2729a2e7bfc5ad4002",
+      "byte_identical": true
+    },
+    {
+      "path": "runtime/visual_preprocessing.py",
+      "bytes": 3554,
+      "sha256": "10bcf087a3f0fd4f0c1f2dabf9d6ec8b16a44787f333768f0fe2452c386eb6fe",
+      "previous_release_path": "code/runtime/visual_preprocessing.py",
+      "previous_release_sha256": "10bcf087a3f0fd4f0c1f2dabf9d6ec8b16a44787f333768f0fe2452c386eb6fe",
+      "byte_identical": true
+    },
+    {
+      "path": "summarize_experiment.py",
+      "bytes": 5207,
+      "sha256": "1c0dd24a5b09d4cf2432c34b9ade1905adbe3925804aa8789f9736fcd31ff670",
+      "origin": "Current scientific input adapter or new portable preparation, routing and evidence aggregation"
+    }
+  ]
+}

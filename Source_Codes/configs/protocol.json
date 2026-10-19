@@ -1,0 +1,408 @@
+{
+  "planning": {
+    "candidate_limit": 200,
+    "budget_seconds": 30,
+    "approach_cone_degrees": 45,
+    "opening_range_m": [
+      0.002,
+      0.08
+    ],
+    "approach_distance_m": 0.12,
+    "lift_distance_m": 0.15,
+    "joint_sample_degrees": 1,
+    "cartesian_sample_m": 0.005,
+    "scene_voxel_m": 0.003,
+    "method": "Deterministic Panda IK, sampled joint transit and straight approach/lift; no detour search",
+    "object_ground_truth_input": false,
+    "shared_between_new_engines": true,
+    "dataset_to_robot_translation_m": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "home_joints_rad": [
+      0.0,
+      -0.569,
+      0.0,
+      -2.81,
+      0.0,
+      3.037,
+      0.741
+    ],
+    "closing_command_m": 0.0,
+    "closing_control": "Command zero jaw gap; existing 20 N per-finger actuator effort limit and physical contacts determine actual gap.",
+    "candidate_prefilter": "Known width and approach direction before ranking eligible candidates; at most 200 eligible candidates, 400 generated total, unchanged 30 s budget"
+  },
+  "physics": {
+    "profiles": {
+      "nominal": 1.0
+    },
+    "hz": 250,
+    "trace_hz": 50,
+    "object_mass_kg": 0.1,
+    "object_gravity_m_s2": 9.81,
+    "robot_gravity": "Isaac native high-PD gravity disabled; MuJoCo robot gravcomp=1",
+    "arm_kp": 400.0,
+    "arm_kd": 80.0,
+    "arm_effort_limits_nm": [
+      87,
+      87,
+      87,
+      87,
+      12,
+      12,
+      12
+    ],
+    "finger_kp": 1000.0,
+    "finger_kd": 100.0,
+    "finger_effort_limit_n": 20.0,
+    "object_attachment": false,
+    "object_pose_writes_after_initialization": false,
+    "phases_seconds": [
+      [
+        "settle",
+        1.0
+      ],
+      [
+        "transit",
+        3.0
+      ],
+      [
+        "approach",
+        2.0
+      ],
+      [
+        "approach_hold",
+        1.0
+      ],
+      [
+        "close",
+        1.5
+      ],
+      [
+        "lift",
+        3.0
+      ],
+      [
+        "hold",
+        2.0
+      ],
+      [
+        "lower",
+        3.0
+      ],
+      [
+        "release",
+        1.0
+      ],
+      [
+        "retreat",
+        2.0
+      ],
+      [
+        "placed_hold",
+        1.0
+      ]
+    ],
+    "calibration_adjustment": "Before main experiments, nominal centered-box calibration showed 5.11 mm endpoint lag despite successful lift. Add one second at the approach endpoint in both new platforms; retain the original 2 mm endpoint criterion and the failed v1 calibration.",
+    "lift_bottom_clearance_m": 0.1,
+    "hold_seconds": 2.0,
+    "endpoint_position_m": 0.002,
+    "endpoint_rotation_degrees": 0.5,
+    "prohibited_contact_resultant_n": 0.5,
+    "return_xy_m": 0.02,
+    "return_bottom_m": 0.003
+  },
+  "calibration": [
+    "centered_box",
+    "far_negative",
+    "open_negative",
+    "collision_blocked"
+  ],
+  "failure_policy": "Keep algorithm failures and timeouts; no success-based retries. Infrastructure failures retain attempt IDs and require diagnosis before retry. Do not launch main physics before platform calibration passes.",
+  "version": "frozen_v6_release_profile",
+  "dataset": {
+    "name": "public_cad_main_v1",
+    "source": [
+      "T-LESS",
+      "ITODD"
+    ],
+    "scene_count": 24,
+    "conditions": [
+      "single",
+      "neighbours",
+      "bin_walls"
+    ],
+    "selection": "Every registered scene in this batch"
+  },
+  "camera": {
+    "width": 640,
+    "height": 480,
+    "focal_px": 750.0,
+    "baseline_m": 0.08,
+    "center_eye_m": [
+      0,
+      -0.38,
+      0.58
+    ],
+    "look_at_m": [
+      0,
+      0,
+      0.025
+    ]
+  },
+  "evaluation": {
+    "geometry": [
+      "surface_mae_mm",
+      "precision_2mm",
+      "complete_surface_coverage_2mm",
+      "visible_surface_coverage_2mm",
+      "target_point_count"
+    ],
+    "grasp": [
+      "candidate_generation",
+      "sampled_path_found",
+      "lift_hold_success",
+      "prohibited_contact",
+      "execution_success_all_scenes"
+    ],
+    "test_adaptation": false,
+    "oracle_pose": "evaluation-only; not used in candidate generation or planning",
+    "cad_input": {
+      "foundationstereo": false,
+      "cad_fused": "Known identity and CAD; estimated pose from FoundationStereo observations only"
+    }
+  },
+  "purpose": "Frozen v6 physical and perception settings; task profile supplied by prepare_experiment.py",
+  "stereo_methods": [
+    "stereobm",
+    "sgm",
+    "psmnet",
+    "gwcnet",
+    "raft_stereo",
+    "igev_stereo",
+    "foundationstereo",
+    "cad_fused"
+  ],
+  "grasp_methods": [
+    "graspgen",
+    "6dof_graspnet",
+    "contact_graspnet",
+    "gpd",
+    "graspnet_baseline"
+  ],
+  "platforms": [
+    "franka_isaac",
+    "franka_mujoco"
+  ],
+  "budgets": {
+    "perception_timeout_wall_seconds": 120,
+    "grasp_timeout_wall_seconds": 300,
+    "planning_process_wall_seconds": 60
+  },
+  "control_provenance": "Zero-gap force-limited closure fixed using the previous CAD development pilot, before rendering this cohort; identical for all methods. No adaptation to new evaluation outcomes.",
+  "unique_combinations": 12,
+  "pose_estimation": {
+    "voxel_m": 0.0015,
+    "maximum_observed_points": 5000,
+    "yaw_initializations": 24,
+    "max_iterations": 60,
+    "robust_distance_m": 0.008,
+    "maximum_center_initializations": 3,
+    "minimum_observations": 64,
+    "inlier_distance_m": 0.006,
+    "minimum_overlap": 0.35,
+    "minimum_confidence": 0.25,
+    "table_support_and_upright_prior": true,
+    "point_to_plane_iterations": 20,
+    "point_to_plane_robust_m": 0.003,
+    "refine_hypotheses": 4,
+    "equivalent_surface_distance_m": 0.0015,
+    "unambiguous_score_gap_m": 0.0005,
+    "minimum_foreground_agreement": 0.5,
+    "minimum_ambiguity_confidence": 0.55
+  },
+  "fusion": {
+    "voxel_m": 0.001,
+    "max_cad_weight": 0.9,
+    "correspondence_sigma_m": 0.006,
+    "free_space_tolerance_m": 0.006,
+    "surface_tolerance_floor_m": 0.003,
+    "registration_sigma_floor_m": 0.0003,
+    "visual_sigma_floor_m": 0.0005,
+    "minimum_depth_confidence_for_free_space": 0.3,
+    "minimum_completion_confidence": 0.25,
+    "maximum_free_space_conflict_fraction": 0.2,
+    "keep_all_original_scene_points": true
+  },
+  "graspgen": {
+    "candidates": 400,
+    "retrain": false,
+    "model_initialization_seed": 0
+  },
+  "comparison": {
+    "formal_test": false,
+    "previously_observed_cohort": true,
+    "source_batch": "batch_000",
+    "scene_count": 24,
+    "grasp_generation_tasks": 240,
+    "outcome_rows": 480,
+    "original_size": true,
+    "physical_attempts_per_scene_method_platform": 1
+  },
+  "inference_input_adapter": {
+    "version": "ptv3_unique_first_v1",
+    "file_sha256": "8ce0ffabaa36c89c7d45c8a0c64f2bc105ae88ad40b7991c1ef7f356a3dd8f4e",
+    "weights_changed": false,
+    "candidate_budget_changed": false,
+    "both_arms_remeasured": true
+  },
+  "fusion_variant": {
+    "selected_variant": "adaptive_v6_thin_support",
+    "configuration": "protocols/adaptive_v6.json"
+  },
+  "failure_handling": {
+    "version": "independent_failure_retention_v1",
+    "stage": "registered_before_independent_test",
+    "perception_timeout_wall_seconds": 120,
+    "grasp_timeout_wall_seconds": 300,
+    "fusion_timeout_wall_seconds": 300,
+    "point_cloud_failure": "Keep the scheduled scene. Save an explicitly labelled empty output and the failure record; never fabricate valid depth or points.",
+    "upstream_failure": "Failed forward perception affects both arms. Failed reverse inference or fusion affects the CAD arm. No automatic retry or outcome-based fallback for a timeout.",
+    "candidate_failure": "A deadline or invalid pose/score output produces zero executable candidates and remains a failed scheduled task on all platforms.",
+    "numerical_output": "Preserve available invalid candidate arrays and the exception record.",
+    "unknown_error": "Unhandled runtime errors, process termination, missing or mismatched files and resource failures stop the worker with the task pending; classify the retained evidence before restoring the same input.",
+    "native_call_deadline": "POSIX alarm plus elapsed-time check discards late results. A native call that never returns remains pending until supervised termination is diagnosed; no claim of hard real-time process interruption.",
+    "retry_policy": "No success-based retries. Infrastructure recovery must keep the attempt and verify frozen inputs, models, code, protocol and task identity.",
+    "success_criteria_changed": false,
+    "independent_test_started": false
+  },
+  "workcell": {
+    "version": "shared_industrial_workcell_v1",
+    "known_fixture_geometry": true,
+    "target_region_m": {
+      "min": [
+        -0.18,
+        -0.18,
+        -0.001
+      ],
+      "max": [
+        0.18,
+        0.18,
+        0.3
+      ]
+    },
+    "placement_xy_ranges_m": [
+      [
+        -0.025,
+        0.025
+      ],
+      [
+        -0.02,
+        0.02
+      ]
+    ],
+    "yaw_range_rad": [
+      -3.141592653589793,
+      3.141592653589793
+    ],
+    "initial_bottom_clearance_m": 0.001,
+    "table": {
+      "name": "table",
+      "extents_m": [
+        0.65,
+        0.5,
+        0.035
+      ],
+      "center_m": [
+        0,
+        0,
+        -0.0175
+      ]
+    },
+    "bin_walls": [
+      {
+        "name": "wall0",
+        "extents_m": [
+          0.48,
+          0.012,
+          0.07
+        ],
+        "center_m": [
+          0,
+          -0.216,
+          0.035
+        ]
+      },
+      {
+        "name": "wall1",
+        "extents_m": [
+          0.48,
+          0.012,
+          0.07
+        ],
+        "center_m": [
+          0,
+          0.216,
+          0.035
+        ]
+      },
+      {
+        "name": "wall2",
+        "extents_m": [
+          0.012,
+          0.42,
+          0.07
+        ],
+        "center_m": [
+          -0.234,
+          0,
+          0.035
+        ]
+      },
+      {
+        "name": "wall3",
+        "extents_m": [
+          0.012,
+          0.42,
+          0.07
+        ],
+        "center_m": [
+          0.234,
+          0,
+          0.035
+        ]
+      }
+    ],
+    "neighbours": [
+      {
+        "object_id": "tless_000001",
+        "xy_m": [
+          -0.23,
+          0.12
+        ],
+        "yaw_rad": 0.0
+      },
+      {
+        "object_id": "tless_000002",
+        "xy_m": [
+          0.23,
+          -0.12
+        ],
+        "yaw_rad": 0.0
+      }
+    ],
+    "design": "Same scene geometry for both methods and engines. The table and bin fit original-size CAD objects; distractors stay outside the declared pickup ROI. Placement seeds are those already registered in scene_index.json. Scene truth is saved only under scene_specs/evaluation."
+  },
+  "grasp_seeds": [
+    0
+  ],
+  "native_candidate_budgets": {
+    "graspgen": 400,
+    "6dof_graspnet": 200,
+    "contact_graspnet": "native 200 samples and max_farthest_points=150",
+    "gpd": 200,
+    "graspnet_baseline": "native inference, filtered top 200"
+  },
+  "release_note": "prepare_experiment.py registers the actual profile, per-task seeds and platform dispatch from RQ2/data/paper_final_20261019/selection.json"
+}

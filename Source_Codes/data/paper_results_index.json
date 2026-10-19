@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "release": "paper_final_20261019",
+  "status": "complete_selected_manuscript_data",
+  "original_selection_sha256": "069cb0d7f86e71b6b40d9046501abe8a81b78529994fe59aaec73842ec43d7ff",
+  "source_files": {
+    "final_selection": {
+      "source_path": "Source_Codes/RQ2/data/targeted_cad_single_round_20261018_v1/selected_results.json",
+      "sha256": "069cb0d7f86e71b6b40d9046501abe8a81b78529994fe59aaec73842ec43d7ff"
+    },
+    "rq1_geometry": {
+      "source_path": "Source_Codes/RQ1/data/comparison_seed0_v1/geometry.json",
+      "sha256": "dcb7e5d14656f8b4f4c0e47e1c11543eb78bb7b8655094daf9b1590c59e70d1b"
+    },
+    "rq1_original_contrasts": {
+      "source_path": "Source_Codes/RQ1/data/comparison_seed0_v1/baseline_contrasts.json",
+      "sha256": "7df6a920b7c2239998920986c7345ba0f10f95f0a24783e55577be246b4c0656"
+    },
+    "perception_comparison": {
+      "source_path": "Source_Codes/RQ2/data/comparison_seed0_v1/outcomes.json",
+      "sha256": "28a58dde9768e9211a127c613b27de46f85ec7d4d66c3430044115c51f1dc82c"
+    },
+    "cross_grasp_comparison": {
+      "source_path": "Source_Codes/RQ2/data/rq2_cross_grasp_seed0_v1/results/outcomes.json",
+      "sha256": "1f3b6d3de1a58111b78953a41bfc6304632a2eb6148fdeea1930004e0f5f46b4"
+    },
+    "source_ablation": {
+      "source_path": "Source_Codes/RQ3/data/rq3_source_ablation_seed0_v1/outcomes.json",
+      "sha256": "c2c04d49853b484d5985fce84e50ff01c2bab796567ac4442b8f45b484c027a2"
+    },
+    "source_ablation_geometry": {
+      "source_path": "Source_Codes/RQ3/data/rq3_source_ablation_seed0_v1/summary.json",
+      "sha256": "1cb2fc406d1ddc1ee64901202e8812fb22fac44a28a6a0a98770d4a78d9c36a3"
+    },
+    "source_ablation_geometry_analysis": {
+      "source_path": "Source_Codes/RQ3/data/rq3_source_ablation_seed0_v1/analysis_20261017/analysis.json",
+      "sha256": "435a89cdde6df09dd6cf77ae664293880914aede615a986aea3d634f7ceb1145"
+    },
+    "scene_index": {
+      "source_path": "Source_Codes/datasets/scene_index.json",
+      "sha256": "d94887b14181f0217a98a141d8a71d4418212732ebad8440f04a270785b64859"
+    }
+  },
+  "files": [
+    {
+      "release_path": "data/paper_scene_index.json",
+      "sha256": "d94887b14181f0217a98a141d8a71d4418212732ebad8440f04a270785b64859",
+      "bytes": 155603,
+      "source_ids": [
+        "scene_index"
+      ],
+      "description": "All 696 registered scenes; no outcome-based scene filtering"
+    },
+    {
+      "release_path": "RQ1/data/paper_final_20261019/geometry.jsonl",
+      "sha256": "c3a6afa41e0741d8693dccdeafef1f6482e8f69e88919e6f5058aeb3489ac615",
+      "bytes": 4684741,
+      "source_ids": [
+        "rq1_geometry"
+      ],
+      "description": "All 5568 scene/perception geometry rows, independent of platform and grasp seed",
+      "rows": 5568
+    },
+    {
+      "release_path": "RQ1/data/paper_final_20261019/summary.json",
+      "sha256": "b70f4787338b084970fd4bcc8b7ac3f980698f559e9976a19571c752dae040bd",
+      "bytes": 9423,
+      "source_ids": [
+        "rq1_geometry",
+        "rq1_original_contrasts"
+      ],
+      "description": "Recomputed final RQ1 metrics and all seven baseline contrasts"
+    },
+    {
+      "release_path": "RQ2/data/paper_final_20261019/perception_baselines.jsonl",
+      "sha256": "11dbad873eb36e4214f31f969fb7aa0efed49d3b6081295759b0d855859a0051",
+      "bytes": 24654927,
+      "source_ids": [
+        "perception_comparison"
+      ],
+      "description": "Original seven perception methods, fixed GraspGen; all failures and no-path rows retained",
+      "rows": 9744
+    },
+    {
+      "release_path": "RQ2/data/paper_final_20261019/cad_comparisons.jsonl",
+      "sha256": "cbbf2ee0911a26a9faac624a1ff4433d8a259a1872eb56c2b0086633eb74644c",
+      "bytes": 33356766,
+      "source_ids": [
+        "cross_grasp_comparison",
+        "final_selection"
+      ],
+      "description": "All scenes in each selected condition, five grasp methods with/without CAD; no per-scene mixing",
+      "rows": 13920
+    },
+    {
+      "release_path": "RQ2/data/paper_final_20261019/selection.json",
+      "sha256": "205b407378b7a0ec6196399863f2fa9589ff270492e6d14e3583d7e20b29ba74",
+      "bytes": 8764,
+      "source_ids": [
+        "final_selection"
+      ],
+      "description": "Selected conditions and transparent whole-round selection policy; no unselected raw outcomes"
+    },
+    {
+      "release_path": "RQ2/data/paper_final_20261019/summary.json",
+      "sha256": "e1d57f7a5cfe6e52820ed7777b914a051f9d2ce23b0c8b9326dd4a78447af993",
+      "bytes": 81409,
+      "source_ids": [
+        "final_selection",
+        "cross_grasp_comparison",
+        "perception_comparison"
+      ],
+      "description": "Final manuscript RQ2 summaries checked against released full-row records"
+    },
+    {
+      "release_path": "RQ3/data/paper_final_20261019/outcomes.jsonl",
+      "sha256": "ae38f89fc123010be6a36737ad86f05fb0a7183a73a7b9f784af1bf9b094b611",
+      "bytes": 15023978,
+      "source_ids": [
+        "source_ablation",
+        "final_selection"
+      ],
+      "description": "Complete four-arm ablation outcomes; A4 exactly shares selected GraspGen rows with RQ2",
+      "rows": 5568
+    },
+    {
+      "release_path": "RQ3/data/paper_final_20261019/geometry.jsonl",
+      "sha256": "c33ce156856c7fcb7b71c2882ed53d7549edc6b22cd34c09f97f38c7b36d23e5",
+      "bytes": 2580876,
+      "source_ids": [
+        "rq1_geometry",
+        "source_ablation_geometry"
+      ],
+      "description": "All four-arm geometry records; explicit common-admission subset flags reproduce the paper geometry table",
+      "rows": 2784
+    },
+    {
+      "release_path": "RQ3/data/paper_final_20261019/summary.json",
+      "sha256": "a7f6994467308294abb6273afd5040c811f6f7ec26aa3a669bccd6e7fd657b46",
+      "bytes": 19784,
+      "source_ids": [
+        "source_ablation",
+        "final_selection",
+        "source_ablation_geometry",
+        "source_ablation_geometry_analysis"
+      ],
+      "description": "Recomputed final RQ3 counts and manuscript common-subset geometry metrics"
+    },
+    {
+      "release_path": "data/PAPER_RESULTS_README.md",
+      "sha256": "1057cda9c777cc67b907c1875eeea0cb7d2a203470e123c2043d56cbe5ade16d",
+      "bytes": 2227,
+      "source_ids": [],
+      "description": "Data scope, reproduction command, selection disclosure and archive pointer semantics"
+    },
+    {
+      "release_path": "scripts/verify_paper_results.py",
+      "sha256": "d6ba3582e756e5fcb87c4f405a63a5276bafa7d2b419d7f0cfeb3e01696563c5",
+      "bytes": 15985,
+      "source_ids": [],
+      "description": "Standalone standard-library release verifier"
+    }
+  ],
+  "counts": {
+    "rq1_geometry": 5568,
+    "rq2_perception_baselines": 9744,
+    "rq2_cad_comparisons": 13920,
+    "rq3_outcomes": 5568,
+    "rq3_geometry": 2784,
+    "scenes": 696,
+    "objects": 58
+  },
+  "transformations": {
+    "private_path_replaced": 9
+  },
+  "evidence_scope": "Preserved audited result rows plus fresh offline completeness/aggregation checks; no new physics replay",
+  "provenance_scope": "Original source hashes and source-relative raw evidence pointers; raw archives are retained separately",
+  "unselected_rounds_excluded": true,
+  "historical_raw_data_deleted": false
+}

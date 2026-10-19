@@ -1,0 +1,315 @@
+{
+  "status": "complete",
+  "rows": 5568,
+  "groups": [
+    {
+      "dataset": "itodd",
+      "method": "cad_fused",
+      "scenes": 336,
+      "objects": 28,
+      "empty_scenes": 0,
+      "surface_mae_mm": 1.3757763684709998,
+      "precision_2mm": 0.9093220801225529,
+      "complete_coverage_2mm": 0.8548872023809524,
+      "points": 11657.863095238095,
+      "arm": "A4"
+    },
+    {
+      "dataset": "itodd",
+      "method": "gwcnet__graspgen",
+      "scenes": 336,
+      "objects": 28,
+      "empty_scenes": 0,
+      "surface_mae_mm": 142.98535148478828,
+      "precision_2mm": 0.21580266089546424,
+      "complete_coverage_2mm": 0.2677563988095238,
+      "points": 12098.068452380952
+    },
+    {
+      "dataset": "itodd",
+      "method": "igev_stereo__graspgen",
+      "scenes": 336,
+      "objects": 28,
+      "empty_scenes": 0,
+      "surface_mae_mm": 3.4657193352995344,
+      "precision_2mm": 0.6210814767055819,
+      "complete_coverage_2mm": 0.27453005952380954,
+      "points": 4285.3125
+    },
+    {
+      "dataset": "itodd",
+      "method": "no_cad",
+      "scenes": 336,
+      "objects": 28,
+      "empty_scenes": 0,
+      "surface_mae_mm": 2.4790267165744115,
+      "precision_2mm": 0.7933224757632549,
+      "complete_coverage_2mm": 0.33315029761904763,
+      "points": 4689.452380952381,
+      "arm": "A1"
+    },
+    {
+      "dataset": "itodd",
+      "method": "psmnet__graspgen",
+      "scenes": 336,
+      "objects": 28,
+      "empty_scenes": 0,
+      "surface_mae_mm": 15.691075973985136,
+      "precision_2mm": 0.3972117988061264,
+      "complete_coverage_2mm": 0.1628080357142857,
+      "points": 5162.422619047619
+    },
+    {
+      "dataset": "itodd",
+      "method": "raft_stereo__graspgen",
+      "scenes": 336,
+      "objects": 28,
+      "empty_scenes": 0,
+      "surface_mae_mm": 109.12181386493145,
+      "precision_2mm": 0.23708580274931612,
+      "complete_coverage_2mm": 0.21412142857142857,
+      "points": 18706.38988095238
+    },
+    {
+      "dataset": "itodd",
+      "method": "sgm__graspgen",
+      "scenes": 336,
+      "objects": 28,
+      "empty_scenes": 0,
+      "surface_mae_mm": 19.593542920726364,
+      "precision_2mm": 0.614146713588612,
+      "complete_coverage_2mm": 0.3117422619047619,
+      "points": 4753.547619047619
+    },
+    {
+      "dataset": "itodd",
+      "method": "stereobm__graspgen",
+      "scenes": 336,
+      "objects": 28,
+      "empty_scenes": 0,
+      "surface_mae_mm": 14.052365516261336,
+      "precision_2mm": 0.6121539433843548,
+      "complete_coverage_2mm": 0.25410133928571427,
+      "points": 3488.2380952380954
+    },
+    {
+      "dataset": "tless",
+      "method": "cad_fused",
+      "scenes": 360,
+      "objects": 30,
+      "empty_scenes": 0,
+      "surface_mae_mm": 1.9565030421505694,
+      "precision_2mm": 0.7930348518630606,
+      "complete_coverage_2mm": 0.7336208333333334,
+      "points": 16318.31111111111,
+      "arm": "A4"
+    },
+    {
+      "dataset": "tless",
+      "method": "gwcnet__graspgen",
+      "scenes": 360,
+      "objects": 30,
+      "empty_scenes": 0,
+      "surface_mae_mm": 131.17241124168564,
+      "precision_2mm": 0.18882176035941875,
+      "complete_coverage_2mm": 0.14465652777777777,
+      "points": 16291.758333333333
+    },
+    {
+      "dataset": "tless",
+      "method": "igev_stereo__graspgen",
+      "scenes": 360,
+      "objects": 30,
+      "empty_scenes": 0,
+      "surface_mae_mm": 3.2073122101827773,
+      "precision_2mm": 0.5343978515231809,
+      "complete_coverage_2mm": 0.13085555555555556,
+      "points": 6145.647222222222
+    },
+    {
+      "dataset": "tless",
+      "method": "no_cad",
+      "scenes": 360,
+      "objects": 30,
+      "empty_scenes": 0,
+      "surface_mae_mm": 2.5083969897733636,
+      "precision_2mm": 0.732312633220719,
+      "complete_coverage_2mm": 0.18395597222222224,
+      "points": 6663.383333333333,
+      "arm": "A1"
+    },
+    {
+      "dataset": "tless",
+      "method": "psmnet__graspgen",
+      "scenes": 360,
+      "objects": 30,
+      "empty_scenes": 0,
+      "surface_mae_mm": 17.583557339259134,
+      "precision_2mm": 0.31888133864666734,
+      "complete_coverage_2mm": 0.0882925,
+      "points": 7908.077777777778
+    },
+    {
+      "dataset": "tless",
+      "method": "raft_stereo__graspgen",
+      "scenes": 360,
+      "objects": 30,
+      "empty_scenes": 0,
+      "surface_mae_mm": 95.6628716053347,
+      "precision_2mm": 0.226811532361213,
+      "complete_coverage_2mm": 0.10825694444444445,
+      "points": 22715.9
+    },
+    {
+      "dataset": "tless",
+      "method": "sgm__graspgen",
+      "scenes": 360,
+      "objects": 30,
+      "empty_scenes": 0,
+      "surface_mae_mm": 13.773576116730906,
+      "precision_2mm": 0.5299365679013929,
+      "complete_coverage_2mm": 0.1522572222222222,
+      "points": 6687.272222222222
+    },
+    {
+      "dataset": "tless",
+      "method": "stereobm__graspgen",
+      "scenes": 360,
+      "objects": 30,
+      "empty_scenes": 0,
+      "surface_mae_mm": 9.732508140583509,
+      "precision_2mm": 0.5570730684118941,
+      "complete_coverage_2mm": 0.11537486111111112,
+      "points": 4054.938888888889
+    }
+  ],
+  "baseline_contrasts": [
+    {
+      "dataset": "tless",
+      "baseline": "stereobm",
+      "baseline_method": "stereobm__graspgen",
+      "baseline_mae_mm": 9.732508140583509,
+      "fused_mae_mm": 1.9565030421505694,
+      "mae_reduction_mm": 7.77600509843294,
+      "mae_reduction_percent": 79.89723703397522
+    },
+    {
+      "dataset": "tless",
+      "baseline": "sgm",
+      "baseline_method": "sgm__graspgen",
+      "baseline_mae_mm": 13.773576116730906,
+      "fused_mae_mm": 1.9565030421505694,
+      "mae_reduction_mm": 11.817073074580337,
+      "mae_reduction_percent": 85.7952428216955
+    },
+    {
+      "dataset": "tless",
+      "baseline": "psmnet",
+      "baseline_method": "psmnet__graspgen",
+      "baseline_mae_mm": 17.583557339259134,
+      "fused_mae_mm": 1.9565030421505694,
+      "mae_reduction_mm": 15.627054297108565,
+      "mae_reduction_percent": 88.87311023360301
+    },
+    {
+      "dataset": "tless",
+      "baseline": "gwcnet",
+      "baseline_method": "gwcnet__graspgen",
+      "baseline_mae_mm": 131.17241124168564,
+      "fused_mae_mm": 1.9565030421505694,
+      "mae_reduction_mm": 129.21590819953508,
+      "mae_reduction_percent": 98.5084492816514
+    },
+    {
+      "dataset": "tless",
+      "baseline": "raft_stereo",
+      "baseline_method": "raft_stereo__graspgen",
+      "baseline_mae_mm": 95.6628716053347,
+      "fused_mae_mm": 1.9565030421505694,
+      "mae_reduction_mm": 93.70636856318413,
+      "mae_reduction_percent": 97.95479373625508
+    },
+    {
+      "dataset": "tless",
+      "baseline": "igev_stereo",
+      "baseline_method": "igev_stereo__graspgen",
+      "baseline_mae_mm": 3.2073122101827773,
+      "fused_mae_mm": 1.9565030421505694,
+      "mae_reduction_mm": 1.250809168032208,
+      "mae_reduction_percent": 38.99867197403047
+    },
+    {
+      "dataset": "tless",
+      "baseline": "foundationstereo",
+      "baseline_method": "no_cad",
+      "baseline_mae_mm": 2.5083969897733636,
+      "fused_mae_mm": 1.9565030421505694,
+      "mae_reduction_mm": 0.5518939476227942,
+      "mae_reduction_percent": 22.001858153746966
+    },
+    {
+      "dataset": "itodd",
+      "baseline": "stereobm",
+      "baseline_method": "stereobm__graspgen",
+      "baseline_mae_mm": 14.052365516261336,
+      "fused_mae_mm": 1.3757763684709998,
+      "mae_reduction_mm": 12.676589147790336,
+      "mae_reduction_percent": 90.20964572207464
+    },
+    {
+      "dataset": "itodd",
+      "baseline": "sgm",
+      "baseline_method": "sgm__graspgen",
+      "baseline_mae_mm": 19.593542920726364,
+      "fused_mae_mm": 1.3757763684709998,
+      "mae_reduction_mm": 18.217766552255362,
+      "mae_reduction_percent": 92.97841960467657
+    },
+    {
+      "dataset": "itodd",
+      "baseline": "psmnet",
+      "baseline_method": "psmnet__graspgen",
+      "baseline_mae_mm": 15.691075973985136,
+      "fused_mae_mm": 1.3757763684709998,
+      "mae_reduction_mm": 14.315299605514136,
+      "mae_reduction_percent": 91.23210944391604
+    },
+    {
+      "dataset": "itodd",
+      "baseline": "gwcnet",
+      "baseline_method": "gwcnet__graspgen",
+      "baseline_mae_mm": 142.98535148478828,
+      "fused_mae_mm": 1.3757763684709998,
+      "mae_reduction_mm": 141.60957511631727,
+      "mae_reduction_percent": 99.03782006045748
+    },
+    {
+      "dataset": "itodd",
+      "baseline": "raft_stereo",
+      "baseline_method": "raft_stereo__graspgen",
+      "baseline_mae_mm": 109.12181386493145,
+      "fused_mae_mm": 1.3757763684709998,
+      "mae_reduction_mm": 107.74603749646046,
+      "mae_reduction_percent": 98.7392288308423
+    },
+    {
+      "dataset": "itodd",
+      "baseline": "igev_stereo",
+      "baseline_method": "igev_stereo__graspgen",
+      "baseline_mae_mm": 3.4657193352995344,
+      "fused_mae_mm": 1.3757763684709998,
+      "mae_reduction_mm": 2.0899429668285343,
+      "mae_reduction_percent": 60.3032953517543
+    },
+    {
+      "dataset": "itodd",
+      "baseline": "foundationstereo",
+      "baseline_method": "no_cad",
+      "baseline_mae_mm": 2.4790267165744115,
+      "fused_mae_mm": 1.3757763684709998,
+      "mae_reduction_mm": 1.1032503481034117,
+      "mae_reduction_percent": 44.503366612680715
+    }
+  ],
+  "aggregation": "Scene mean within object, then equal-weight object mean; undefined empty-cloud MAE remains undefined"
+}

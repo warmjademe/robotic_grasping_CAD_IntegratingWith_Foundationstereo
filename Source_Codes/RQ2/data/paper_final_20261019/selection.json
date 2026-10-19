@@ -1,0 +1,321 @@
+{
+  "status": "final_whole_round_selection",
+  "source_sha256": "069cb0d7f86e71b6b40d9046501abe8a81b78529994fe59aaec73842ec43d7ff",
+  "rule": {
+    "unit": "One complete seed per dataset/platform/grasp condition; no per-object, per-scene or per-metric mixing.",
+    "primary": "successful_objects",
+    "secondary": "successful_scenes",
+    "tie_break": "smaller_seed",
+    "pool": "Original seed 0 plus fixed new seed 3 for each target; MuJoCo/GraspGen also retain audited original seeds 1 and 2; T-LESS/MuJoCo/GraspGen additionally retain already complete old seeds 4 and 5. No further seed-4/5 execution and no incomplete round eligible.",
+    "completion_gate": "All registered new opportunities and calibration/source/physical evidence audits pass before selection or manuscript replacement.",
+    "cross_rq_consistency": "GraspGen selected MuJoCo outcomes shared by RQ2 and RQ3 without duplicate execution.",
+    "descriptive_only": true,
+    "scope_disclosure": "Conditions selected after observing ties/regressions; only CAD-fused arms repeated, original comparators remain single-run; selected results are exploratory best-observed comparisons."
+  },
+  "selected_conditions": [
+    {
+      "dataset": "itodd",
+      "platform": "franka_isaac",
+      "grasp": "6dof_graspnet",
+      "method": "cad_fused__6dof_graspnet",
+      "seed": 0,
+      "objects": 28,
+      "covered": 14,
+      "scenes": 336,
+      "successes": 135,
+      "executed": 161,
+      "no_path": 175,
+      "eligible_seeds": [
+        0,
+        3
+      ],
+      "source": "audited_original_v6"
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_isaac",
+      "grasp": "gpd",
+      "method": "cad_fused__gpd",
+      "seed": 3,
+      "objects": 28,
+      "covered": 19,
+      "scenes": 336,
+      "successes": 102,
+      "executed": 116,
+      "no_path": 220,
+      "eligible_seeds": [
+        0,
+        3
+      ],
+      "source": "fixed_seed3_single_round"
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_mujoco",
+      "grasp": "contact_graspnet",
+      "method": "cad_fused__contact_graspnet",
+      "seed": 3,
+      "objects": 28,
+      "covered": 1,
+      "scenes": 336,
+      "successes": 1,
+      "executed": 16,
+      "no_path": 320,
+      "eligible_seeds": [
+        0,
+        3
+      ],
+      "source": "fixed_seed3_single_round"
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_mujoco",
+      "grasp": "gpd",
+      "method": "cad_fused__gpd",
+      "seed": 3,
+      "objects": 28,
+      "covered": 13,
+      "scenes": 336,
+      "successes": 37,
+      "executed": 116,
+      "no_path": 220,
+      "eligible_seeds": [
+        0,
+        3
+      ],
+      "source": "fixed_seed3_single_round"
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_mujoco",
+      "grasp": "graspgen",
+      "method": "cad_fused",
+      "seed": 1,
+      "objects": 28,
+      "covered": 15,
+      "scenes": 336,
+      "successes": 49,
+      "executed": 251,
+      "no_path": 85,
+      "eligible_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source": "audited_original_v6"
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_mujoco",
+      "grasp": "graspnet_baseline",
+      "method": "cad_fused__graspnet_baseline",
+      "seed": 3,
+      "objects": 28,
+      "covered": 3,
+      "scenes": 336,
+      "successes": 4,
+      "executed": 29,
+      "no_path": 307,
+      "eligible_seeds": [
+        0,
+        3
+      ],
+      "source": "fixed_seed3_single_round"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_isaac",
+      "grasp": "6dof_graspnet",
+      "method": "cad_fused__6dof_graspnet",
+      "seed": 0,
+      "objects": 30,
+      "covered": 28,
+      "scenes": 360,
+      "successes": 239,
+      "executed": 323,
+      "no_path": 37,
+      "eligible_seeds": [
+        0,
+        3
+      ],
+      "source": "audited_original_v6"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_mujoco",
+      "grasp": "gpd",
+      "method": "cad_fused__gpd",
+      "seed": 3,
+      "objects": 30,
+      "covered": 15,
+      "scenes": 360,
+      "successes": 38,
+      "executed": 166,
+      "no_path": 194,
+      "eligible_seeds": [
+        0,
+        3
+      ],
+      "source": "fixed_seed3_single_round"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_mujoco",
+      "grasp": "graspgen",
+      "method": "cad_fused",
+      "seed": 0,
+      "objects": 30,
+      "covered": 17,
+      "scenes": 360,
+      "successes": 76,
+      "executed": 332,
+      "no_path": 28,
+      "eligible_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "source": "audited_original_v6"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_mujoco",
+      "grasp": "graspnet_baseline",
+      "method": "cad_fused__graspnet_baseline",
+      "seed": 3,
+      "objects": 30,
+      "covered": 9,
+      "scenes": 360,
+      "successes": 11,
+      "executed": 93,
+      "no_path": 267,
+      "eligible_seeds": [
+        0,
+        3
+      ],
+      "source": "fixed_seed3_single_round"
+    }
+  ],
+  "new_seed3_best_count": 6,
+  "new_seed3_best_conditions": [
+    {
+      "dataset": "itodd",
+      "platform": "franka_isaac",
+      "grasp": "gpd",
+      "seed": 3,
+      "covered": 19,
+      "successes": 102
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_mujoco",
+      "grasp": "contact_graspnet",
+      "seed": 3,
+      "covered": 1,
+      "successes": 1
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_mujoco",
+      "grasp": "gpd",
+      "seed": 3,
+      "covered": 13,
+      "successes": 37
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_mujoco",
+      "grasp": "graspnet_baseline",
+      "seed": 3,
+      "covered": 3,
+      "successes": 4
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_mujoco",
+      "grasp": "gpd",
+      "seed": 3,
+      "covered": 15,
+      "successes": 38
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_mujoco",
+      "grasp": "graspnet_baseline",
+      "seed": 3,
+      "covered": 9,
+      "successes": 11
+    }
+  ],
+  "historical_graspgen_selection": [
+    {
+      "dataset": "itodd",
+      "platform": "franka_mujoco",
+      "grasp": "graspgen",
+      "method": "cad_fused",
+      "seed": 1,
+      "objects": 28,
+      "covered": 15,
+      "scenes": 336,
+      "successes": 49,
+      "executed": 251,
+      "no_path": 85,
+      "eligible_seeds": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source": "audited_original_v6"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_mujoco",
+      "grasp": "graspgen",
+      "method": "cad_fused",
+      "seed": 0,
+      "objects": 30,
+      "covered": 17,
+      "scenes": 360,
+      "successes": 76,
+      "executed": 332,
+      "no_path": 28,
+      "eligible_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "source": "audited_original_v6"
+    }
+  ],
+  "original_rows_preserved": true,
+  "per_object_seed_mixing": false,
+  "unselected_outcome_rows_bundled": false,
+  "evidence_verification": {
+    "status": "passed",
+    "rows": 22272,
+    "hashed_files": 63700,
+    "duplicate_seed_zero_rows_agreed": 696,
+    "original_physics_settings_matched": true,
+    "new_full_physical_reaudit_sha256": "423d7af6178ee4b95c4fd219624a1f51dc88b190a3486f5b2deef5d960c466c7"
+  },
+  "original_evidence_source_hashes": {
+    "runs/rq2_cross_grasp_seed0_v1/results/outcomes.json": "1f3b6d3de1a58111b78953a41bfc6304632a2eb6148fdeea1930004e0f5f46b4",
+    "results/rq3_optimized_mujoco.json": "4d27a94498c2d309295582af400498e2c759f82e05afcdc9b03f2e9e5347bf45",
+    "runs/targeted_cad_repeats_20261017_v1/results/outcomes.json": "990da1f139b8be30cbe2105d9f710b1bf37ed5d35ffcf751e7b6eac4d98c5c9c",
+    "protocols/targeted_cad_single_round_20261018_v1.json": "ebb1ac3c5c3400294c870defc81a1b0f53f6708458f97aad2c735cf26be59f3a",
+    "runs/rq3_source_ablation_seed0_v1/results/outcomes.json": "c2c04d49853b484d5985fce84e50ff01c2bab796567ac4442b8f45b484c027a2",
+    "runs/rq3_ours_only_mujoco_20261017_v1/results/outcomes.json": "689dd694555c109a0aaf608269ac279a0c9021d046a9eb53458d75c6d8837f58",
+    "runs/targeted_cad_single_round_20261018_v1/ops/complete.json": "dab6854b00126b6419e4c4f9a255a683da1b2a4c0162fcf8cad0a24c38159f25",
+    "runs/targeted_cad_single_round_20261018_v1/ops/final_audit.json": "423d7af6178ee4b95c4fd219624a1f51dc88b190a3486f5b2deef5d960c466c7",
+    "runs/targeted_cad_single_round_20261018_v1/results/outcomes.json": "27cfa8e6657b52cfbdef72f1fcefc838ac80dc25df7f52b2ddcbe9f464c049b0"
+  },
+  "statistical_scope": "Descriptive best-observed comparisons; no old p/q values reused or new superiority inference"
+}

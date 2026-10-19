@@ -1,0 +1,150 @@
+{
+  "status": "complete_final_execution_configuration",
+  "selection_sha256": "205b407378b7a0ec6196399863f2fa9589ff270492e6d14e3583d7e20b29ba74",
+  "cad_comparison_rows_sha256": "cbbf2ee0911a26a9faac624a1ff4433d8a259a1872eb56c2b0086633eb74644c",
+  "cad_conditions": [
+    {
+      "dataset": "itodd",
+      "platform": "franka_isaac",
+      "grasp": "6dof_graspnet",
+      "seed": 0,
+      "source": "selected"
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_isaac",
+      "grasp": "contact_graspnet",
+      "seed": 0,
+      "source": "unchanged_original"
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_isaac",
+      "grasp": "gpd",
+      "seed": 3,
+      "source": "selected"
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_isaac",
+      "grasp": "graspgen",
+      "seed": 0,
+      "source": "unchanged_original"
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_isaac",
+      "grasp": "graspnet_baseline",
+      "seed": 0,
+      "source": "unchanged_original"
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_mujoco",
+      "grasp": "6dof_graspnet",
+      "seed": 0,
+      "source": "unchanged_original"
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_mujoco",
+      "grasp": "contact_graspnet",
+      "seed": 3,
+      "source": "selected"
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_mujoco",
+      "grasp": "gpd",
+      "seed": 3,
+      "source": "selected"
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_mujoco",
+      "grasp": "graspgen",
+      "seed": 1,
+      "source": "selected"
+    },
+    {
+      "dataset": "itodd",
+      "platform": "franka_mujoco",
+      "grasp": "graspnet_baseline",
+      "seed": 3,
+      "source": "selected"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_isaac",
+      "grasp": "6dof_graspnet",
+      "seed": 0,
+      "source": "selected"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_isaac",
+      "grasp": "contact_graspnet",
+      "seed": 0,
+      "source": "unchanged_original"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_isaac",
+      "grasp": "gpd",
+      "seed": 0,
+      "source": "unchanged_original"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_isaac",
+      "grasp": "graspgen",
+      "seed": 0,
+      "source": "unchanged_original"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_isaac",
+      "grasp": "graspnet_baseline",
+      "seed": 0,
+      "source": "unchanged_original"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_mujoco",
+      "grasp": "6dof_graspnet",
+      "seed": 0,
+      "source": "unchanged_original"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_mujoco",
+      "grasp": "contact_graspnet",
+      "seed": 0,
+      "source": "unchanged_original"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_mujoco",
+      "grasp": "gpd",
+      "seed": 3,
+      "source": "selected"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_mujoco",
+      "grasp": "graspgen",
+      "seed": 0,
+      "source": "selected"
+    },
+    {
+      "dataset": "tless",
+      "platform": "franka_mujoco",
+      "grasp": "graspnet_baseline",
+      "seed": 3,
+      "source": "selected"
+    }
+  ],
+  "baseline_seed": 0,
+  "unchanged_source": "Original complete seed-zero rows retained in the published cad_comparisons.jsonl",
+  "selected_source": "Published selection.json selected_conditions; complete whole-round selection, not per-object mixing"
+}

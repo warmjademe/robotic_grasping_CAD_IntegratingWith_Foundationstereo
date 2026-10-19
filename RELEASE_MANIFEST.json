@@ -1,15 +1,20 @@
 {
   "schema_version": 2,
   "release": "paper_final_20261019",
-  "generated_at": "2026-10-19T02:56:29.976389+00:00",
-  "manuscript_source_revision": "6948d759fcad24ac23e4d054680223648cf8ec2e",
+  "generated_at": "2026-10-19T03:21:00.889219+00:00",
+  "manuscript_source_revision": "039a4ddebe93bdaee75da9fd6061c1c4d95be28a",
   "selected_method": "adaptive_v6_thin_support",
   "paper_results_index_sha256": "92cb82bc3afebf34de1f70f12ed17b05a7ab12333cb514dcb9e1f85876521cc2",
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 596,
-      "sha256": "a7893c74102386b2dfbb1ce60d6b623a6e90924f0f56f12500086a8d2aa46946"
+      "bytes": 585,
+      "sha256": "38dee08807e4bb6fc5f3ad6005fbabd0f7e666613df87dec15c7db207cf6a66d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7476,
+      "sha256": "32beb66b41414849d0ddc911b97c2d41b257ba394e486724f7c0a11f672ecb00"
     },
     {
       "path": "REPRODUCE.md",
@@ -168,8 +173,8 @@
     },
     {
       "path": "Source_Codes/datasets/ATTRIBUTION.md",
-      "bytes": 1206,
-      "sha256": "7230d7c07b39a8903e218c14190a89684f0e0099f1dfd53df7aa7f5f5c5a0976"
+      "bytes": 1585,
+      "sha256": "20d1f33339f564467d011c9ee4c1c7c9b52a6b8a19b18278dee306f3677d37c6"
     },
     {
       "path": "Source_Codes/datasets/canonical_catalog.json",
@@ -10627,6 +10632,11 @@
       "sha256": "14c68531def53d66b1acc7812ac20864c793d85160138c2d657434ea024d9e30"
     },
     {
+      "path": "Source_Codes/dependencies.py",
+      "bytes": 2506,
+      "sha256": "91ab1cfd769170d9e39e802642294ba3ec777d01c259e52684a715c48890cc0a"
+    },
+    {
       "path": "Source_Codes/dependencies/assets/calibration_cube.obj",
       "bytes": 425,
       "sha256": "241d4aa3245b7a3ee286378a2a54486918b6dc397b4fb5c1e3d0d7eabf48c94c"
@@ -10730,11 +10740,6 @@
       "path": "Source_Codes/dependencies/grasp_modules/shared/infer.py",
       "bytes": 9343,
       "sha256": "532f1661fdab629382fe14cc7c4a740c6182c48d3de945e2618603d78fd7ad7f"
-    },
-    {
-      "path": "Source_Codes/dependencies.py",
-      "bytes": 2506,
-      "sha256": "91ab1cfd769170d9e39e802642294ba3ec777d01c259e52684a715c48890cc0a"
     },
     {
       "path": "Source_Codes/evidence_metrics.py",
